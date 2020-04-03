@@ -1,0 +1,16 @@
+<app-header
+  [title]="'Fake Fan Adam'"
+  [subtitle]="'A personal home.'"
+></app-header>
+<app-body>
+  <div class="row">
+    <div class="col-md-6 my-3">
+      <app-card [title]="'More Information'" [icon]="'fa-info-circle'">
+        <p>
+          Just curious about this site? Get more information about this website.
+        </p>
+        <button class="btn btn-secondary" (click)="goToInfo()">Info</button>
+      </app-card>
+    </div>
+  </div>
+</app-body>
