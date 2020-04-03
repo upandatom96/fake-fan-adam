@@ -5,6 +5,20 @@
 <app-body>
   <div class="row">
     <div class="col-md-6 my-3">
+      <app-card [title]="'Donate to Charity'" [icon]="'fa-money'">
+        <p>
+          Like this free website? Pay it forward to a charity I support.
+        </p>
+        <a
+          class="btn btn-secondary"
+          href="https://aoti-app-hub.herokuapp.com/donate"
+          target="_blank"
+        >
+          Donate
+        </a>
+      </app-card>
+    </div>
+    <div class="col-md-6 my-3">
       <app-card [title]="'More Information'" [icon]="'fa-info-circle'">
         <p>
           Just curious about this site? Get more information about this website.
