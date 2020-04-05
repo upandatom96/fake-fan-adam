@@ -1,8 +1,13 @@
-<app-header
-  [title]="'Fake Fan Adam'"
-  [subtitle]="'A personal home.'"
-></app-header>
+<app-header [title]="'Fake Fan Adam'"></app-header>
 <app-body>
+  <div class="row">
+    <div class="col-md-6 my-3">
+      <app-card [title]="'Kid\'s Book Debate Club'" [icon]="'fa-book'">
+      </app-card>
+    </div>
+  </div>
+</app-body>
+<app-body-alt>
   <div class="row">
     <div class="col-md-6 my-3">
       <app-card [title]="'Donate to Charity'" [icon]="'fa-money'">
@@ -27,4 +32,4 @@
       </app-card>
     </div>
   </div>
-</app-body>
+</app-body-alt>

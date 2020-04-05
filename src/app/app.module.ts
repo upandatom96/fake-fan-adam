@@ -17,6 +17,7 @@ import { HeaderComponent } from "./components/header/header.component";
 import { BodyComponent } from "./components/body/body.component";
 import { LoadingComponent } from "./components/loading/loading.component";
 import { CardComponent } from "./components/card/card.component";
+import { BodyAltComponent } from "./components/body-alt/body-alt.component";
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CardComponent } from "./components/card/card.component";
     BodyComponent,
     LoadingComponent,
     CardComponent,
+    BodyAltComponent,
   ],
   imports: [
     BrowserModule,
