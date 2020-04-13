@@ -31,12 +31,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Login);
   }
 
-  // projects
-
-  public goKidsBookClub(): void {
-    this.goToRoute(ROUTES_ENUM.KidsBookClub);
-  }
-
   // GENERAL
 
   private goToRoute(route: string): void {
