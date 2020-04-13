@@ -18,6 +18,7 @@ import { BodyComponent } from "./components/body/body.component";
 import { LoadingComponent } from "./components/loading/loading.component";
 import { CardComponent } from "./components/card/card.component";
 import { BodyAltComponent } from "./components/body-alt/body-alt.component";
+import { KidsBookClubComponent } from './components/kids-book-club/kids-book-club.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { BodyAltComponent } from "./components/body-alt/body-alt.component";
     LoadingComponent,
     CardComponent,
     BodyAltComponent,
+    KidsBookClubComponent,
   ],
   imports: [
     BrowserModule,

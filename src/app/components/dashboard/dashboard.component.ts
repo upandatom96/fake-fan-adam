@@ -23,4 +23,8 @@ export class DashboardComponent {
     this.navHelper.goToInfo();
   }
 
+  public goKidsBookClub() {
+    this.navHelper.goKidsBookClub();
+  }
+
 }
