@@ -1,1 +1,28 @@
-<p>kids-book-club works!</p>
+<app-header [title]="'Kid\'s Book Debate Club'"></app-header>
+<app-body>
+  <div class="row">
+    <div class="col-md-12 my-3">
+      <app-card
+        [autoHeight]="false"
+        [title]="'Mike Mulligan and his Steam Shovel'"
+        [subtitle]="'Book One'"
+      >
+        <p>
+          The first book for the kids book debate club is
+          <strong>Mike Mulligan and his Steam Shovel</strong>. You can watch
+          someone read the book out loud (with the illustrations!) below.
+        </p>
+        <p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NQjHJKNyoUE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </p>
+      </app-card>
+    </div>
+  </div>
+</app-body>
