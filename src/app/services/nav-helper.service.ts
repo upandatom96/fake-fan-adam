@@ -19,10 +19,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Info);
   }
 
-  public goBookmarks(): void {
-    this.goToRoute(ROUTES_ENUM.Bookmarks);
-  }
-
   public goToProfile(): void {
     this.goToRoute(ROUTES_ENUM.Profile);
   }
@@ -33,6 +29,24 @@ export class NavHelperService {
 
   public goToLogin(): void {
     this.goToRoute(ROUTES_ENUM.Login);
+  }
+
+  // PROJECTS
+
+  public goBookmarks(): void {
+    this.goToRoute(ROUTES_ENUM.Bookmarks);
+  }
+
+  public goToBookmarkCreateForm(): void {
+    this.goToRoute(ROUTES_ENUM.Bookmarks);
+  }
+
+  public goToBookmarkEditForm(id: string): void {
+    this.goToRoute(ROUTES_ENUM.Bookmarks);
+  }
+
+  public goToBookmarkDetails(id: string): void {
+    this.goToRoute(ROUTES_ENUM.Bookmarks);
   }
 
   // GENERAL

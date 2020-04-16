@@ -1,1 +1,63 @@
-<p>bookmark-table works!</p>
+<div class="row">
+  <div class="col-md-12 my-3">
+    <app-card [autoHeight]="false" *ngIf="ready; else notReady">
+      <button
+        class="btn btn-secondary"
+        (click)="goCreate()"
+        *ngIf="canEdit"
+      >
+        Create Bookmark
+      </button>
+      <ng-container *ngIf="!hasBookmark">
+        <p>No bookmarks available.</p>
+      </ng-container>
+      <ng-container *ngIf="hasBookmark">
+        <p>
+          <small>Showing {{ bookmarks.length }} bookmark(s)</small>
+        </p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Details</th>
+              <ng-container *ngIf="canEdit">
+                <th>Edit</th>
+                <th>Delete</th>
+              </ng-container>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let bookmark of bookmarks">
+              <td>{{ bookmark.name }}</td>
+              <td>
+                <button class="btn btn-secondary" (click)="goDetails(bookmark)">
+                  Details
+                </button>
+              </td>
+              <ng-container *ngIf="canEdit">
+                <td>
+                  <button class="btn btn-secondary" (click)="goEdit(bookmark)">
+                    Edit
+                  </button>
+                </td>
+                <td>
+                  <button
+                    class="btn btn-secondary"
+                    (click)="requestDelete(bookmark)"
+                  >
+                    Delete
+                  </button>
+                </td>
+              </ng-container>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+    </app-card>
+  </div>
+</div>
+
+<ng-template #notReady>
+  <p *ngIf="error">Error occured :(</p>
+  <app-loading *ngIf="!error"></app-loading>
+</ng-template>
