@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { Bookmark } from 'src/app/models/Bookmark.model';
-import { CookieHelper } from 'src/app/utilities/cookie.util';
-import { BookmarkService } from 'src/app/services/bookmark.service';
-import { NavHelperService } from 'src/app/services/nav-helper.service';
+import { Component, OnInit } from "@angular/core";
+import { Bookmark } from "src/app/models/Bookmark.model";
+import { CookieHelper } from "src/app/utilities/cookie.util";
+import { BookmarkService } from "src/app/services/bookmark.service";
+import { NavHelperService } from "src/app/services/nav-helper.service";
 
 @Component({
-  selector: 'app-bookmark-table',
-  templateUrl: './bookmark-table.component.html',
-  styleUrls: ['./bookmark-table.component.scss']
+  selector: "app-bookmark-table",
+  templateUrl: "./bookmark-table.component.html",
+  styleUrls: ["./bookmark-table.component.scss"]
 })
 export class BookmarkTableComponent implements OnInit {
   public bookmarks: Bookmark[] = null;

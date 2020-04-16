@@ -1,14 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { Bookmark } from 'src/app/models/Bookmark.model';
-import { BooleanHelper } from 'src/app/utilities/boolean.util';
-import { ActivatedRoute } from '@angular/router';
-import { BookmarkService } from 'src/app/services/bookmark.service';
-import { NavHelperService } from 'src/app/services/nav-helper.service';
+import { Component, OnInit } from "@angular/core";
+import { Bookmark } from "src/app/models/Bookmark.model";
+import { BooleanHelper } from "src/app/utilities/boolean.util";
+import { ActivatedRoute } from "@angular/router";
+import { BookmarkService } from "src/app/services/bookmark.service";
+import { NavHelperService } from "src/app/services/nav-helper.service";
 
 @Component({
-  selector: 'app-bookmark-form',
-  templateUrl: './bookmark-form.component.html',
-  styleUrls: ['./bookmark-form.component.scss']
+  selector: "app-bookmark-form",
+  templateUrl: "./bookmark-form.component.html",
+  styleUrls: ["./bookmark-form.component.scss"]
 })
 export class BookmarkFormComponent implements OnInit {
   public bookmark: Bookmark = null;

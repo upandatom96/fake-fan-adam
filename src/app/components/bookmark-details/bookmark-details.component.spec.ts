@@ -1,16 +1,25 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { BookmarkDetailsComponent } from './bookmark-details.component';
+import { BookmarkDetailsComponent } from "./bookmark-details.component";
+import { HeaderComponent } from "../header/header.component";
+import { BodyComponent } from "../body/body.component";
+import { LoadingComponent } from "../loading/loading.component";
+import { HttpClientTestingModule } from "@angular/common/http/testing";
+import { RouterTestingModule } from "@angular/router/testing";
 
-describe('BookmarkDetailsComponent', () => {
+describe("BookmarkDetailsComponent", () => {
   let component: BookmarkDetailsComponent;
   let fixture: ComponentFixture<BookmarkDetailsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BookmarkDetailsComponent ]
+      declarations: [
+        BookmarkDetailsComponent, HeaderComponent, BodyComponent,
+        LoadingComponent
+      ],
+      imports: [HttpClientTestingModule, RouterTestingModule]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +28,7 @@ describe('BookmarkDetailsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
