@@ -9,7 +9,7 @@ import { AdminComponent } from "./components/admin/admin.component";
 import { BookmarkOverviewComponent } from "./components/bookmark-overview/bookmark-overview.component";
 import { BookmarkFormComponent } from "./components/bookmark-form/bookmark-form.component";
 import { BookmarkDetailsComponent } from "./components/bookmark-details/bookmark-details.component";
-import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
+import { BookmarksComponent } from "./components/bookmarks/bookmarks.component";
 
 const routes: Routes = [
   // main
