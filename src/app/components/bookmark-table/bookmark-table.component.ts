@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Input } from "@angular/core";
 import { Bookmark } from "src/app/models/Bookmark.model";
 import { CookieHelper } from "src/app/utilities/cookie.util";
 import { BookmarkService } from "src/app/services/bookmark.service";
@@ -10,11 +10,13 @@ import { NavHelperService } from "src/app/services/nav-helper.service";
   styleUrls: ["./bookmark-table.component.scss"]
 })
 export class BookmarkTableComponent implements OnInit {
+  @Input() public management = true;
+
   public bookmarks: Bookmark[] = null;
   public error = false;
 
   public get canEdit(): boolean {
-    return CookieHelper.admin;
+    return this.management && CookieHelper.admin;
   }
 
   public get ready(): boolean {

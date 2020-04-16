@@ -84,7 +84,7 @@ export class BookmarkFormComponent implements OnInit {
         (error) => {
           console.log("update bookmark failed");
         }, () => {
-          this.navHelper.goBookmarks();
+          this.navHelper.goBookmarkOverview();
         });
   }
 
@@ -96,7 +96,7 @@ export class BookmarkFormComponent implements OnInit {
         (error) => {
           console.log("create bookmark failed");
         }, () => {
-          this.navHelper.goBookmarks();
+          this.navHelper.goBookmarkOverview();
         });
   }
 

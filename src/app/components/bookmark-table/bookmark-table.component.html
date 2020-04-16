@@ -1,11 +1,7 @@
 <div class="row">
   <div class="col-md-12 my-3">
     <app-card [autoHeight]="false" *ngIf="ready; else notReady">
-      <button
-        class="btn btn-secondary"
-        (click)="goCreate()"
-        *ngIf="canEdit"
-      >
+      <button class="btn btn-secondary" (click)="goCreate()" *ngIf="canEdit">
         Create Bookmark
       </button>
       <ng-container *ngIf="!hasBookmark">
@@ -19,8 +15,12 @@
           <thead>
             <tr>
               <th>Name</th>
-              <th>Details</th>
+              <ng-container *ngIf="!canEdit">
+                <th>Type</th>
+                <th>Go</th>
+              </ng-container>
               <ng-container *ngIf="canEdit">
+                <th>Details</th>
                 <th>Edit</th>
                 <th>Delete</th>
               </ng-container>
@@ -29,12 +29,26 @@
           <tbody>
             <tr *ngFor="let bookmark of bookmarks">
               <td>{{ bookmark.name }}</td>
-              <td>
-                <button class="btn btn-secondary" (click)="goDetails(bookmark)">
-                  Details
-                </button>
-              </td>
+              <ng-container *ngIf="!canEdit">
+                <td>{{ bookmark.type }}</td>
+                <td>
+                  <a
+                    [href]="bookmark.url"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Go</a
+                  >
+                </td>
+              </ng-container>
               <ng-container *ngIf="canEdit">
+                <td>
+                  <button
+                    class="btn btn-secondary"
+                    (click)="goDetails(bookmark)"
+                  >
+                    Details
+                  </button>
+                </td>
                 <td>
                   <button class="btn btn-secondary" (click)="goEdit(bookmark)">
                     Edit
