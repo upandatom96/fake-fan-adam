@@ -19,6 +19,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Info);
   }
 
+  public goBookmarks(): void {
+    this.goToRoute(ROUTES_ENUM.Bookmarks);
+  }
+
   public goToProfile(): void {
     this.goToRoute(ROUTES_ENUM.Profile);
   }

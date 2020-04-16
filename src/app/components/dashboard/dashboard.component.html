@@ -1,8 +1,23 @@
-<app-header [title]="'Fake Fan Adam'"></app-header>
+<app-header
+  [title]="'Fake Fan Adam'"
+  [subtitle]="'Sandbox and personal website.'"
+></app-header>
 <app-body>
   <div class="row">
+    <div class="col-md-12 my-3">
+      <h2 class="text-center">
+        My Stuff
+      </h2>
+    </div>
     <div class="col-md-6 my-3">
-      <app-card [title]="'Coming soon...'"> </app-card>
+      <app-card [title]="'My Bookmarks'" [icon]="'fa-bookmark'">
+        <p>
+          My personal bookmarks.
+        </p>
+        <button class="btn btn-secondary" (click)="goBookmarks()">
+          Go
+        </button>
+      </app-card>
     </div>
   </div>
 </app-body>
