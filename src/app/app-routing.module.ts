@@ -9,6 +9,7 @@ import { AdminComponent } from "./components/admin/admin.component";
 import { BookmarkOverviewComponent } from "./components/bookmark-overview/bookmark-overview.component";
 import { BookmarkFormComponent } from "./components/bookmark-form/bookmark-form.component";
 import { BookmarkDetailsComponent } from "./components/bookmark-details/bookmark-details.component";
+import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
 
 const routes: Routes = [
   // main
@@ -18,8 +19,9 @@ const routes: Routes = [
   { path: ROUTES_ENUM.Profile, component: ProfileComponent },
   { path: ROUTES_ENUM.Admin, component: AdminComponent },
   // projects
-  { path: ROUTES_ENUM.Bookmarks, component: BookmarkOverviewComponent },
-  { path: ROUTES_ENUM.Bookmarks + "/:id", component: BookmarkDetailsComponent },
+  { path: ROUTES_ENUM.Bookmarks, component: BookmarksComponent },
+  { path: ROUTES_ENUM.BookmarkOverview, component: BookmarkOverviewComponent },
+  { path: ROUTES_ENUM.BookmarkOverview + "/:id", component: BookmarkDetailsComponent },
   { path: ROUTES_ENUM.BookmarkForm, component: BookmarkFormComponent },
   { path: ROUTES_ENUM.BookmarkForm + "/:id", component: BookmarkFormComponent },
   // default

@@ -37,16 +37,20 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Bookmarks);
   }
 
+  public goBookmarkOverview(): void {
+    this.goToRoute(ROUTES_ENUM.BookmarkOverview);
+  }
+
+  public goToBookmarkDetails(id: string): void {
+    this.goToRoutes([ROUTES_ENUM.BookmarkOverview, id]);
+  }
+
   public goToBookmarkCreateForm(): void {
     this.goToRoute(ROUTES_ENUM.BookmarkForm);
   }
 
   public goToBookmarkEditForm(id: string): void {
     this.goToRoutes([ROUTES_ENUM.BookmarkForm, id]);
-  }
-
-  public goToBookmarkDetails(id: string): void {
-    this.goToRoutes([ROUTES_ENUM.Bookmarks, id]);
   }
 
   // GENERAL

@@ -22,6 +22,7 @@ import { BookmarkDetailsComponent } from "./components/bookmark-details/bookmark
 import { BookmarkFormComponent } from "./components/bookmark-form/bookmark-form.component";
 import { BookmarkOverviewComponent } from "./components/bookmark-overview/bookmark-overview.component";
 import { BookmarkTableComponent } from "./components/bookmark-table/bookmark-table.component";
+import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { BookmarkTableComponent } from "./components/bookmark-table/bookmark-tab
     BookmarkFormComponent,
     BookmarkOverviewComponent,
     BookmarkTableComponent,
+    BookmarksComponent,
   ],
   imports: [
     BrowserModule,
