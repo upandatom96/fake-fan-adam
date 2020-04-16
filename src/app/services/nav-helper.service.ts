@@ -38,15 +38,15 @@ export class NavHelperService {
   }
 
   public goToBookmarkCreateForm(): void {
-    this.goToRoute(ROUTES_ENUM.Bookmarks);
+    this.goToRoute(ROUTES_ENUM.BookmarkForm);
   }
 
   public goToBookmarkEditForm(id: string): void {
-    this.goToRoute(ROUTES_ENUM.Bookmarks);
+    this.goToRoutes([ROUTES_ENUM.BookmarkForm, id]);
   }
 
   public goToBookmarkDetails(id: string): void {
-    this.goToRoute(ROUTES_ENUM.Bookmarks);
+    this.goToRoutes([ROUTES_ENUM.Bookmarks, id]);
   }
 
   // GENERAL

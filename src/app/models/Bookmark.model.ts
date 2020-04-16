@@ -3,4 +3,5 @@ export interface Bookmark {
   name: string;
   url: string;
   type: string;
+  order?: string;
 }
