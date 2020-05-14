@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
-import { NavHelperService } from "src/app/services/nav-helper.service";
-import { CookieHelper } from "src/app/utilities/cookie.util";
+import {Component} from "@angular/core";
+import {NavHelperService} from "src/app/services/nav-helper.service";
+import {CookieHelper} from "src/app/utilities/cookie.util";
 
 @Component({
   selector: "app-footer",
@@ -18,18 +18,10 @@ export class FooterComponent {
 
   constructor(
     private navHelper: NavHelperService,
-  ) { }
-
-  public goToInfo() {
-    this.navHelper.goToInfo();
+  ) {
   }
 
   public goToLogin() {
     this.navHelper.goToLogin();
-  }
-
-  public goToAdamOnTheInternet() {
-    const url = "http://adamontheinternet.com";
-    window.open(url);
   }
 }
