@@ -134,8 +134,13 @@
               "devServerTarget": "fake-fan-adam:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "fake-fan-adam"
 }

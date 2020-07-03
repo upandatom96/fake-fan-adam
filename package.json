@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "setup-ghpages": "ng add angular-cli-ghpages",
+    "ghpd": "ng deploy --base-href https://adam-on-the-internet.github.io/fake-fan-adam/",
     "start": "node server.js",
     "serve": "ng serve",
     "build": "ng build",
@@ -29,6 +31,7 @@
     "@angular/platform-browser": "~8.2.4",
     "@angular/platform-browser-dynamic": "~8.2.4",
     "@angular/router": "~8.2.4",
+    "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
