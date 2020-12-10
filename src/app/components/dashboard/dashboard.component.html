@@ -9,7 +9,29 @@
         My Stuff
       </h2>
     </div>
-    <div class="col-md-6 my-3">
+    <div class="col-md-4 my-3">
+      <app-card [title]="'My Other Apps'" [icon]="'fa-cube'">
+        <p>
+          Check out my other projects!
+        </p>
+        <a href="https://adam-on-the-internet.github.io/app-hub/dashboard" target="_blank">
+          <button class="btn btn-secondary">
+            Go
+          </button>
+        </a>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
+      <app-card [title]="'Elf on the Shelf'" [icon]="'fa-user'">
+        <p>
+          See it for yourself
+        </p>
+        <button class="btn btn-secondary" (click)="goToElf()">
+          Go
+        </button>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
       <app-card [title]="'My Bookmarks'" [icon]="'fa-bookmark'">
         <p>
           My personal bookmarks.

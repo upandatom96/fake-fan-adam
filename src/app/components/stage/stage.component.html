@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="my-3">
+        <button class="btn btn-secondary" (click)="setScene()" *ngIf="ready; else loading">
+          <i class="fa fa-repeat"></i>
+          Shuffle
+        </button>
+        <br>
+        <p class="text-light">
+          You've heard of Elf on the Shelf, now get ready for...
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 my-5">
+      <div id="scene">
+        <img *ngIf="character && character.src" [src]="character.src" alt="character"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

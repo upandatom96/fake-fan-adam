@@ -5,6 +5,7 @@ export const enum ROUTES_ENUM {
   BookmarkOverview = "bookmark-overview",
   BookmarkForm = "bookmark-form",
   Profile = "profile",
+  Stage = "stage",
   Admin = "admin",
   Login = "login",
 }

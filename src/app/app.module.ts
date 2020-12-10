@@ -23,6 +23,7 @@ import { BookmarkFormComponent } from "./components/bookmark-form/bookmark-form.
 import { BookmarkOverviewComponent } from "./components/bookmark-overview/bookmark-overview.component";
 import { BookmarkTableComponent } from "./components/bookmark-table/bookmark-table.component";
 import { BookmarksComponent } from "./components/bookmarks/bookmarks.component";
+import { StageComponent } from "./components/stage/stage.component";
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { BookmarksComponent } from "./components/bookmarks/bookmarks.component";
     BookmarkOverviewComponent,
     BookmarkTableComponent,
     BookmarksComponent,
+    StageComponent,
   ],
   imports: [
     BrowserModule,

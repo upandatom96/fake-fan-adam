@@ -1,6 +1,6 @@
-import { Injectable } from "@angular/core";
-import { Router } from "@angular/router";
-import { ROUTES_ENUM } from "../constants/routing.constants";
+import {Injectable} from "@angular/core";
+import {Router} from "@angular/router";
+import {ROUTES_ENUM} from "../constants/routing.constants";
 
 @Injectable({
   providedIn: "root"
@@ -9,7 +9,8 @@ export class NavHelperService {
 
   constructor(
     private router: Router,
-  ) { }
+  ) {
+  }
 
   public goToDashboard(): void {
     this.goToRoute(ROUTES_ENUM.Dashboard);
@@ -32,6 +33,10 @@ export class NavHelperService {
   }
 
   // PROJECTS
+
+  public goToElf(): void {
+    this.goToRoute(ROUTES_ENUM.Stage);
+  }
 
   public goBookmarks(): void {
     this.goToRoute(ROUTES_ENUM.Bookmarks);

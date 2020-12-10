@@ -1,14 +1,8 @@
-@import "variables";
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-html, body {
-  overflow-x: hidden;
-}
-
-body {
+#scene {
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 550px;
 }
 
 img {

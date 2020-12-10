@@ -27,4 +27,8 @@ export class DashboardComponent {
     this.navHelper.goBookmarks();
   }
 
+  public goToElf() {
+    this.navHelper.goToElf();
+  }
+
 }
