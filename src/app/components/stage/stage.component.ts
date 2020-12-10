@@ -3,6 +3,7 @@ import {ImageService} from "../../services/image.service";
 import {DetailedImage} from "../../models/DetailedImage.model";
 import {DomHelper} from "../../utilities/dom.util";
 import {RandomHelper} from "../../utilities/random.util";
+import {SettingsService} from "../../services/settings.service";
 
 @Component({
   selector: "app-stage",
@@ -23,10 +24,12 @@ export class StageComponent implements OnInit {
 
   constructor(
     private imageService: ImageService,
+    private settingsService: SettingsService,
   ) {
   }
 
   public ngOnInit() {
+    this.settingsService.showNav = false;
     this.loadAssets();
   }
 

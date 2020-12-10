@@ -1,23 +1,49 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <div class="my-3">
-        <button class="btn btn-secondary" (click)="setScene()" *ngIf="ready; else loading">
+      <div class="my-1">
+        <button class="mb-3 mt-2 btn btn-secondary" (click)="setScene()" *ngIf="ready; else loading">
           <i class="fa fa-repeat"></i>
           Shuffle
         </button>
         <br>
-        <p class="text-light">
+        <h3 class="text-light">
           You've heard of Elf on the Shelf, now get ready for...
-        </p>
+        </h3>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 my-5">
+    <div class="col-md-12 mb-5">
       <div id="scene">
         <img *ngIf="character && character.src" [src]="character.src" alt="character"/>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-light">
+        Created by
+        <a style="color: hotpink" href="http://www.adamontheinternet.com/" target="_blank">
+          Adam on the Internet
+        </a>
+        |
+        <a style="color: hotpink" href="https://twitter.com/i/lists/1330358452061949952?s=20" target="_blank">
+          Twitter Bots
+        </a>
+        |
+        <a style="color: hotpink" href="https://twitter.com/adam_on_the_net/" target="_blank">
+          Twitter
+        </a>
+        |
+        <a style="color: hotpink" href="https://github.com/adam-on-the-internet/" target="_blank">
+          GitHub
+        </a>
+        |
+        <a style="color: hotpink" href="https://adam-on-the-internet.github.io/app-hub/" target="_blank">
+          Other Apps
+        </a>
+      </p>
     </div>
   </div>
 </div>
