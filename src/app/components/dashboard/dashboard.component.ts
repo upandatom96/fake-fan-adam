@@ -1,23 +1,23 @@
-import { Component } from "@angular/core";
-import { NavHelperService } from "src/app/services/nav-helper.service";
-import { Application } from "src/app/models/Application.model";
-import { ApplicationService } from "src/app/services/application.service";
+import {Component, OnInit} from "@angular/core";
+import {NavHelperService} from "src/app/services/nav-helper.service";
+import {SettingsService} from "../../services/settings.service";
 
 @Component({
   selector: "app-dashboard",
   templateUrl: "./dashboard.component.html",
   styleUrls: ["./dashboard.component.css"]
 })
-export class DashboardComponent {
-
-  public get apps(): Application[] {
-    return this.appService.currentApps;
-  }
+export class DashboardComponent implements OnInit {
 
   constructor(
     private navHelper: NavHelperService,
-    private appService: ApplicationService,
-  ) { }
+    private settings: SettingsService,
+  ) {
+    this.settings.showNav = true;
+  }
+
+  public ngOnInit() {
+  }
 
   public goToInfo() {
     this.navHelper.goToInfo();
@@ -29,6 +29,10 @@ export class DashboardComponent {
 
   public goToElf() {
     this.navHelper.goToElf();
+  }
+
+  public goToLinks() {
+    this.navHelper.goToLinks();
   }
 
 }

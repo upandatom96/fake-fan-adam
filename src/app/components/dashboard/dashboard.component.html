@@ -22,6 +22,16 @@
       </app-card>
     </div>
     <div class="col-md-4 my-3">
+      <app-card [title]="'My Bookmarks'" [icon]="'fa-bookmark'">
+        <p>
+          My personal bookmarks.
+        </p>
+        <button class="btn btn-secondary" (click)="goBookmarks()">
+          Go
+        </button>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
       <app-card [title]="'Elf on the Shelf'" [icon]="'fa-user'">
         <p>
           See it for yourself
@@ -32,11 +42,11 @@
       </app-card>
     </div>
     <div class="col-md-4 my-3">
-      <app-card [title]="'My Bookmarks'" [icon]="'fa-bookmark'">
+      <app-card [title]="'Links'" [icon]="'fa-link'">
         <p>
-          My personal bookmarks.
+          My main links
         </p>
-        <button class="btn btn-secondary" (click)="goBookmarks()">
+        <button class="btn btn-secondary" (click)="goToLinks()">
           Go
         </button>
       </app-card>

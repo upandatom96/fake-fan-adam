@@ -11,6 +11,7 @@ import {BookmarkFormComponent} from "./components/bookmark-form/bookmark-form.co
 import {BookmarkDetailsComponent} from "./components/bookmark-details/bookmark-details.component";
 import {BookmarksComponent} from "./components/bookmarks/bookmarks.component";
 import {StageComponent} from "./components/stage/stage.component";
+import {LinkComponent} from "./components/link/link.component";
 
 const routes: Routes = [
   // main
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.BookmarkForm, component: BookmarkFormComponent},
   {path: ROUTES_ENUM.BookmarkForm + "/:id", component: BookmarkFormComponent},
   {path: ROUTES_ENUM.Stage, component: StageComponent},
+  {path: ROUTES_ENUM.Links, component: LinkComponent},
   // default
   {path: "**", redirectTo: "dashboard"},
 ];

@@ -1,0 +1,21 @@
+<div class="container text-center">
+  <ng-container *ngFor="let link of links">
+    <div class="row justify-content-center">
+      <div class="col-md-8 mt-3">
+        <a [attr.href]="link.link">
+          <app-card [useHover]="true">
+            <h4>
+              <i *ngIf="link.faIcon" [attr.class]="link.faIcon"></i>
+              {{link.title}}
+            </h4>
+            <p *ngIf="link.subtitle" class="mb-0">
+              <em>
+                {{link.subtitle}}
+              </em>
+            </p>
+          </app-card>
+        </a>
+      </div>
+    </div>
+  </ng-container>
+</div>

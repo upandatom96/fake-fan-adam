@@ -38,6 +38,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Stage);
   }
 
+  public goToLinks(): void {
+    this.goToRoute(ROUTES_ENUM.Links);
+  }
+
   public goBookmarks(): void {
     this.goToRoute(ROUTES_ENUM.Bookmarks);
   }

@@ -1,5 +1,5 @@
-<div class="card border-primary" [class.h-100]="autoHeight">
-  <img class="card-img-top" [src]="imageUrl" *ngIf="hasImage" />
+<div class="card border-primary" [class.hover]="useHover" [class.h-100]="autoHeight">
+  <img class="card-img-top" [src]="imageUrl" *ngIf="hasImage"/>
   <div class="card-body">
     <h5 class="card-title" *ngIf="hasTitle">
       <span *ngIf="hasIcon">
