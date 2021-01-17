@@ -6,7 +6,7 @@ import {SettingsService} from "../../services/settings.service";
   templateUrl: "./link.component.html",
   styleUrls: ["./link.component.scss"]
 })
-export class LinkComponent implements OnInit {
+export class LinkComponent {
   public links = [
     {
       title: "Adam on the Internet",
@@ -32,15 +32,18 @@ export class LinkComponent implements OnInit {
       link: "https://order-in-the-court-app.herokuapp.com/",
       faIcon: "fa fa-gavel",
     },
+    {
+      title: "Vaudeville Mews Archive",
+      subtitle: "archived show data",
+      link: "https://docs.google.com/spreadsheets/d/1MAROLnkYIlQ-8TdFi4oohrv9h0WrRX_awoALpScIfZ8/edit?usp=sharing",
+      faIcon: "fa fa-music",
+    },
   ];
 
   constructor(
     private settings: SettingsService,
   ) {
     this.settings.showNav = false;
-  }
-
-  public ngOnInit() {
   }
 
 }
