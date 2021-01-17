@@ -35,7 +35,7 @@ export class LinkComponent {
     {
       title: "Vaudeville Mews Archive",
       subtitle: "archived show data",
-      link: "https://docs.google.com/spreadsheets/d/1MAROLnkYIlQ-8TdFi4oohrv9h0WrRX_awoALpScIfZ8/edit?usp=sharing",
+      link: "https://adam-on-the-internet.github.io/vaudeville-mews-archive",
       faIcon: "fa fa-music",
     },
   ];
