@@ -31,6 +31,10 @@ export class DashboardComponent implements OnInit {
     this.navHelper.goToElf();
   }
 
+  public goToMonitor() {
+    this.navHelper.goToMonitor();
+  }
+
   public goToLinks() {
     this.navHelper.goToLinks();
   }

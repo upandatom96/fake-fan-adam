@@ -12,6 +12,7 @@ import {BookmarkDetailsComponent} from "./components/bookmark-details/bookmark-d
 import {BookmarksComponent} from "./components/bookmarks/bookmarks.component";
 import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
+import {MonitorComponent} from "./components/monitor/monitor.component";
 
 const routes: Routes = [
   // main
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.BookmarkForm + "/:id", component: BookmarkFormComponent},
   {path: ROUTES_ENUM.Stage, component: StageComponent},
   {path: ROUTES_ENUM.Links, component: LinkComponent},
+  {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
   // default
   {path: "**", redirectTo: "dashboard"},
 ];

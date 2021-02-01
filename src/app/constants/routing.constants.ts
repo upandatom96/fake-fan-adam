@@ -7,6 +7,7 @@ export const enum ROUTES_ENUM {
   Profile = "profile",
   Stage = "stage",
   Links = "links",
+  Monitor = "monitor",
   Admin = "admin",
   Login = "login",
 }

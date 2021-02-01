@@ -1,0 +1,138 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 my-3">
+      <app-card [title]="'THE QUEST BOT'">
+        <hr>
+        <div *ngIf="questBotReady; else loading">
+          <p>
+            <strong>Current Hero:</strong>
+          </p>
+          <p>
+            {{currentHero.name}} ({{currentHero.hpText}})
+          </p>
+          <p>
+            LVL {{currentHero.level}} ({{currentHero.expText}})
+          </p>
+          <p>
+            {{currentHero.journal.length}} update(s)
+          </p>
+          <hr>
+          <p>
+            <strong>Stats:</strong>
+          </p>
+          <p>
+            {{heroStats.heroesCreated}} heroes created
+          </p>
+          <p>
+            {{heroStats.questsCompleted}} quests completed
+          </p>
+          <p>
+            {{heroStats.chaptersCompleted}} chapters completed
+          </p>
+          <hr>
+          <a href="https://adam-on-the-internet.github.io/the-quest-bot-ui/dashboard" target="_blank">
+            <i class="fa fa-link"></i>
+            More...
+          </a>
+        </div>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
+      <app-card [title]="'THE CLUE BOT'">
+        <hr>
+        <div *ngIf="clueBotReady; else loading">
+          <p>
+            <strong>
+              Current Mystery:
+            </strong>
+          </p>
+          <p>
+            {{currentMystery.title}}
+          </p>
+          <p>
+            {{currentMystery.announcements.length}} announcement(s)
+          </p>
+          <hr>
+          <p>
+            <strong>
+              Stats:
+            </strong>
+          </p>
+          <p>
+            {{mysteryStats.solvedMysteryCount}} mysteries solved
+          </p>
+          <p>
+            {{mysteryStats.sceneCount}} scenes
+          </p>
+          <p>
+            {{mysteryStats.suspectCount}} suspects
+          </p>
+          <p>
+            {{mysteryStats.weaponCount}} weapons
+          </p>
+          <hr>
+          <a href="https://adam-on-the-internet.github.io/the-clue-bot" target="_blank">
+            <i class="fa fa-link"></i>
+            More...
+          </a>
+        </div>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
+      <app-card [title]="'ORDER IN THE COURT'">
+        <hr>
+        <div *ngIf="orderReady; else loading">
+          <p>
+            <strong>
+              Latest Case:
+            </strong>
+          </p>
+          <div *ngIf="latestCase">
+            <p>
+              {{latestCase.fullCaseName}}
+            </p>
+            <p>
+              Opened on
+              {{latestCase.openedDate | date:'medium'}}
+            </p>
+          </div>
+          <div *ngIf="!latestCase">
+            <p>
+              N/A
+            </p>
+          </div>
+          <hr>
+          <p>
+            <strong>
+              Stats:
+            </strong>
+          </p>
+          <p>
+            {{openCases.length}} open cases
+          </p>
+          <p>
+            {{closedCases.length}} closed cases
+          </p>
+          <p>
+            {{allEvidence.length}} evidence
+          </p>
+          <p>
+            {{allWitnesses.length}} witnesses
+          </p>
+          <p>
+            {{allIssues.length}} issues
+          </p>
+          <hr>
+          <a href="https://order-in-the-court-app.herokuapp.com/" target="_blank">
+            <i class="fa fa-link"></i>
+            More...
+          </a>
+        </div>
+      </app-card>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

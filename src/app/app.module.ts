@@ -25,6 +25,7 @@ import {BookmarkTableComponent} from "./components/bookmark-table/bookmark-table
 import {BookmarksComponent} from "./components/bookmarks/bookmarks.component";
 import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
+import {MonitorComponent} from "./components/monitor/monitor.component";
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import {LinkComponent} from "./components/link/link.component";
     BookmarksComponent,
     StageComponent,
     LinkComponent,
+    MonitorComponent,
   ],
   imports: [
     BrowserModule,

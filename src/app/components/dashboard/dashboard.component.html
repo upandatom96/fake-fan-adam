@@ -42,6 +42,16 @@
       </app-card>
     </div>
     <div class="col-md-4 my-3">
+      <app-card [title]="'My Monitor'" [icon]="'fa-desktop'">
+        <p>
+          Monitor my apps.
+        </p>
+        <button class="btn btn-secondary" (click)="goToMonitor()">
+          Go
+        </button>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
       <app-card [title]="'Links'" [icon]="'fa-link'">
         <p>
           My main links

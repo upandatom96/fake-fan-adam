@@ -34,6 +34,10 @@ export class NavHelperService {
 
   // PROJECTS
 
+  public goToMonitor(): void {
+    this.goToRoute(ROUTES_ENUM.Monitor);
+  }
+
   public goToElf(): void {
     this.goToRoute(ROUTES_ENUM.Stage);
   }
