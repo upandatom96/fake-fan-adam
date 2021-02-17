@@ -39,4 +39,8 @@ export class DashboardComponent implements OnInit {
     this.navHelper.goToLinks();
   }
 
+  public goToScavenger() {
+    this.navHelper.goToScavenger();
+  }
+
 }

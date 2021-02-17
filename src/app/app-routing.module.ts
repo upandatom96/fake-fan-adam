@@ -13,6 +13,7 @@ import {BookmarksComponent} from "./components/bookmarks/bookmarks.component";
 import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
 import {MonitorComponent} from "./components/monitor/monitor.component";
+import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/superlative-scavenger.component";
 
 const routes: Routes = [
   // main
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Stage, component: StageComponent},
   {path: ROUTES_ENUM.Links, component: LinkComponent},
   {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
+  {path: ROUTES_ENUM.SuperlativeScavenger, component: SuperlativeScavengerComponent},
   // default
   {path: "**", redirectTo: "dashboard"},
 ];

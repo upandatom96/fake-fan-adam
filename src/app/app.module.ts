@@ -26,6 +26,7 @@ import {BookmarksComponent} from "./components/bookmarks/bookmarks.component";
 import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
 import {MonitorComponent} from "./components/monitor/monitor.component";
+import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/superlative-scavenger.component";
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import {MonitorComponent} from "./components/monitor/monitor.component";
     StageComponent,
     LinkComponent,
     MonitorComponent,
+    SuperlativeScavengerComponent,
   ],
   imports: [
     BrowserModule,

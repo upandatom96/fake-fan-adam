@@ -8,6 +8,7 @@ export const enum ROUTES_ENUM {
   Stage = "stage",
   Links = "links",
   Monitor = "monitor",
+  SuperlativeScavenger = "superlative-scavenger",
   Admin = "admin",
   Login = "login",
 }

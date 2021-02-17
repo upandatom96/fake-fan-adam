@@ -46,6 +46,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Links);
   }
 
+  public goToScavenger(): void {
+    this.goToRoute(ROUTES_ENUM.SuperlativeScavenger);
+  }
+
   public goBookmarks(): void {
     this.goToRoute(ROUTES_ENUM.Bookmarks);
   }
