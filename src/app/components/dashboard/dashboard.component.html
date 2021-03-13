@@ -62,6 +62,16 @@
       </app-card>
     </div>
     <div class="col-md-4 my-3">
+      <app-card [title]="'Muppet Ranking'" [icon]="'fa-user'">
+        <p>
+          Ranking the Muppets.
+        </p>
+        <button class="btn btn-secondary" (click)="goToMuppets()">
+          Go
+        </button>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
       <app-card [title]="'Links'" [icon]="'fa-link'">
         <p>
           My main links

@@ -1,6 +1,8 @@
 export const enum ROUTES_ENUM {
   Dashboard = "dashboard",
   Info = "info",
+  Muppet = "muppet",
+  MuppetForm = "muppet-form",
   Bookmarks = "bookmarks",
   BookmarkOverview = "bookmark-overview",
   BookmarkForm = "bookmark-form",

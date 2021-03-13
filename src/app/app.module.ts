@@ -27,6 +27,9 @@ import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
 import {MonitorComponent} from "./components/monitor/monitor.component";
 import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/superlative-scavenger.component";
+import { MuppetFormComponent } from './components/muppet-form/muppet-form.component';
+import { MuppetListingComponent } from './components/muppet-listing/muppet-listing.component';
+import { MuppetDisplayComponent } from './components/muppet-display/muppet-display.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +56,9 @@ import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/
     LinkComponent,
     MonitorComponent,
     SuperlativeScavengerComponent,
+    MuppetFormComponent,
+    MuppetListingComponent,
+    MuppetDisplayComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,58 @@
+<ng-container *ngIf="ready; else notReady">
+  <app-body>
+    <div class="row justify-content-center">
+      <div class="col-md-8 my-3">
+        <app-card [title]="title">
+          <hr>
+          <form>
+            <section class="form-group">
+              <label for="name">
+                Name:
+              </label>
+              <input
+                id="name"
+                class="form-control"
+                type="text"
+                name="name"
+                [(ngModel)]="muppet.name"
+              />
+            </section>
+            <section class="form-group">
+              <label for="debut-year">
+                Debut Year:
+              </label>
+              <input
+                id="debut-year"
+                class="form-control"
+                type="number"
+                name="debut-year"
+                [(ngModel)]="muppet.debutYear"
+              />
+            </section>
+            <ng-container *ngIf="showErrors && !valid">
+              <hr>
+              <div
+                class="error-report alert alert-danger"
+              >
+                <p>Please correct the following errors:</p>
+                <ul>
+                  <li *ngFor="let error of errors">
+                    {{ error }}
+                  </li>
+                </ul>
+              </div>
+            </ng-container>
+            <hr>
+            <button class="btn btn-primary" (click)="submit()">
+              Save
+            </button>
+          </form>
+        </app-card>
+      </div>
+    </div>
+  </app-body>
+</ng-container>
+
+<ng-template #notReady>
+  <app-loading></app-loading>
+</ng-template>

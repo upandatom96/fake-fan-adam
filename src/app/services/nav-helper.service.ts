@@ -50,6 +50,22 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.SuperlativeScavenger);
   }
 
+  public goToMuppets(): void {
+    this.goToRoute(ROUTES_ENUM.Muppet);
+  }
+
+  public goToMuppetDisplay(id: string): void {
+    this.goToRoutes([ROUTES_ENUM.Muppet, id]);
+  }
+
+  public goToMuppetAdd(): void {
+    this.goToRoute(ROUTES_ENUM.MuppetForm);
+  }
+
+  public goToMuppetEdit(id: string): void {
+    this.goToRoutes([ROUTES_ENUM.MuppetForm, id]);
+  }
+
   public goBookmarks(): void {
     this.goToRoute(ROUTES_ENUM.Bookmarks);
   }

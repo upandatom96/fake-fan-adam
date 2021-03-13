@@ -14,6 +14,9 @@ import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
 import {MonitorComponent} from "./components/monitor/monitor.component";
 import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/superlative-scavenger.component";
+import {MuppetListingComponent} from "./components/muppet-listing/muppet-listing.component";
+import {MuppetDisplayComponent} from "./components/muppet-display/muppet-display.component";
+import {MuppetFormComponent} from "./components/muppet-form/muppet-form.component";
 
 const routes: Routes = [
   // main
@@ -23,6 +26,10 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
   // projects
+  {path: ROUTES_ENUM.Muppet, component: MuppetListingComponent},
+  {path: ROUTES_ENUM.Muppet + "/:id", component: MuppetDisplayComponent},
+  {path: ROUTES_ENUM.MuppetForm, component: MuppetFormComponent},
+  {path: ROUTES_ENUM.MuppetForm + "/:id", component: MuppetFormComponent},
   {path: ROUTES_ENUM.Bookmarks, component: BookmarksComponent},
   {path: ROUTES_ENUM.BookmarkOverview, component: BookmarkOverviewComponent},
   {path: ROUTES_ENUM.BookmarkOverview + "/:id", component: BookmarkDetailsComponent},

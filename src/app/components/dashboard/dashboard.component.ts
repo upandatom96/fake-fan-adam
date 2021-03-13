@@ -43,4 +43,8 @@ export class DashboardComponent implements OnInit {
     this.navHelper.goToScavenger();
   }
 
+  public goToMuppets() {
+    this.navHelper.goToMuppets();
+  }
+
 }
