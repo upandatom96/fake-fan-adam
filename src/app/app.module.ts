@@ -30,7 +30,7 @@ import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/
 import { MuppetFormComponent } from "./components/muppet-form/muppet-form.component";
 import { MuppetListingComponent } from "./components/muppet-listing/muppet-listing.component";
 import { MuppetDisplayComponent } from "./components/muppet-display/muppet-display.component";
-import { NumberInputComponent } from "./commponents/number-input/number-input.component";
+import { NumberInputComponent } from "./components/number-input/number-input.component";
 import { StringInputComponent } from "./components/string-input/string-input.component";
 
 @NgModule({

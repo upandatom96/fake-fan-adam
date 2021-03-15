@@ -8,7 +8,7 @@ import {LoadingComponent} from "../loading/loading.component";
 import {RouterTestingModule} from "@angular/router/testing";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {StringInputComponent} from "../string-input/string-input.component";
-import {NumberInputComponent} from "../../commponents/number-input/number-input.component";
+import {NumberInputComponent} from "../number-input/number-input.component";
 
 describe("MuppetFormComponent", () => {
   let component: MuppetFormComponent;
