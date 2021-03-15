@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {BooleanHelper} from "../../utilities/boolean.util";
 import {ActivatedRoute} from "@angular/router";
 import {NavHelperService} from "../../services/nav-helper.service";
@@ -6,9 +6,9 @@ import {Muppet} from "../../models/Muppet.model";
 import {MuppetService} from "../../services/muppet.service";
 
 @Component({
-  selector: 'app-muppet-form',
-  templateUrl: './muppet-form.component.html',
-  styleUrls: ['./muppet-form.component.scss']
+  selector: "app-muppet-form",
+  templateUrl: "./muppet-form.component.html",
+  styleUrls: ["./muppet-form.component.scss"]
 })
 export class MuppetFormComponent implements OnInit {
   public muppet: Muppet = null;

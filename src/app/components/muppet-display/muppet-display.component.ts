@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {ActivatedRoute} from "@angular/router";
 import {MuppetService} from "../../services/muppet.service";
 import {NavHelperService} from "../../services/nav-helper.service";
@@ -6,9 +6,9 @@ import {Muppet} from "../../models/Muppet.model";
 import {CookieHelper} from "../../utilities/cookie.util";
 
 @Component({
-  selector: 'app-muppet-display',
-  templateUrl: './muppet-display.component.html',
-  styleUrls: ['./muppet-display.component.scss']
+  selector: "app-muppet-display",
+  templateUrl: "./muppet-display.component.html",
+  styleUrls: ["./muppet-display.component.scss"]
 })
 export class MuppetDisplayComponent implements OnInit {
   public muppet: Muppet = null;
