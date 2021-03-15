@@ -27,12 +27,42 @@ export class MuppetListingComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.muppetService.getAll()
-      .subscribe((res) => this.muppets = res);
+    this.load();
   }
 
   public add() {
     this.navHelperService.goToMuppetAdd();
+  }
+
+  public goInfo(muppet: Muppet) {
+    this.navHelperService.goToMuppetDisplay(muppet._id);
+  }
+
+  public goEdit(muppet: Muppet) {
+    this.navHelperService.goToMuppetEdit(muppet._id);
+  }
+
+  public requestDelete(muppet: Muppet): void {
+    const confirmDelete = confirm(`Are you sure you want to delete ${muppet.name}?`);
+    if (confirmDelete) {
+      this.delete(muppet);
+    }
+  }
+
+  private load() {
+    this.muppetService.getAll()
+      .subscribe((res) => this.muppets = res);
+  }
+
+  private delete(muppet: Muppet) {
+    let response;
+    this.muppetService.delete(muppet._id)
+      .subscribe((res) => response = res,
+        () => {
+        },
+        () => {
+          this.load()
+        });
   }
 
 }

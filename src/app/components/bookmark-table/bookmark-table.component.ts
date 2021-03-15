@@ -1,8 +1,8 @@
-import { Component, OnInit, Input } from "@angular/core";
-import { Bookmark } from "src/app/models/Bookmark.model";
-import { CookieHelper } from "src/app/utilities/cookie.util";
-import { BookmarkService } from "src/app/services/bookmark.service";
-import { NavHelperService } from "src/app/services/nav-helper.service";
+import {Component, Input, OnInit} from "@angular/core";
+import {Bookmark} from "src/app/models/Bookmark.model";
+import {CookieHelper} from "src/app/utilities/cookie.util";
+import {BookmarkService} from "src/app/services/bookmark.service";
+import {NavHelperService} from "src/app/services/nav-helper.service";
 
 @Component({
   selector: "app-bookmark-table",
@@ -30,7 +30,8 @@ export class BookmarkTableComponent implements OnInit {
   constructor(
     private bookmarkService: BookmarkService,
     private navHelper: NavHelperService,
-  ) { }
+  ) {
+  }
 
   public ngOnInit() {
     this.load();
@@ -56,8 +57,9 @@ export class BookmarkTableComponent implements OnInit {
   }
 
   private delete(bookmark: Bookmark): void {
+    let response;
     this.bookmarkService.delete(bookmark._id)
-      .subscribe((res) => this.bookmarks = res,
+      .subscribe((res) => response = res,
         (error) => {
           console.log("delete bookmark failed");
         }, () => {

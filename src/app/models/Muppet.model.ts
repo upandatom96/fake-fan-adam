@@ -7,6 +7,7 @@ export interface Muppet {
   mainSeries: string;
   creature: string;
   muppetRank: number;
+  muppetPowerLevel: number;
   alignment: string;
   archived: boolean;
   // muppet stats

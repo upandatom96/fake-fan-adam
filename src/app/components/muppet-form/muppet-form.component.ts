@@ -113,8 +113,33 @@ export class MuppetFormComponent implements OnInit {
 
   private setupCreateForm(): void {
     this.muppet = {
-      name: null,
       _id: null,
+      name: null,
+      debutYear: 1900,
+      commonality: "COMMON",
+      speechType: "ENGLISH",
+      mainSeries: "The Muppet Show",
+      creature: "Frog",
+      muppetRank: 10,
+      muppetPowerLevel: 100,
+      alignment: "TRUE NEUTRAL",
+      archived: true,
+      starQuality: 10,
+      cuteness: 10,
+      imagination: 10,
+      storytelling: 10,
+      humor: 10,
+      aloofness: 10,
+      mischief: 10,
+      floppiness: 10,
+      fuzziness: 10,
+      softness: 10,
+      strength: 10,
+      wisdom: 10,
+      intelligence: 10,
+      constitution: 10,
+      charisma: 10,
+      dexterity: 10,
     };
   }
 }

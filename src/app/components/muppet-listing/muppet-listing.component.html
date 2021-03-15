@@ -1,26 +1,42 @@
 <div class="bg-white">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 mt-3 text-center">
         <h1>Muppet Ranking System</h1>
       </div>
-      <div class="col-md-12">
+      <div class="col-md-12 text-center">
         <ng-container *ngIf="ready; else loading">
-          <button class="btn btn-success" (click)="add()" *ngIf="isAdmin">
-            <i class="fa fa-plus"></i>
-            Add a Muppet
-          </button>
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <button class="btn btn-success btn-block" (click)="add()" *ngIf="isAdmin">
+                <i class="fa fa-plus"></i>
+                Add a Muppet
+              </button>
+            </div>
+          </div>
           <ng-container *ngIf="muppets.length > 0">
-            <p>Showing {{muppets.length}} muppet(s)...</p>
-            <table class="table-striped">
+            <p class="my-3">Showing {{muppets.length}} muppet(s)...</p>
+            <table class="table table-striped">
               <thead>
               <tr>
                 <th>Name</th>
+                <th>Info</th>
+                <th>Edit</th>
+                <th>Delete?</th>
               </tr>
               </thead>
               <tbody>
               <tr *ngFor="let muppet of muppets">
                 <td>{{muppet.name}}</td>
+                <td>
+                  <button class="btn btn-secondary" (click)="goInfo(muppet)">Info</button>
+                </td>
+                <td>
+                  <button class="btn btn-secondary" (click)="goEdit(muppet)">Edit</button>
+                </td>
+                <td>
+                  <button class="btn btn-secondary" (click)="requestDelete(muppet)">Delete</button>
+                </td>
               </tr>
               </tbody>
             </table>
