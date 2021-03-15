@@ -3,6 +3,7 @@ import {ActivatedRoute} from "@angular/router";
 import {MuppetService} from "../../services/muppet.service";
 import {NavHelperService} from "../../services/nav-helper.service";
 import {Muppet} from "../../models/Muppet.model";
+import {CookieHelper} from "../../utilities/cookie.util";
 
 @Component({
   selector: 'app-muppet-display',
@@ -14,6 +15,10 @@ export class MuppetDisplayComponent implements OnInit {
 
   public get ready(): boolean {
     return this.muppet !== null;
+  }
+
+  public get isAdmin(): boolean {
+    return CookieHelper.admin;
   }
 
   constructor(

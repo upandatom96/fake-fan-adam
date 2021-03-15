@@ -21,8 +21,10 @@
               <tr>
                 <th>Name</th>
                 <th>Info</th>
-                <th>Edit</th>
-                <th>Delete?</th>
+                <ng-container *ngIf="isAdmin">
+                  <th>Edit</th>
+                  <th>Delete?</th>
+                </ng-container>
               </tr>
               </thead>
               <tbody>
@@ -31,12 +33,14 @@
                 <td>
                   <button class="btn btn-secondary" (click)="goInfo(muppet)">Info</button>
                 </td>
-                <td>
-                  <button class="btn btn-secondary" (click)="goEdit(muppet)">Edit</button>
-                </td>
-                <td>
-                  <button class="btn btn-secondary" (click)="requestDelete(muppet)">Delete</button>
-                </td>
+                <ng-container *ngIf="isAdmin">
+                  <td>
+                    <button class="btn btn-secondary" (click)="goEdit(muppet)">Edit</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-secondary" (click)="requestDelete(muppet)">Delete</button>
+                  </td>
+                </ng-container>
               </tr>
               </tbody>
             </table>
