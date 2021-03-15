@@ -5,30 +5,8 @@
         <app-card [title]="title">
           <hr>
           <form>
-            <section class="form-group">
-              <label for="name">
-                Name:
-              </label>
-              <input
-                id="name"
-                class="form-control"
-                type="text"
-                name="name"
-                [(ngModel)]="muppet.name"
-              />
-            </section>
-            <section class="form-group">
-              <label for="debut-year">
-                Debut Year:
-              </label>
-              <input
-                id="debut-year"
-                class="form-control"
-                type="number"
-                name="debut-year"
-                [(ngModel)]="muppet.debutYear"
-              />
-            </section>
+            <app-string-input [(value)]="muppet.name" [valueName]="'name'"></app-string-input>
+            <app-number-input [(value)]="muppet.debutYear" [valueName]="'debut-year'"></app-number-input>
             <ng-container *ngIf="showErrors && !valid">
               <hr>
               <div

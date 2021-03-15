@@ -1,0 +1,15 @@
+<ng-container *ngIf="valueName && value">
+  <section class="form-group">
+    <label [attr.for]="valueName">
+      {{labelName}}:
+    </label>
+    <input
+      [attr.id]="valueName"
+      class="form-control"
+      type="text"
+      [attr.name]="valueName"
+      [(ngModel)]="value"
+      (change)="onValueChange()"
+    />
+  </section>
+</ng-container>

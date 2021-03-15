@@ -7,6 +7,8 @@ import {BodyComponent} from "../body/body.component";
 import {LoadingComponent} from "../loading/loading.component";
 import {RouterTestingModule} from "@angular/router/testing";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
+import {StringInputComponent} from "../string-input/string-input.component";
+import {NumberInputComponent} from "../../commponents/number-input/number-input.component";
 
 describe("MuppetFormComponent", () => {
   let component: MuppetFormComponent;
@@ -14,7 +16,10 @@ describe("MuppetFormComponent", () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MuppetFormComponent, CardComponent, BodyComponent, LoadingComponent],
+      declarations: [
+        MuppetFormComponent, CardComponent, BodyComponent, LoadingComponent,
+        StringInputComponent, NumberInputComponent,
+      ],
       imports: [FormsModule, RouterTestingModule, HttpClientTestingModule],
     })
       .compileComponents();
