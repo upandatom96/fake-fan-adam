@@ -32,6 +32,9 @@ import { MuppetListingComponent } from "./components/muppet-listing/muppet-listi
 import { MuppetDisplayComponent } from "./components/muppet-display/muppet-display.component";
 import { NumberInputComponent } from "./components/number-input/number-input.component";
 import { StringInputComponent } from "./components/string-input/string-input.component";
+import { SelectInputComponent } from "./components/select-input/select-input.component";
+import { OnOffSwitchComponent } from "./components/on-off-switch/on-off-switch.component";
+import { StringListInputComponent } from "./components/string-list-input/string-list-input.component";
 
 @NgModule({
   declarations: [
@@ -63,6 +66,9 @@ import { StringInputComponent } from "./components/string-input/string-input.com
     MuppetDisplayComponent,
     NumberInputComponent,
     StringInputComponent,
+    SelectInputComponent,
+    OnOffSwitchComponent,
+    StringListInputComponent,
   ],
   imports: [
     BrowserModule,

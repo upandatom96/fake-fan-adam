@@ -5,8 +5,63 @@
         <app-card [title]="title">
           <hr>
           <form>
-            <app-string-input [(value)]="muppet.name" [valueName]="'name'"></app-string-input>
-            <app-number-input [(value)]="muppet.debutYear" [valueName]="'debut-year'"></app-number-input>
+
+            <section>
+              <h3>1. General Info</h3>
+              <app-string-input [(value)]="muppet.name" [valueName]="'name'"></app-string-input>
+              <app-string-input [(value)]="muppet.creature" [valueName]="'creature'"></app-string-input>
+              <app-string-input [(value)]="muppet.mainSeries" [valueName]="'main-series'"></app-string-input>
+              <app-number-input [(value)]="muppet.debutYear" [valueName]="'debut-year'" [min]="1955" [max]="currentYear"></app-number-input>
+              <app-select-input [(value)]="muppet.commonality" [valueName]="'commonalities'"
+                                [options]="COMMONALITIES"></app-select-input>
+              <app-select-input [(value)]="muppet.speechType" [valueName]="'speech-type'"
+                                [options]="SPEECH_TYPES"></app-select-input>
+              <app-select-input [(value)]="muppet.alignment" [valueName]="'alignment'"
+                                [options]="ALIGNMENTS"></app-select-input>
+              <app-number-input [(value)]="muppet.muppetRank" [valueName]="'muppet-rank'" [max]="100"></app-number-input>
+              <app-on-off-switch [(value)]="muppet.archived" [valueName]="'archived'">
+              </app-on-off-switch>
+            </section>
+
+            <hr>
+
+            <section>
+              <h3>2. Muppet Stats</h3>
+              <app-number-input [(value)]="muppet.starQuality" [valueName]="'star-quality'"></app-number-input>
+              <app-number-input [(value)]="muppet.imagination" [valueName]="'imagination'"></app-number-input>
+              <app-number-input [(value)]="muppet.showmanship" [valueName]="'showmanship'"></app-number-input>
+              <app-number-input [(value)]="muppet.humor" [valueName]="'humor'"></app-number-input>
+              <app-number-input [(value)]="muppet.absentmindedness" [valueName]="'absentmindedness'"></app-number-input>
+              <app-number-input [(value)]="muppet.mischief" [valueName]="'mischief'"></app-number-input>
+              <app-number-input [(value)]="muppet.floppiness" [valueName]="'floppiness'"></app-number-input>
+              <app-number-input [(value)]="muppet.passion" [valueName]="'passion'"></app-number-input>
+              <app-number-input [(value)]="muppet.friendliness" [valueName]="'friendliness'"></app-number-input>
+              <app-number-input [(value)]="muppet.softness" [valueName]="'softness'"></app-number-input>
+            </section>
+
+            <hr>
+
+            <section>
+              <h3>3. DND Stats</h3>
+              <app-number-input [(value)]="muppet.strength" [valueName]="'strength'"></app-number-input>
+              <app-number-input [(value)]="muppet.wisdom" [valueName]="'wisdom'"></app-number-input>
+              <app-number-input [(value)]="muppet.intelligence" [valueName]="'intelligence'"></app-number-input>
+              <app-number-input [(value)]="muppet.constitution" [valueName]="'constitution'"></app-number-input>
+              <app-number-input [(value)]="muppet.charisma" [valueName]="'charisma'"></app-number-input>
+              <app-number-input [(value)]="muppet.dexterity" [valueName]="'dexterity'"></app-number-input>
+            </section>
+
+            <hr>
+
+            <section>
+              <h3>4. Extras</h3>
+              <app-string-list-input [(value)]="muppet.tags" [valueName]="'tags'"></app-string-list-input>
+              <app-string-list-input [(value)]="muppet.quotes" [valueName]="'quotes'"></app-string-list-input>
+              <app-string-list-input [(value)]="muppet.appearanceAdjectives" [valueName]="'appearance-adjectives'"></app-string-list-input>
+              <app-string-list-input [(value)]="muppet.attitudeAdjectives" [valueName]="'attitude-adjectives'"></app-string-list-input>
+              <app-string-list-input [(value)]="muppet.imageLinks" [valueName]="'image-links'"></app-string-list-input>
+            </section>
+
             <ng-container *ngIf="showErrors && !valid">
               <hr>
               <div

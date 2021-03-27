@@ -9,6 +9,9 @@ import {RouterTestingModule} from "@angular/router/testing";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {StringInputComponent} from "../string-input/string-input.component";
 import {NumberInputComponent} from "../number-input/number-input.component";
+import {StringListInputComponent} from "../string-list-input/string-list-input.component";
+import {OnOffSwitchComponent} from "../on-off-switch/on-off-switch.component";
+import {SelectInputComponent} from "../select-input/select-input.component";
 
 describe("MuppetFormComponent", () => {
   let component: MuppetFormComponent;
@@ -18,7 +21,8 @@ describe("MuppetFormComponent", () => {
     TestBed.configureTestingModule({
       declarations: [
         MuppetFormComponent, CardComponent, BodyComponent, LoadingComponent,
-        StringInputComponent, NumberInputComponent,
+        StringInputComponent, NumberInputComponent, StringListInputComponent, OnOffSwitchComponent,
+        SelectInputComponent,
       ],
       imports: [FormsModule, RouterTestingModule, HttpClientTestingModule],
     })

@@ -1,0 +1,20 @@
+<ng-container *ngIf="valueName">
+  <section class="form-group">
+    <label [attr.for]="valueName">
+      {{labelName}}:
+    </label>
+    <div class="input-group mb-3" [attr.id]="valueName">
+      <input type="text" class="form-control" [(ngModel)]="nextItem">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" [disabled]="disableAdd" (click)="addNextItem()">Add
+        </button>
+      </div>
+    </div>
+    <ng-container *ngFor="let item of value; let i = index">
+    <span class="badge badge-info mr-2" (click)="removeItem(i)">
+      {{item}}
+      <i class="fa fa-trash ml-2"></i>
+    </span>
+    </ng-container>
+  </section>
+</ng-container>

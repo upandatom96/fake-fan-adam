@@ -2,13 +2,14 @@ import {Component, EventEmitter, Input, Output} from "@angular/core";
 import {StringHelper} from "../../utilities/string.util";
 
 @Component({
-  selector: "app-string-input",
-  templateUrl: "./string-input.component.html",
-  styleUrls: ["./string-input.component.scss"]
+  selector: "app-select-input",
+  templateUrl: "./select-input.component.html",
+  styleUrls: ["./select-input.component.scss"]
 })
-export class StringInputComponent {
+export class SelectInputComponent {
   @Input() public valueName = "value-name";
   @Input() value: string;
+  @Input() options: string[] = null;
   @Output() valueChange = new EventEmitter<string>();
 
   public get labelName(): string {

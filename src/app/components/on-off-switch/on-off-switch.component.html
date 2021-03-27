@@ -1,0 +1,18 @@
+<ng-container *ngIf="valueName">
+  <section class="form-group">
+    <label [attr.for]="valueName">
+      {{labelName}}:
+    </label>
+    <br>
+    <div [attr.id]="valueName" class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary" [class.active]="isOn" (click)="turnOn()">
+        <i class="fa fa-check" *ngIf="isOn"></i>
+        On
+      </button>
+      <button type="button" class="btn btn-secondary" [class.active]="!isOff" (click)="turnOff()">
+        <i class="fa fa-check" *ngIf="isOff"></i>
+        Off
+      </button>
+    </div>
+  </section>
+</ng-container>

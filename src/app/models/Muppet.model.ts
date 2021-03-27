@@ -10,17 +10,23 @@ export interface Muppet {
   muppetPowerLevel: number;
   alignment: string;
   archived: boolean;
+  appearanceAdjectives: string[];
+  attitudeAdjectives: string[];
+  imageLinks: string[];
+  tags: string[];
+  notes: string[];
+  quotes: string[];
   // muppet stats
   starQuality: number;
-  cuteness: number;
+  friendliness: number;
   imagination: number;
-  storytelling: number;
+  showmanship: number;
   humor: number;
-  aloofness: number;
+  absentmindedness: number;
   mischief: number;
   floppiness: number;
-  fuzziness: number;
   softness: number;
+  passion: number;
   // dnd stats
   strength: number;
   wisdom: number;

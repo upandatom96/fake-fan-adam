@@ -14,6 +14,15 @@ export class MuppetFormComponent implements OnInit {
   public muppet: Muppet = null;
   public showErrors = false;
 
+  public COMMONALITIES = ["COMMON", "UNCOMMON", "RARE"];
+  public SPEECH_TYPES = ["ENGLISH", "GIBBERISH", "NONE"];
+  public ALIGNMENTS = [
+    "LAWFUL GOOD", "NEUTRAL GOOD", "CHAOTIC GOOD",
+    "LAWFUL NEUTRAL", "TRUE NEUTRAL", "CHAOTIC NEUTRAL",
+    "LAWFUL EVIL", "NEUTRAL EVIL", "CHAOTIC EVIL",
+    "UNALIGNED",
+  ];
+
   public get title(): string {
     if (this.editMode) {
       return "Edit Muppet";
@@ -21,11 +30,58 @@ export class MuppetFormComponent implements OnInit {
     return "Create Muppet";
   }
 
+  public get currentYear(): number {
+    return new Date().getFullYear();
+  }
+
+  private muppetStats = [
+    "starQuality",
+    "friendliness",
+    "imagination",
+    "showmanship",
+    "humor",
+    "absentmindedness",
+    "mischief",
+    "floppiness",
+    "passion",
+    "softness",
+  ];
+  private dndStats = [
+    "strength",
+    "dexterity",
+    "wisdom",
+    "intelligence",
+    "constitution",
+    "charisma",
+  ];
+
   public get errors(): string[] {
     const myErrors = [];
-    if (this.nameInvalid) {
+    if (BooleanHelper.hasNoValue(this.muppet.name)) {
       myErrors.push("Please provide a name.");
     }
+    if (BooleanHelper.hasNoValue(this.muppet.creature)) {
+      myErrors.push("Please provide a creature.");
+    }
+    if (BooleanHelper.hasNoValue(this.muppet.mainSeries)) {
+      myErrors.push("Please provide a main series.");
+    }
+    if (BooleanHelper.notInRange(this.muppet.debutYear, 1995, this.currentYear)) {
+      myErrors.push(`Please provide a debut year, must be 1995-${this.currentYear}.`);
+    }
+    if (BooleanHelper.notInRange(this.muppet.muppetRank, 0, 100)) {
+      myErrors.push("Please provide a muppet rank.");
+    }
+    this.muppetStats.forEach((stat) => {
+      if (this.muppet[stat] && (this.muppet[stat] < 0 || this.muppet[stat] > 10)) {
+        myErrors.push(`Invalid muppet stat ${stat}, must be 0-10.`);
+      }
+    });
+    this.dndStats.forEach((stat) => {
+      if (this.muppet[stat] && (this.muppet[stat] < 0 || this.muppet[stat] > 10)) {
+        myErrors.push(`Invalid dnd stat ${stat}, must be 0-10.`);
+      }
+    });
     return myErrors;
   }
 
@@ -39,10 +95,6 @@ export class MuppetFormComponent implements OnInit {
 
   public get editMode(): boolean {
     return this.ready && BooleanHelper.hasValue(this.muppet._id);
-  }
-
-  private get nameInvalid(): boolean {
-    return !BooleanHelper.hasValue(this.muppet.name);
   }
 
   constructor(
@@ -115,31 +167,37 @@ export class MuppetFormComponent implements OnInit {
     this.muppet = {
       _id: null,
       name: null,
-      debutYear: 1900,
+      debutYear: null,
       commonality: "COMMON",
       speechType: "ENGLISH",
-      mainSeries: "The Muppet Show",
-      creature: "Frog",
-      muppetRank: 10,
-      muppetPowerLevel: 100,
       alignment: "TRUE NEUTRAL",
-      archived: true,
-      starQuality: 10,
-      cuteness: 10,
-      imagination: 10,
-      storytelling: 10,
-      humor: 10,
-      aloofness: 10,
-      mischief: 10,
-      floppiness: 10,
-      fuzziness: 10,
-      softness: 10,
-      strength: 10,
-      wisdom: 10,
-      intelligence: 10,
-      constitution: 10,
-      charisma: 10,
-      dexterity: 10,
+      mainSeries: null,
+      creature: null,
+      muppetRank: 50,
+      muppetPowerLevel: null,
+      archived: false,
+      starQuality: 5,
+      friendliness: 5,
+      imagination: 5,
+      showmanship: 5,
+      humor: 5,
+      absentmindedness: 5,
+      mischief: 5,
+      floppiness: 5,
+      softness: 5,
+      passion: 5,
+      strength: 5,
+      wisdom: 5,
+      intelligence: 5,
+      constitution: 5,
+      charisma: 5,
+      dexterity: 5,
+      quotes: [],
+      notes: [],
+      appearanceAdjectives: [],
+      attitudeAdjectives: [],
+      imageLinks: [],
+      tags: [],
     };
   }
 }

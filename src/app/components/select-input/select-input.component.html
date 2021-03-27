@@ -1,0 +1,18 @@
+<ng-container *ngIf="valueName && options">
+  <div class="form-group">
+    <label [attr.for]="valueName">
+      {{labelName}}:
+    </label>
+    <select
+      [attr.id]="valueName"
+      class="form-control"
+      [attr.name]="valueName"
+      [(ngModel)]="value"
+      (change)="onValueChange()"
+    >
+      <ng-container *ngFor="let option of options">
+        <option [value]="option">{{option}}</option>
+      </ng-container>
+    </select>
+  </div>
+</ng-container>
