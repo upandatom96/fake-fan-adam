@@ -35,7 +35,7 @@ import { StringInputComponent } from "./components/string-input/string-input.com
 import { SelectInputComponent } from "./components/select-input/select-input.component";
 import { OnOffSwitchComponent } from "./components/on-off-switch/on-off-switch.component";
 import { StringListInputComponent } from "./components/string-list-input/string-list-input.component";
-import { StringListDisplayComponent } from './components/string-list-display/string-list-display.component';
+import { StringListDisplayComponent } from "./components/string-list-display/string-list-display.component";
 
 @NgModule({
   declarations: [

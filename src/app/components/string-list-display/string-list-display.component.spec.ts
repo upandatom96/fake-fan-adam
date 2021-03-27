@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { StringListDisplayComponent } from './string-list-display.component';
+import { StringListDisplayComponent } from "./string-list-display.component";
 
-describe('StringListDisplayComponent', () => {
+describe("StringListDisplayComponent", () => {
   let component: StringListDisplayComponent;
   let fixture: ComponentFixture<StringListDisplayComponent>;
 
@@ -19,7 +19,7 @@ describe('StringListDisplayComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
