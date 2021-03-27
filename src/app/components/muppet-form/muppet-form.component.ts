@@ -66,7 +66,7 @@ export class MuppetFormComponent implements OnInit {
     if (BooleanHelper.hasNoValue(this.muppet.mainSeries)) {
       myErrors.push("Please provide a main series.");
     }
-    if (BooleanHelper.notInRange(this.muppet.debutYear, 1995, this.currentYear)) {
+    if (BooleanHelper.notInRange(this.muppet.debutYear, 1955, this.currentYear)) {
       myErrors.push(`Please provide a debut year, must be 1995-${this.currentYear}.`);
     }
     if (BooleanHelper.notInRange(this.muppet.muppetRank, 0, 100)) {
