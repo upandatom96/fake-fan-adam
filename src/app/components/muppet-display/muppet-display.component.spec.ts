@@ -4,6 +4,7 @@ import {MuppetDisplayComponent} from "./muppet-display.component";
 import {LoadingComponent} from "../loading/loading.component";
 import {RouterTestingModule} from "@angular/router/testing";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
+import {StringListDisplayComponent} from "../string-list-display/string-list-display.component";
 
 describe("MuppetDisplayComponent", () => {
   let component: MuppetDisplayComponent;
@@ -11,7 +12,7 @@ describe("MuppetDisplayComponent", () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MuppetDisplayComponent, LoadingComponent],
+      declarations: [MuppetDisplayComponent, LoadingComponent, StringListDisplayComponent],
       imports: [RouterTestingModule, HttpClientTestingModule]
     })
       .compileComponents();

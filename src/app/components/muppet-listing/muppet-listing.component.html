@@ -29,17 +29,28 @@
               </thead>
               <tbody>
               <tr *ngFor="let muppet of muppets">
-                <td>{{muppet.name}}</td>
-                <td>
-                  <button class="btn btn-secondary" (click)="goInfo(muppet)">Info</button>
-                </td>
-                <ng-container *ngIf="isAdmin">
+                <ng-container *ngIf="!muppet.archived || isAdmin">
                   <td>
-                    <button class="btn btn-secondary" (click)="goEdit(muppet)">Edit</button>
+                    {{muppet.name}}
+                    <span class="badge badge-warning" *ngIf="muppet.archived">ARCHIVED</span>
                   </td>
                   <td>
-                    <button class="btn btn-secondary" (click)="requestDelete(muppet)">Delete</button>
+                    <button class="btn btn-secondary" (click)="goInfo(muppet)">Info</button>
                   </td>
+                  <ng-container *ngIf="isAdmin">
+                    <td>
+                      <button class="btn btn-secondary" (click)="goEdit(muppet)">
+                        <i class="fa fa-pencil"></i>
+                        Edit
+                      </button>
+                    </td>
+                    <td>
+                      <button class="btn btn-secondary" (click)="requestDelete(muppet)">
+                        <i class="fa fa-trash"></i>
+                        Delete
+                      </button>
+                    </td>
+                  </ng-container>
                 </ng-container>
               </tr>
               </tbody>
