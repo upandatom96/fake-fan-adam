@@ -15,8 +15,8 @@ import {ProfileComponent} from "./components/profile/profile.component";
 import {AdminComponent} from "./components/admin/admin.component";
 import {HeaderComponent} from "./components/header/header.component";
 import {BodyComponent} from "./components/body/body.component";
-import {LoadingComponent} from "./components/loading/loading.component";
-import {CardComponent} from "./components/card/card.component";
+import {LoadingComponent} from "./components/simple/loading/loading.component";
+import {CardComponent} from "./components/simple/card/card.component";
 import {BodyAltComponent} from "./components/body-alt/body-alt.component";
 import {BookmarkDetailsComponent} from "./components/bookmark-details/bookmark-details.component";
 import {BookmarkFormComponent} from "./components/bookmark-form/bookmark-form.component";
@@ -27,15 +27,18 @@ import {StageComponent} from "./components/stage/stage.component";
 import {LinkComponent} from "./components/link/link.component";
 import {MonitorComponent} from "./components/monitor/monitor.component";
 import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/superlative-scavenger.component";
-import { MuppetFormComponent } from "./components/muppet-form/muppet-form.component";
-import { MuppetListingComponent } from "./components/muppet-listing/muppet-listing.component";
-import { MuppetDisplayComponent } from "./components/muppet-display/muppet-display.component";
-import { NumberInputComponent } from "./components/number-input/number-input.component";
-import { StringInputComponent } from "./components/string-input/string-input.component";
-import { SelectInputComponent } from "./components/select-input/select-input.component";
-import { OnOffSwitchComponent } from "./components/on-off-switch/on-off-switch.component";
-import { StringListInputComponent } from "./components/string-list-input/string-list-input.component";
-import { StringListDisplayComponent } from "./components/string-list-display/string-list-display.component";
+import {MuppetFormComponent} from "./components/muppet-form/muppet-form.component";
+import {MuppetListingComponent} from "./components/muppet-listing/muppet-listing.component";
+import {MuppetDisplayComponent} from "./components/muppet-display/muppet-display.component";
+import {NumberInputComponent} from "./components/simple/form/number-input/number-input.component";
+import {StringInputComponent} from "./components/simple/form/string-input/string-input.component";
+import {SelectInputComponent} from "./components/select-input/select-input.component";
+import {OnOffSwitchComponent} from "./components/simple/form/on-off-switch/on-off-switch.component";
+import {StringListInputComponent} from "./components/simple/form/string-list-input/string-list-input.component";
+import {StringListDisplayComponent} from "./components/simple/string-list-display/string-list-display.component";
+import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
+import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
+import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.component";
 
 @NgModule({
   declarations: [
@@ -71,6 +74,9 @@ import { StringListDisplayComponent } from "./components/string-list-display/str
     OnOffSwitchComponent,
     StringListInputComponent,
     StringListDisplayComponent,
+    MuppetRandomComponent,
+    MuppetStatsComponent,
+    MuppetInfoComponent,
   ],
   imports: [
     BrowserModule,

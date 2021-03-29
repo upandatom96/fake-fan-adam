@@ -6,7 +6,7 @@ import { RouterTestingModule } from "@angular/router/testing";
 import { ActuatorReportComponent } from "../actuator-report/actuator-report.component";
 import { HeaderComponent } from "../header/header.component";
 import { BodyComponent } from "../body/body.component";
-import { LoadingComponent } from "../loading/loading.component";
+import { LoadingComponent } from "../simple/loading/loading.component";
 
 describe("AdminComponent", () => {
   let component: AdminComponent;

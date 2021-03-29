@@ -17,6 +17,8 @@ import {SuperlativeScavengerComponent} from "./components/superlative-scavenger/
 import {MuppetListingComponent} from "./components/muppet-listing/muppet-listing.component";
 import {MuppetDisplayComponent} from "./components/muppet-display/muppet-display.component";
 import {MuppetFormComponent} from "./components/muppet-form/muppet-form.component";
+import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
+import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
 
 const routes: Routes = [
   // main
@@ -26,6 +28,9 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Profile, component: ProfileComponent},
   {path: ROUTES_ENUM.Admin, component: AdminComponent},
   // projects
+  {path: ROUTES_ENUM.Muppet, component: MuppetListingComponent},
+  {path: ROUTES_ENUM.MuppetStats, component: MuppetStatsComponent},
+  {path: ROUTES_ENUM.MuppetRandom, component: MuppetRandomComponent},
   {path: ROUTES_ENUM.Muppet, component: MuppetListingComponent},
   {path: ROUTES_ENUM.Muppet + "/:id", component: MuppetDisplayComponent},
   {path: ROUTES_ENUM.MuppetForm, component: MuppetFormComponent},

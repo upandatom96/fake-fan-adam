@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from "@angular/core";
-import {StringHelper} from "../../utilities/string.util";
+import {StringHelper} from "../../../../utilities/string.util";
 
 @Component({
   selector: "app-on-off-switch",

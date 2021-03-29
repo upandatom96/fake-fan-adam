@@ -3,11 +3,11 @@ import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 import { BookmarkFormComponent } from "./bookmark-form.component";
 import { HeaderComponent } from "../header/header.component";
 import { BodyComponent } from "../body/body.component";
-import { CardComponent } from "../card/card.component";
+import { CardComponent } from "../simple/card/card.component";
 import { HttpClientTestingModule } from "@angular/common/http/testing";
 import { RouterTestingModule } from "@angular/router/testing";
 import { FormsModule } from "@angular/forms";
-import { LoadingComponent } from "../loading/loading.component";
+import { LoadingComponent } from "../simple/loading/loading.component";
 
 describe("BookmarkFormComponent", () => {
   let component: BookmarkFormComponent;

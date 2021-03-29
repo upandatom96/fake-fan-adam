@@ -3,6 +3,8 @@ export const enum ROUTES_ENUM {
   Info = "info",
   Muppet = "muppet",
   MuppetForm = "muppet-form",
+  MuppetStats = "muppet-stats",
+  MuppetRandom = "muppet-random",
   Bookmarks = "bookmarks",
   BookmarkOverview = "bookmark-overview",
   BookmarkForm = "bookmark-form",

@@ -7,10 +7,22 @@
       <div class="col-md-12 text-center">
         <ng-container *ngIf="ready; else loading">
           <div class="row justify-content-center">
-            <div class="col-md-4">
-              <button class="btn btn-success btn-block" (click)="add()" *ngIf="isAdmin">
+            <div class="col-md-3" *ngIf="isAdmin">
+              <button class="btn btn-success btn-block" (click)="add()">
                 <i class="fa fa-plus"></i>
                 Add a Muppet
+              </button>
+            </div>
+            <div class="col-md-3">
+              <button class="btn btn-info btn-block" (click)="toRandom()">
+                <i class="fa fa-repeat"></i>
+                Random Muppet
+              </button>
+            </div>
+            <div class="col-md-3">
+              <button class="btn btn-info btn-block" (click)="toStats()">
+                <i class="fa fa-line-chart"></i>
+                Muppet Stats
               </button>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
 import {LinkComponent} from "./link.component";
-import {CardComponent} from "../card/card.component";
+import {CardComponent} from "../simple/card/card.component";
 
 describe("LinkComponent", () => {
   let component: LinkComponent;

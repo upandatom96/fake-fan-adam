@@ -4,7 +4,7 @@ import { DashboardComponent } from "./dashboard.component";
 import { RouterTestingModule } from "@angular/router/testing";
 import { BodyComponent } from "../body/body.component";
 import { HeaderComponent } from "../header/header.component";
-import { CardComponent } from "../card/card.component";
+import { CardComponent } from "../simple/card/card.component";
 import { BodyAltComponent } from "../body-alt/body-alt.component";
 
 describe("DashboardComponent", () => {

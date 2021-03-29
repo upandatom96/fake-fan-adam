@@ -1,7 +1,7 @@
 import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
 import {StageComponent} from "./stage.component";
-import {LoadingComponent} from "../loading/loading.component";
+import {LoadingComponent} from "../simple/loading/loading.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 
 describe("StageComponent", () => {

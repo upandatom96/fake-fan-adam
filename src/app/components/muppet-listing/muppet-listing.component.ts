@@ -34,6 +34,14 @@ export class MuppetListingComponent implements OnInit {
     this.navHelperService.goToMuppetAdd();
   }
 
+  public toRandom() {
+    this.navHelperService.goToMuppetRandom();
+  }
+
+  public toStats() {
+    this.navHelperService.goToMuppetStats();
+  }
+
   public goInfo(muppet: Muppet) {
     this.navHelperService.goToMuppetDisplay(muppet._id);
   }

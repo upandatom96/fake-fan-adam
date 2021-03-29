@@ -58,6 +58,14 @@ export class NavHelperService {
     this.goToRoutes([ROUTES_ENUM.Muppet, id]);
   }
 
+  public goToMuppetRandom(): void {
+    this.goToRoute(ROUTES_ENUM.MuppetRandom);
+  }
+
+  public goToMuppetStats(): void {
+    this.goToRoute(ROUTES_ENUM.MuppetStats);
+  }
+
   public goToMuppetAdd(): void {
     this.goToRoute(ROUTES_ENUM.MuppetForm);
   }

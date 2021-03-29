@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 import { BookmarkDetailsComponent } from "./bookmark-details.component";
 import { HeaderComponent } from "../header/header.component";
 import { BodyComponent } from "../body/body.component";
-import { LoadingComponent } from "../loading/loading.component";
+import { LoadingComponent } from "../simple/loading/loading.component";
 import { HttpClientTestingModule } from "@angular/common/http/testing";
 import { RouterTestingModule } from "@angular/router/testing";
 

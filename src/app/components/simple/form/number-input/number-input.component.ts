@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from "@angular/core";
-import {StringHelper} from "../../utilities/string.util";
-import {BooleanHelper} from "../../utilities/boolean.util";
+import {StringHelper} from "../../../../utilities/string.util";
+import {BooleanHelper} from "../../../../utilities/boolean.util";
 
 @Component({
   selector: "app-number-input",
