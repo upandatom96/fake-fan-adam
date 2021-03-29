@@ -1,4 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, OnInit} from "@angular/core";
+import {MuppetService} from "../../services/muppet.service";
+import {MuppetStats} from "../../models/MuppetStats.model";
 
 @Component({
   selector: "app-muppet-stats",
@@ -6,10 +8,24 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./muppet-stats.component.scss"]
 })
 export class MuppetStatsComponent implements OnInit {
+  public muppetStats: MuppetStats = null;
 
-  constructor() { }
+  public get ready(): boolean {
+    return this.muppetStats !== null;
+  }
 
-  ngOnInit() {
+  constructor(
+    private muppetService: MuppetService,
+  ) {
+  }
+
+  public ngOnInit() {
+    this.load();
+  }
+
+  private load() {
+    this.muppetService.getStats()
+      .subscribe((res) => this.muppetStats = res);
   }
 
 }

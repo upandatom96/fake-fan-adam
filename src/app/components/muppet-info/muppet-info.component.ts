@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from "@angular/core";
+import {Component, Input} from "@angular/core";
 import {Muppet} from "../../models/Muppet.model";
 import {CookieHelper} from "../../utilities/cookie.util";
 import {ActivatedRoute} from "@angular/router";
@@ -10,9 +10,8 @@ import {NavHelperService} from "../../services/nav-helper.service";
   templateUrl: "./muppet-info.component.html",
   styleUrls: ["./muppet-info.component.scss"]
 })
-export class MuppetInfoComponent implements OnInit {
-  @Input() public muppetId: string = null;
-  public muppet: Muppet = null;
+export class MuppetInfoComponent {
+  @Input() public muppet: Muppet = null;
 
   public get ready(): boolean {
     return this.muppet !== null;
@@ -27,10 +26,6 @@ export class MuppetInfoComponent implements OnInit {
     private muppetService: MuppetService,
     private navHelper: NavHelperService,
   ) {
-  }
-
-  public ngOnInit() {
-    this.load();
   }
 
   public requestDelete(): void {
@@ -52,14 +47,6 @@ export class MuppetInfoComponent implements OnInit {
         },
         () => {
           this.navHelper.goToMuppets();
-        });
-  }
-
-  private load() {
-    this.muppetService.getSingle(this.muppetId)
-      .subscribe((res) => this.muppet = res,
-        (error) => {
-          console.log("get single failed");
         });
   }
 

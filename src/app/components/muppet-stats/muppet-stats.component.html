@@ -1,1 +1,21 @@
-<p>muppet-stats works!</p>
+<div class="bg-white">
+  <div class="container">
+    <div class="row py-3">
+      <div class="col-md-12">
+        <h1>Muppet Stats</h1>
+        <hr>
+      </div>
+      <div class="col-md-12">
+        <ng-container *ngIf="ready; else loading">
+          <p>
+            Muppet Count: {{muppetStats.muppetCount}}
+          </p>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

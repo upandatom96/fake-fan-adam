@@ -1,4 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, OnInit} from "@angular/core";
+import {Muppet} from "../../models/Muppet.model";
+import {MuppetService} from "../../services/muppet.service";
 
 @Component({
   selector: "app-muppet-random",
@@ -6,10 +8,28 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./muppet-random.component.scss"]
 })
 export class MuppetRandomComponent implements OnInit {
+  public muppet: Muppet = null;
 
-  constructor() { }
+  public get ready(): boolean {
+    return this.muppet !== null;
+  }
 
-  ngOnInit() {
+  constructor(
+    private muppetService: MuppetService,
+  ) {
+  }
+
+  public ngOnInit() {
+    this.load();
+  }
+
+  public load() {
+    this.muppet = null;
+    this.muppetService.getRandom()
+      .subscribe((res) => this.muppet = res,
+        (error) => {
+          console.log("get single failed");
+        });
   }
 
 }

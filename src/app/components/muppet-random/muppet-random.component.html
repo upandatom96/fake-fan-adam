@@ -1,1 +1,21 @@
-<p>muppet-random works!</p>
+<div class="bg-white">
+  <div class="container">
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-6">
+        <button class="btn btn-info btn-block" (click)="load()">
+          <i class="fa fa-repeat"></i>
+          Pick Another Random Muppet
+        </button>
+      </div>
+    </div>
+    <app-muppet-info *ngIf="ready; else loading" [muppet]="muppet"></app-muppet-info>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="row">
+    <div class="col-md-12">
+      <app-loading></app-loading>
+    </div>
+  </div>
+</ng-template>
