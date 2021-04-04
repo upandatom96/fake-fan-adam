@@ -1,9 +1,10 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import { ProfileComponent } from "./profile.component";
-import { HttpClientTestingModule } from "@angular/common/http/testing";
-import { HeaderComponent } from "../header/header.component";
-import { BodyComponent } from "../body/body.component";
+import {ProfileComponent} from "./profile.component";
+import {HttpClientTestingModule} from "@angular/common/http/testing";
+import {HeaderComponent} from "../header/header.component";
+import {BodyComponent} from "../body/body.component";
+import {CardComponent} from "../simple/card/card.component";
 
 describe("ProfileComponent", () => {
   let component: ProfileComponent;
@@ -11,7 +12,7 @@ describe("ProfileComponent", () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ProfileComponent, HeaderComponent, BodyComponent],
+      declarations: [ProfileComponent, HeaderComponent, BodyComponent, CardComponent],
       imports: [HttpClientTestingModule]
     })
       .compileComponents();

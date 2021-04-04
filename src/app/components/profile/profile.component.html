@@ -1,39 +1,39 @@
-<app-header [title]="'Your Profile'"></app-header>
 <app-body>
-  <div class="row">
+  <div class="row justify-content-center text-center">
     <div class="col-md-6 my-3">
-      <p>
-        <strong>
-          email:
-        </strong>
-        {{ email }}
-      </p>
-      <p>
-        <strong>
-          admin:
-        </strong>
-        {{ admin }}
-      </p>
-      <p>
-        <strong>
-          special access:
-        </strong>
-        {{ specialAccess }}
-      </p>
-    </div>
-    <div class="col-md-6 my-3">
-      <p>
-        To edit your profile, go to the User Management App.
-      </p>
-      <p>
-        <a
-          class="btn btn-primary"
-          href="https://aoti-user-management-ui.herokuapp.com/"
-          target="_blank"
-        >
-          Go to User Management App
-        </a>
-      </p>
+      <app-card [title]="'Your Profile'">
+        <p>
+          <strong>
+            email:
+          </strong>
+          {{ email }}
+        </p>
+        <p>
+          <strong>
+            admin:
+          </strong>
+          {{ admin }}
+        </p>
+        <p>
+          <strong>
+            special access:
+          </strong>
+          {{ specialAccess }}
+        </p>
+        <hr>
+        <p>
+          To edit your profile, go to the User Management App.
+        </p>
+        <p>
+          <a
+            class="btn btn-primary"
+            href="https://aoti-user-management-ui.herokuapp.com/"
+            target="_blank"
+          >
+            Go to User Management App
+          </a>
+        </p>
+      </app-card>
     </div>
   </div>
 </app-body>
