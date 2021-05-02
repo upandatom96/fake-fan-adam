@@ -1,0 +1,62 @@
+<div class="bg-white">
+  <div class="container">
+    <div class="row py-3">
+      <div class="col-md-12">
+        <h1>
+          Phasmaphobia Helper
+          <button class="btn btn-primary pull-right" (click)="reset()">
+            RESET
+          </button>
+        </h1>
+      </div>
+      <div class="col-md-12">
+        <hr>
+        <h2>Evidence</h2>
+      </div>
+      <ng-container *ngFor="let evidence of allPrimaryEvidence">
+        <div class="col-md-4 mb-3">
+          <app-card>
+            <h3>
+              <i class="fa fa-times" *ngIf="!isEvidenceViable(evidence)"></i>
+              <i class="fa fa-check" *ngIf="evidence.status === 1"></i>
+              <i class="fa fa-question" *ngIf="evidence.status === 0 && isEvidenceViable(evidence)"></i>
+              {{evidence.name}}
+            </h3>
+            <p>
+              <button class="btn btn-secondary" [class.active]="evidence.status === 1" (click)="markFound(evidence)">
+                <i class="fa fa-check" *ngIf="evidence.status === 1"></i>
+                Found
+              </button>
+              <button class="btn btn-secondary" [class.active]="evidence.status === 2"
+                      (click)="markEliminated(evidence)">
+                <i class="fa fa-check" *ngIf="evidence.status === 2"></i>
+                Eliminated
+              </button>
+              <button class="btn btn-secondary" [class.active]="evidence.status === 0" (click)="markUnknown(evidence)">
+                <i class="fa fa-check" *ngIf="evidence.status === 0"></i>
+                Unknown
+              </button>
+            </p>
+          </app-card>
+        </div>
+      </ng-container>
+      <div class="col-md-12">
+        <hr>
+        <h2>Ghost Types</h2>
+      </div>
+      <ng-container *ngFor="let ghostType of viableGhostTypes">
+        <div class="col-md-3 mb-3">
+          <app-card>
+            <h3>{{ghostType.name}}</h3>
+            <ul class="list-group">
+              <li class="list-group-item" *ngFor="let evidence of ghostType.primaryEvidence">
+                <i class="fa fa-check" *ngIf="foundEvidence.includes(evidence)"></i>
+                {{evidence.name}}
+              </li>
+            </ul>
+          </app-card>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

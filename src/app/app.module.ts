@@ -39,6 +39,7 @@ import {StringListDisplayComponent} from "./components/simple/string-list-displa
 import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
 import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
 import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.component";
+import {PhasmaphobiaHelperComponent} from './components/phasmaphobia-helper/phasmaphobia-helper.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +78,7 @@ import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.componen
     MuppetRandomComponent,
     MuppetStatsComponent,
     MuppetInfoComponent,
+    PhasmaphobiaHelperComponent,
   ],
   imports: [
     BrowserModule,

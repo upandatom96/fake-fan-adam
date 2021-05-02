@@ -19,6 +19,7 @@ import {MuppetDisplayComponent} from "./components/muppet-display/muppet-display
 import {MuppetFormComponent} from "./components/muppet-form/muppet-form.component";
 import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
 import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
+import {PhasmaphobiaHelperComponent} from "./components/phasmaphobia-helper/phasmaphobia-helper.component";
 
 const routes: Routes = [
   // main
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Links, component: LinkComponent},
   {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
   {path: ROUTES_ENUM.SuperlativeScavenger, component: SuperlativeScavengerComponent},
+  {path: ROUTES_ENUM.Phasmaphobia, component: PhasmaphobiaHelperComponent},
   // default
   {path: "**", redirectTo: "dashboard"},
 ];
