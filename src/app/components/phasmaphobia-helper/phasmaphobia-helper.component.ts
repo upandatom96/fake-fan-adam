@@ -1,13 +1,13 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {GHOST_TYPES} from "./ghosts";
 import {ALL_PRIMARY_EVIDENCE} from "./evidence";
 import {EvidenceStatus, PrimaryEvidence} from "./evidence.model";
 import {GhostType} from "./ghost-type.model";
 
 @Component({
-  selector: 'app-phasmaphobia-helper',
-  templateUrl: './phasmaphobia-helper.component.html',
-  styleUrls: ['./phasmaphobia-helper.component.scss']
+  selector: "app-phasmaphobia-helper",
+  templateUrl: "./phasmaphobia-helper.component.html",
+  styleUrls: ["./phasmaphobia-helper.component.scss"]
 })
 export class PhasmaphobiaHelperComponent implements OnInit {
   public allPrimaryEvidence = ALL_PRIMARY_EVIDENCE;
@@ -24,7 +24,7 @@ export class PhasmaphobiaHelperComponent implements OnInit {
 
   public get viableGhostTypes(): GhostType[] {
     return GHOST_TYPES.filter((ghostType) => {
-      return this.isGhostTypeViable(ghostType)
+      return this.isGhostTypeViable(ghostType);
     });
   }
 
