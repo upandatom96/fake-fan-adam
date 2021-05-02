@@ -12,10 +12,6 @@ import {GhostType} from "./ghost-type.model";
 export class PhasmaphobiaHelperComponent implements OnInit {
   public allPrimaryEvidence = ALL_PRIMARY_EVIDENCE;
 
-  public get foundEvidenceCount(): number {
-    return this.foundEvidence.length;
-  }
-
   public get foundEvidence(): PrimaryEvidence[] {
     return ALL_PRIMARY_EVIDENCE.filter((evidence) => {
       return evidence.status === EvidenceStatus.FOUND;
@@ -56,16 +52,44 @@ export class PhasmaphobiaHelperComponent implements OnInit {
     });
   }
 
+  public cannotBeEliminated(evidence: PrimaryEvidence): boolean {
+    return this.viableGhostTypes.every((ghostType) => {
+      return ghostType.primaryEvidence.includes(evidence);
+    });
+  }
+
+  public evidenceConfirmed(evidence: PrimaryEvidence): boolean {
+    return this.foundEvidence.includes(evidence) || this.cannotBeEliminated(evidence);
+  }
+
+  public cannotDeselectEvidence(evidence: PrimaryEvidence): boolean {
+    return (!this.isEvidenceViable(evidence) || this.cannotBeEliminated(evidence)) && evidence.status === 0;
+  }
+
+  public showEvidenceUnknown(evidence: PrimaryEvidence): boolean {
+    return evidence.status === EvidenceStatus.UNKNOWN && this.isEvidenceViable(evidence) && !this.cannotBeEliminated(evidence);
+  }
+
+  public evidenceImpossible(evidence: PrimaryEvidence): boolean {
+    return evidence.status === EvidenceStatus.ELIMINATED || !this.isEvidenceViable(evidence)
+  }
+
   private isGhostTypeViable(ghostType: GhostType): boolean {
-    const noRequiredEvidenceEliminated = ghostType.primaryEvidence.every((evidence) => {
+    return this.noRequiredEvidenceEliminated(ghostType)
+      && this.remainingEvidencePossible(ghostType);
+  }
+
+  private noRequiredEvidenceEliminated(ghostType: GhostType): boolean {
+    return ghostType.primaryEvidence.every((evidence) => {
       return evidence.status !== EvidenceStatus.ELIMINATED;
     });
+  }
+
+  private remainingEvidencePossible(ghostType: GhostType): boolean {
     const requiredEvidenceNotYetFound = ghostType.primaryEvidence.filter((evidence) => {
       return evidence.status !== EvidenceStatus.FOUND;
-    }).length;
-    const remainingEvidencePossible = this.foundEvidenceCount + requiredEvidenceNotYetFound <= 3;
-    return noRequiredEvidenceEliminated
-      && remainingEvidencePossible;
+    });
+    return this.foundEvidence.length + requiredEvidenceNotYetFound.length <= 3;
   }
 
 }

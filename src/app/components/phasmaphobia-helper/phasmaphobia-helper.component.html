@@ -14,19 +14,43 @@
       <div class="col-md-6 mb-3">
         <h2>Evidence</h2>
         <ul class="list-group">
-          <ng-container *ngFor="let evidence of allPrimaryEvidence">
+          <ng-container *ngFor="let evidence of allPrimaryEvidence; let i = index">
             <li class="list-group-item">
+              <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                      [attr.data-target]="'#evidence-modal-' + i">
+                <i class="fa fa-info-circle"></i>
+              </button>
+              <div class="modal fade" id="evidence-modal-{{i}}" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Evidence: {{evidence.name}}</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      {{evidence.details}}
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               {{evidence.name}}
               <div class="btn-group pull-right" role="group">
-                <button type="button" class="btn btn-secondary" (click)="markUnknown(evidence)"
-                        [disabled]="!isEvidenceViable(evidence)"
-                        [class.active]="evidence.status === 0 && isEvidenceViable(evidence)"><i
+                <button type="button" class="btn btn-outline-primary" (click)="markUnknown(evidence)"
+                        [disabled]="cannotDeselectEvidence(evidence)"
+                        [class.active]="showEvidenceUnknown(evidence)"><i
                   class="fa fa-question"></i></button>
-                <button type="button" class="btn btn-secondary" (click)="markFound(evidence)"
-                        [disabled]="!isEvidenceViable(evidence)" [class.active]="evidence.status === 1"><i
+                <button type="button" class="btn btn-outline-primary" (click)="markFound(evidence)"
+                        [disabled]="!isEvidenceViable(evidence)"
+                        [class.active]="evidenceConfirmed(evidence)"><i
                   class="fa fa-check"></i></button>
-                <button type="button" class="btn btn-secondary" (click)="markEliminated(evidence)"
-                        [class.active]="evidence.status === 2 || !isEvidenceViable(evidence)"><i
+                <button type="button" class="btn btn-outline-primary" (click)="markEliminated(evidence)"
+                        [disabled]="cannotBeEliminated(evidence)"
+                        [class.active]="evidenceImpossible(evidence)"><i
                   class="fa fa-times"></i></button>
               </div>
             </li>
@@ -36,15 +60,53 @@
       <div class="col-md-6">
         <h2>Ghost Types <small>{{viableGhostTypes.length}} possible</small></h2>
         <div class="row">
-          <ng-container *ngFor="let ghostType of viableGhostTypes">
+          <ng-container *ngFor="let ghostType of viableGhostTypes; let j = index">
             <div class="col-md-6 mb-3">
               <app-card>
-                <h3>{{ghostType.name}}</h3>
+                <div class="modal fade" id="ghost-type-modal-{{j}}" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Ghost Type: {{ghostType.name}}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Secondary Evidence:
+                        </p>
+                        <ul class="list-group">
+                          <li class="list-group-item" *ngFor="let secondaryEvidence of ghostType.secondaryEvidence">
+                            {{secondaryEvidence}}
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h4>
+                  <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                          [attr.data-target]="'#ghost-type-modal-' + j">
+                    <i class="fa fa-info-circle"></i>
+                  </button>
+                  {{ghostType.name}}
+                </h4>
                 <ul class="list-group">
-                  <li class="list-group-item" *ngFor="let evidence of ghostType.primaryEvidence">
-                    <i class="fa fa-check" *ngIf="foundEvidence.includes(evidence)"></i>
-                    {{evidence.name}}
-                  </li>
+                  <ng-container *ngFor="let evidence of ghostType.primaryEvidence">
+                    <li class="list-group-item" *ngIf="!evidenceConfirmed(evidence)">
+                      {{evidence.name}}
+                    </li>
+                  </ng-container>
+                  <ng-container *ngFor="let evidence of ghostType.primaryEvidence">
+                    <li class="list-group-item" *ngIf="evidenceConfirmed(evidence)">
+                      <i class="fa fa-check"></i>
+                      {{evidence.name}}
+                    </li>
+                  </ng-container>
                 </ul>
               </app-card>
             </div>

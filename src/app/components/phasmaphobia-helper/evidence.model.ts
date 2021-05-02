@@ -1,5 +1,6 @@
 export interface PrimaryEvidence {
   name: string;
+  details: string;
   status?: EvidenceStatus;
 }
 
