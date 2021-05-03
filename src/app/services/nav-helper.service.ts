@@ -50,10 +50,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.SuperlativeScavenger);
   }
 
-  public goToPhasmaphobia(): void {
-    this.goToRoute(ROUTES_ENUM.Phasmaphobia);
-  }
-
   public goToMuppets(): void {
     this.goToRoute(ROUTES_ENUM.Muppet);
   }

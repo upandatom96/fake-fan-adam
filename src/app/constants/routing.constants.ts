@@ -13,7 +13,6 @@ export const enum ROUTES_ENUM {
   Links = "links",
   Monitor = "monitor",
   SuperlativeScavenger = "superlative-scavenger",
-  Phasmaphobia = "phasmaphobia",
   Admin = "admin",
   Login = "login",
 }
