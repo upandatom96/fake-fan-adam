@@ -13,6 +13,9 @@ export const enum ROUTES_ENUM {
   Links = "links",
   Monitor = "monitor",
   SuperlativeScavenger = "superlative-scavenger",
+  TunnelGoonsGallery = "tunnel-goons-gallery",
+  TunnelGoonsGenerator = "tunnel-goons-generator",
+  TunnelGoons = "tunnel-goons",
   Admin = "admin",
   Login = "login",
 }

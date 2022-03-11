@@ -39,6 +39,10 @@ import {StringListDisplayComponent} from "./components/simple/string-list-displa
 import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
 import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
 import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.component";
+import {TunnelGoonsGeneratorComponent} from './components/tunnel-goons-generator/tunnel-goons-generator.component';
+import {TunnelGoonsGalleryComponent} from './components/tunnel-goons-gallery/tunnel-goons-gallery.component';
+import {TunnelGoonCardComponent} from './components/tunnel-goon-card/tunnel-goon-card.component';
+import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +81,10 @@ import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.componen
     MuppetRandomComponent,
     MuppetStatsComponent,
     MuppetInfoComponent,
+    TunnelGoonsGeneratorComponent,
+    TunnelGoonsGalleryComponent,
+    TunnelGoonCardComponent,
+    TunnelGoonDetailsComponent,
   ],
   imports: [
     BrowserModule,

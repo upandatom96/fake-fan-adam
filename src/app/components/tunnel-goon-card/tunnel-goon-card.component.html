@@ -1,0 +1,80 @@
+<ng-container *ngIf="tunnelGoon">
+
+  <section class="my-2">
+    <app-card [title]="tunnelGoon.characterName"
+              [subtitle]="tunnelGoon.playerName"
+              [imageUrl]="tunnelGoon.portraitURL">
+      <p *ngIf="showNav">
+        <button class="btn btn-outline-secondary" (click)="toDetails()">
+          <i class="fa fa-link"></i>
+          Details
+        </button>
+      </p>
+      <table class="table">
+        <tbody>
+        <tr>
+          <td>Level</td>
+          <td>{{tunnelGoon.level}}</td>
+        </tr>
+        <tr>
+          <td>Health Points</td>
+          <td>{{tunnelGoon.currentHealthPoints}}/{{tunnelGoon.maxHealthPoints}}</td>
+        </tr>
+        <tr>
+          <td>Inventory Score</td>
+          <td>{{tunnelGoon.currentInventoryScore}}/{{tunnelGoon.maxInventoryScore}}</td>
+        </tr>
+        <tr>
+          <td>Brute</td>
+          <td>{{tunnelGoon.brute}}</td>
+        </tr>
+        <tr>
+          <td>Erudite</td>
+          <td>{{tunnelGoon.erudite}}</td>
+        </tr>
+        <tr>
+          <td>Skulker</td>
+          <td>{{tunnelGoon.skulker}}</td>
+        </tr>
+        </tbody>
+      </table>
+      <ng-container *ngIf="showAll">
+        <section class="my-2">
+          <h4>Items</h4>
+          <p *ngIf="tunnelGoon.items.length === 0">
+            No items.
+          </p>
+          <ul class="list-group" *ngIf="tunnelGoon.items.length > 0">
+            <li class="list-group-item" *ngFor="let item of tunnelGoon.items">
+              {{item}}
+            </li>
+          </ul>
+        </section>
+        <section class="my-2">
+          <h4>Traits</h4>
+          <p *ngIf="tunnelGoon.traits.length === 0">
+            No traits.
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let trait of tunnelGoon.traits">
+              {{trait}}
+            </li>
+          </ul>
+        </section>
+        <section class="my-2">
+          <h4>Notes</h4>
+          <p *ngIf="tunnelGoon.notes.length === 0">
+            No notes.
+          </p>
+          <ul class="list-group" *ngIf="tunnelGoon.notes.length > 0">
+            <li class="list-group-item" *ngFor="let note of tunnelGoon.notes">
+              {{note}}
+            </li>
+          </ul>
+        </section>
+      </ng-container>
+      <hr>
+      <small>Created on {{tunnelGoon.createdDateDatePart}}</small>
+    </app-card>
+  </section>
+</ng-container>

@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row my-3">
+    <div class="col-md-12">
+      <button class="btn btn-link" (click)="toGallery()">
+        <i class="fa fa-arrow-left"></i>
+        To Gallery
+      </button>
+    </div>
+    <div class="col-md-12">
+      <app-loading *ngIf="!tunnelGoon"></app-loading>
+      <app-tunnel-goon-card [tunnelGoon]="tunnelGoon" [showAll]="true" *ngIf="tunnelGoon"></app-tunnel-goon-card>
+    </div>
+  </div>
+</div>

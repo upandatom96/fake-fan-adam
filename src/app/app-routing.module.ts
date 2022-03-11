@@ -19,6 +19,9 @@ import {MuppetDisplayComponent} from "./components/muppet-display/muppet-display
 import {MuppetFormComponent} from "./components/muppet-form/muppet-form.component";
 import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
 import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
+import {TunnelGoonsGalleryComponent} from "./components/tunnel-goons-gallery/tunnel-goons-gallery.component";
+import {TunnelGoonsGeneratorComponent} from "./components/tunnel-goons-generator/tunnel-goons-generator.component";
+import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
 
 const routes: Routes = [
   // main
@@ -44,6 +47,9 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Links, component: LinkComponent},
   {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
   {path: ROUTES_ENUM.SuperlativeScavenger, component: SuperlativeScavengerComponent},
+  {path: ROUTES_ENUM.TunnelGoonsGallery, component: TunnelGoonsGalleryComponent},
+  {path: ROUTES_ENUM.TunnelGoonsGenerator, component: TunnelGoonsGeneratorComponent},
+  {path: ROUTES_ENUM.TunnelGoons + "/:id", component: TunnelGoonDetailsComponent},
   // default
   {path: "**", redirectTo: "dashboard"},
 ];

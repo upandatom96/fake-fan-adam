@@ -50,6 +50,18 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.SuperlativeScavenger);
   }
 
+  public toGoonsGallery(): void {
+    this.goToRoute(ROUTES_ENUM.TunnelGoonsGallery);
+  }
+
+  public toGoonsGenerator(): void {
+    this.goToRoute(ROUTES_ENUM.TunnelGoonsGenerator);
+  }
+
+  public toGoonDetails(id: string): void {
+    this.goToRoutes([ROUTES_ENUM.TunnelGoons, id]);
+  }
+
   public goToMuppets(): void {
     this.goToRoute(ROUTES_ENUM.Muppet);
   }
