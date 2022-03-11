@@ -9,7 +9,7 @@ import {NavHelperService} from "../../services/nav-helper.service";
   styleUrls: ['./tunnel-goons-gallery.component.scss']
 })
 export class TunnelGoonsGalleryComponent implements OnInit {
-  private tunnelGoons: TunnelGoon[] = null;
+  public tunnelGoons: TunnelGoon[] = null;
 
   constructor(
     private tunnelGoonService: TunnelGoonService,
