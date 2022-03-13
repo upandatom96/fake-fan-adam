@@ -95,25 +95,37 @@
       <section *ngIf="showAll">
         <section class="my-2">
           <h4>Items</h4>
-          <p *ngIf="tunnelGoon.items.length === 0">
-            No items.
-          </p>
-          <ul class="list-group" *ngIf="tunnelGoon.items.length > 0">
-            <li class="list-group-item" *ngFor="let item of tunnelGoon.items">
-              {{item}}
-            </li>
-          </ul>
+          <ng-container *ngIf="!editModeActive">
+            <p *ngIf="tunnelGoon.items.length === 0">
+              No items.
+            </p>
+            <ul class="list-group" *ngIf="tunnelGoon.items.length > 0">
+              <li class="list-group-item" *ngFor="let item of tunnelGoon.items">
+                {{item}}
+              </li>
+            </ul>
+          </ng-container>
+          <ng-container *ngIf="editModeActive">
+            <app-string-list-input [(value)]="tunnelGoon.items" [valueName]="'items'" [largeDisplay]="true"
+                                   [showLabel]="false"></app-string-list-input>
+          </ng-container>
         </section>
         <section class="my-2">
           <h4>Traits</h4>
-          <p *ngIf="tunnelGoon.traits.length === 0">
-            No traits.
-          </p>
-          <ul class="list-group">
-            <li class="list-group-item" *ngFor="let trait of tunnelGoon.traits">
-              {{trait}}
-            </li>
-          </ul>
+          <ng-container *ngIf="!editModeActive">
+            <p *ngIf="tunnelGoon.traits.length === 0">
+              No traits.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item" *ngFor="let trait of tunnelGoon.traits">
+                {{trait}}
+              </li>
+            </ul>
+          </ng-container>
+          <ng-container *ngIf="editModeActive">
+            <app-string-list-input [(value)]="tunnelGoon.traits" [valueName]="'traits'" [largeDisplay]="true"
+                                   [showLabel]="false"></app-string-list-input>
+          </ng-container>
         </section>
         <section class="my-2">
           <h4>Notes</h4>
