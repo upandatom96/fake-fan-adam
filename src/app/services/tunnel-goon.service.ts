@@ -15,6 +15,10 @@ export class TunnelGoonService {
   ) {
   }
 
+  // TODO add "ping" endpoint '/ping/:id/:class/:bonus'
+  // class = brute skulker erudite
+  // bonus = health inventory
+
   public getAll(): Observable<TunnelGoon[]> {
     const url = RestUrlBuilder.buildRestUrl({
       service: ServiceUrl.BasicExpress,

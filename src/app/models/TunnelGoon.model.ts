@@ -14,6 +14,7 @@ export interface TunnelGoon {
   items: string[];
   traits: string[];
   notes: string[];
+  partyNames: string[];
   isPrivate: boolean
   createdDate;
   createdDateDatePart: string;

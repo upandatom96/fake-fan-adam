@@ -43,15 +43,18 @@
           </div>
         </ng-container>
       </section>
-      <section *ngIf="tunnelGoon.portraitURL">
+      <section *ngIf="tunnelGoon.portraitURL && !editModeActive">
         <img class="card-img-top" [src]="tunnelGoon.portraitURL"/>
       </section>
       <section class="mt-3">
         <ng-container *ngIf="editModeActive">
+          <h4>Identity</h4>
           <app-string-input [(value)]="tunnelGoon.characterName"
                             [valueName]="'character-name'"></app-string-input>
           <app-string-input [(value)]="tunnelGoon.playerName"
                             [valueName]="'player-name'"></app-string-input>
+          <app-string-input [(value)]="tunnelGoon.portraitURL"
+                            [valueName]="'portrait-link'"></app-string-input>
         </ng-container>
         <ng-container *ngIf="!editModeActive">
           <h4 class="card-title">
@@ -63,7 +66,18 @@
         </ng-container>
       </section>
       <section>
-        <table class="table">
+        <ng-container *ngIf="editModeActive">
+          <h4>Stats</h4>
+          <app-number-input [(value)]="tunnelGoon.level" [valueName]="'level'" [min]="1" [max]="100"></app-number-input>
+          <app-number-input [(value)]="tunnelGoon.currentHealthPoints" [valueName]="'current-health'" [min]="10" [max]="100"></app-number-input>
+          <app-number-input [(value)]="tunnelGoon.maxHealthPoints" [valueName]="'max-health'" [min]="10" [max]="100"></app-number-input>
+          <app-number-input [(value)]="tunnelGoon.maxInventoryScore" [valueName]="'max-inventory'" [min]="8" [max]="100"></app-number-input>
+          <h4>Abilities</h4>
+          <app-number-input [(value)]="tunnelGoon.brute" [valueName]="'brute'" [min]="0" [max]="100"></app-number-input>
+          <app-number-input [(value)]="tunnelGoon.erudite" [valueName]="'erudite'" [min]="0" [max]="100"></app-number-input>
+          <app-number-input [(value)]="tunnelGoon.skulker" [valueName]="'skulker'" [min]="0" [max]="100"></app-number-input>
+        </ng-container>
+        <table class="table" *ngIf="!editModeActive">
           <tbody>
           <tr>
             <td>Level</td>
@@ -124,6 +138,23 @@
           </ng-container>
           <ng-container *ngIf="editModeActive">
             <app-string-list-input [(value)]="tunnelGoon.traits" [valueName]="'traits'" [largeDisplay]="true"
+                                   [showLabel]="false"></app-string-list-input>
+          </ng-container>
+        </section>
+        <section class="my-2">
+          <h4>Party Names</h4>
+          <ng-container *ngIf="!editModeActive">
+            <p *ngIf="tunnelGoon.partyNames.length === 0">
+              No party names.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item" *ngFor="let partyName of tunnelGoon.partyNames">
+                {{partyName}}
+              </li>
+            </ul>
+          </ng-container>
+          <ng-container *ngIf="editModeActive">
+            <app-string-list-input [(value)]="tunnelGoon.partyNames" [valueName]="'party-names'" [largeDisplay]="true"
                                    [showLabel]="false"></app-string-list-input>
           </ng-container>
         </section>
