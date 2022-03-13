@@ -1,5 +1,5 @@
-import { Component, Input } from "@angular/core";
-import { BooleanHelper } from "src/app/utilities/boolean.util";
+import {Component, Input} from "@angular/core";
+import {BooleanHelper} from "src/app/utilities/boolean.util";
 
 @Component({
   selector: "app-card",
@@ -13,6 +13,7 @@ export class CardComponent {
   @Input() public autoHeight = true;
   @Input() public imageUrl: string = null;
   @Input() public useHover = false;
+  @Input() public border = "border-primary";
 
   public get hasImage(): boolean {
     return BooleanHelper.hasValue(this.imageUrl);

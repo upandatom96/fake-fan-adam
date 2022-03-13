@@ -19,3 +19,14 @@ export interface TunnelGoon {
   createdDateDatePart: string;
   createdDateTimePart: string;
 }
+
+export interface TunnelGoonOptions {
+  characterName: string;
+  cloakColor: string;
+  choiceItem: string;
+  playerName: string;
+  portraitURL: string;
+  childhoodCode: number;
+  professionCode: number;
+  duringTheWarCode: number;
+}

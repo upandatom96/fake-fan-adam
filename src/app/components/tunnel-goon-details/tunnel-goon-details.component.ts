@@ -21,6 +21,7 @@ export class TunnelGoonDetailsComponent implements OnInit {
   }
 
   public ngOnInit() {
+    this.tunnelGoon = null;
     this.tunnelGoonId = this.route.snapshot.paramMap.get("id");
     this.tunnelGoonService.getSingle(this.tunnelGoonId)
       .subscribe((res) => this.tunnelGoon = res);

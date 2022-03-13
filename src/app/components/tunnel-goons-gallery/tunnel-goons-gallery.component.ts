@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TunnelGoonService} from "../../services/tunnel-goon.service";
 import {TunnelGoon} from "../../models/TunnelGoon.model";
 import {NavHelperService} from "../../services/nav-helper.service";
+import {CookieHelper} from "../../utilities/cookie.util";
 
 @Component({
   selector: 'app-tunnel-goons-gallery',
@@ -10,6 +11,10 @@ import {NavHelperService} from "../../services/nav-helper.service";
 })
 export class TunnelGoonsGalleryComponent implements OnInit {
   public tunnelGoons: TunnelGoon[] = null;
+
+  public get isLoggedIn(): boolean {
+    return CookieHelper.isLoggedOn;
+  }
 
   constructor(
     private tunnelGoonService: TunnelGoonService,
@@ -22,10 +27,11 @@ export class TunnelGoonsGalleryComponent implements OnInit {
   }
 
   public generate() {
-    this.navHelperService.toGoonsGenerator();
+    this.navHelperService.toGoonsCreate();
   }
 
   private load() {
+    this.tunnelGoons = null;
     this.tunnelGoonService.getAll()
       .subscribe((res) => this.tunnelGoons = res);
   }

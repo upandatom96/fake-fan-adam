@@ -2,7 +2,7 @@
   <div class="row my-3">
     <div class="col-md-12">
       <h1>Tunnel Goons Gallery</h1>
-      <button class="btn btn-secondary" (click)="generate()">
+      <button class="btn btn-secondary" (click)="generate()" *ngIf="isLoggedIn">
         <i class="fa fa-plus"></i>
         Generate a Tunnel Goon
       </button>
@@ -13,9 +13,15 @@
     <div class="col-md-12">
       <ng-container *ngIf="tunnelGoons">
         <div class="row">
+          <div class="col-md-12">
+            <p>
+              Showing {{tunnelGoons.length}} Tunnel Goon(s)...
+            </p>
+          </div>
           <ng-container *ngFor="let goon of tunnelGoons">
             <div class="col-md-6">
-              <app-tunnel-goon-card [tunnelGoon]="goon" [showNav]="true"></app-tunnel-goon-card>
+              <app-tunnel-goon-card [tunnelGoon]="goon" [showingMultiple]="true"
+                                    (refreshData)="ngOnInit()"></app-tunnel-goon-card>
             </div>
           </ng-container>
         </div>

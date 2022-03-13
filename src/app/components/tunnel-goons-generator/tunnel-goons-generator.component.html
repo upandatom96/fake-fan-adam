@@ -1,12 +1,36 @@
 <div class="container">
-  <div class="row my-3">
-    <div class="col-md-12">
+  <div class="row my-3 justify-content-center">
+    <div class="col-md-8">
       <h1>Tunnel Goon Generator</h1>
       <hr>
     </div>
-    <div class="col-md-12">
-      <!--      TODO lots of options -->
-      <button class="btn btn-primary" (click)="runGenerator()">Run Generator</button>
+    <div class="col-md-8">
+      <section>
+        <h3>1. Create Your Character</h3>
+        <app-string-input [(value)]="tunnelGoonOptions.characterName" [valueName]="'character-name'"></app-string-input>
+        <app-string-input [(value)]="tunnelGoonOptions.cloakColor" [valueName]="'cloak-color'"></app-string-input>
+        <app-string-input [(value)]="tunnelGoonOptions.choiceItem"
+                          [valueName]="'item-of-your-choice'"></app-string-input>
+      </section>
+      <section>
+        <h3>2. Add Extras</h3>
+        <app-string-input [(value)]="tunnelGoonOptions.playerName" [valueName]="'player-name'"></app-string-input>
+        <app-string-input [(value)]="tunnelGoonOptions.portraitURL" [valueName]="'portrait-url'"></app-string-input>
+      </section>
+      <section>
+        <h3>3. Enter Manual Rolls</h3>
+        <p>
+          If you roll manually, you can enter the results here. Else, we will auto-roll for you.
+        </p>
+        <app-number-input [(value)]="tunnelGoonOptions.childhoodCode" [valueName]="'childhood-code'" [min]="1"
+                          [max]="6"></app-number-input>
+        <app-number-input [(value)]="tunnelGoonOptions.professionCode" [valueName]="'profession-code'" [min]="1"
+                          [max]="6"></app-number-input>
+        <app-number-input [(value)]="tunnelGoonOptions.duringTheWarCode" [valueName]="'during-the-war-code'" [min]="1"
+                          [max]="6"></app-number-input>
+      </section>
+      <br>
+      <button class="btn btn-primary btn-block" (click)="runGenerator()">Run Generator</button>
     </div>
   </div>
 </div>
