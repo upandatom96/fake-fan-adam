@@ -117,14 +117,20 @@
         </section>
         <section class="my-2">
           <h4>Notes</h4>
-          <p *ngIf="tunnelGoon.notes.length === 0">
-            No notes.
-          </p>
-          <ul class="list-group" *ngIf="tunnelGoon.notes.length > 0">
-            <li class="list-group-item" *ngFor="let note of tunnelGoon.notes">
-              {{note}}
-            </li>
-          </ul>
+          <ng-container *ngIf="!editModeActive">
+            <p *ngIf="tunnelGoon.notes.length === 0">
+              No notes.
+            </p>
+            <ul class="list-group" *ngIf="tunnelGoon.notes.length > 0">
+              <li class="list-group-item" *ngFor="let note of tunnelGoon.notes">
+                {{note}}
+              </li>
+            </ul>
+          </ng-container>
+          <ng-container *ngIf="editModeActive">
+            <app-string-list-input [(value)]="tunnelGoon.notes" [valueName]="'notes'" [largeDisplay]="true"
+                                   [showLabel]="false"></app-string-list-input>
+          </ng-container>
         </section>
       </section>
       <section>

@@ -1,6 +1,6 @@
 <ng-container *ngIf="valueName">
   <section class="form-group">
-    <label [attr.for]="valueName">
+    <label [attr.for]="valueName" *ngIf="showLabel">
       {{labelName}}:
     </label>
     <div class="input-group mb-3" [attr.id]="valueName">
@@ -10,11 +10,21 @@
         </button>
       </div>
     </div>
-    <ng-container *ngFor="let item of value; let i = index">
-    <span class="badge badge-info mr-2" (click)="removeItem(i)">
-      {{item}}
-      <i class="fa fa-trash ml-2"></i>
-    </span>
+    <ng-container *ngIf="largeDisplay">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of value; let i = index" (click)="removeItem(i)">
+          {{item}}
+          <i class="fa fa-trash ml-2"></i>
+        </li>
+      </ul>
+    </ng-container>
+    <ng-container *ngIf="!largeDisplay">
+      <ng-container *ngFor="let item of value; let i = index">
+        <span class="badge badge-info mr-2" (click)="removeItem(i)">
+          {{item}}
+          <i class="fa fa-trash ml-2"></i>
+        </span>
+      </ng-container>
     </ng-container>
   </section>
 </ng-container>

@@ -9,6 +9,8 @@ import {BooleanHelper} from "../../../../utilities/boolean.util";
 })
 export class StringListInputComponent {
   @Input() public valueName = "value-name";
+  @Input() public largeDisplay = false;
+  @Input() public showLabel = true;
   @Input() value: string[];
   @Output() valueChange = new EventEmitter<string[]>();
 
