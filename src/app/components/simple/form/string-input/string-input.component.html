@@ -1,6 +1,6 @@
 <ng-container *ngIf="valueName">
   <section class="form-group">
-    <label [attr.for]="valueName">
+    <label [attr.for]="valueName" *ngIf="showLabel">
       {{labelName}}:
     </label>
     <input

@@ -12,9 +12,19 @@
     </div>
     <ng-container *ngIf="largeDisplay">
       <ul class="list-group">
-        <li class="list-group-item" *ngFor="let item of value; let i = index" (click)="removeItem(i)">
-          {{item}}
-          <i class="fa fa-trash ml-2"></i>
+        <li class="list-group-item" *ngFor="let item of value; let i = index">
+          <div class="row">
+            <div class="col-md-8">
+              <app-string-input [(value)]="value[i]" [valueName]="valueName + '-item-' + i"
+                                [showLabel]="false"></app-string-input>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-secondary pull-right" (click)="removeItem(i)">
+                Remove
+                <i class="fa fa-trash ml-2"></i>
+              </button>
+            </div>
+          </div>
         </li>
       </ul>
     </ng-container>

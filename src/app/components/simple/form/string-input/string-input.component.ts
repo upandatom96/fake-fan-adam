@@ -9,6 +9,7 @@ import {StringHelper} from "../../../../utilities/string.util";
 export class StringInputComponent {
   @Input() public valueName = "value-name";
   @Input() value: string;
+  @Input() showLabel = true;
   @Output() valueChange = new EventEmitter<string>();
 
   public get labelName(): string {
