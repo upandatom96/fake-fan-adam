@@ -150,6 +150,9 @@
             <ul class="list-group">
               <li class="list-group-item" *ngFor="let partyName of tunnelGoon.partyNames">
                 {{partyName}}
+                <button class="btn btn-link" (click)="viewParty(partyName)">
+                  <i class="fa fa-link"></i> View Party
+                </button>
               </li>
             </ul>
           </ng-container>

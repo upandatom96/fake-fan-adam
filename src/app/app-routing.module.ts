@@ -48,6 +48,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
   {path: ROUTES_ENUM.SuperlativeScavenger, component: SuperlativeScavengerComponent},
   {path: ROUTES_ENUM.TunnelGoonsGallery, component: TunnelGoonsGalleryComponent},
+  {path: ROUTES_ENUM.TunnelGoonsGallery + "/:partyName", component: TunnelGoonsGalleryComponent},
   {path: ROUTES_ENUM.TunnelGoonsGenerator, component: TunnelGoonsGeneratorComponent},
   {path: ROUTES_ENUM.TunnelGoons + "/:id", component: TunnelGoonDetailsComponent},
   // default

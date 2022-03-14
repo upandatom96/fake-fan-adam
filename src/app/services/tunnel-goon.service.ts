@@ -5,6 +5,7 @@ import {RestUrlBuilder} from "../utilities/rest-url-builder.util";
 import {ServiceUrl} from "../constants/rest.constants";
 import {CookieHelper} from "../utilities/cookie.util";
 import {TunnelGoon, TunnelGoonOptions} from "../models/TunnelGoon.model";
+import {StringHelper} from "../utilities/string.util";
 
 @Injectable({
   providedIn: 'root'
@@ -59,5 +60,14 @@ export class TunnelGoonService {
       collection: id
     });
     return this.http.get(url, CookieHelper.authHeaders) as Observable<TunnelGoon>;
+  }
+
+  public static codifyPartyName(partyNameRaw: string) {
+    return partyNameRaw.toUpperCase().replace(/-/gi, "_").replace(/ /gi, "_");
+  }
+
+  public static displayifyPartyName(partyName: string) {
+    const partyNameWithSpaces = partyName.replace(/-/gi, " ").replace(/_/gi, " ");
+    return StringHelper.toTitleCase(partyNameWithSpaces);
   }
 }

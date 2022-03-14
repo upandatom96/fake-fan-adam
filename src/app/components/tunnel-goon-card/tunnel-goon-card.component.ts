@@ -51,6 +51,10 @@ export class TunnelGoonCardComponent {
     this.navHelperService.toGoonDetails(this.tunnelGoon._id);
   }
 
+  public viewParty(partyName: string) {
+    this.navHelperService.toGoonsGalleryForParty(TunnelGoonService.codifyPartyName(partyName));
+  }
+
   public turnEditOn() {
     this.editModeActive = true;
   }

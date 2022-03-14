@@ -1,34 +1,74 @@
 <div class="container">
   <div class="row my-3">
     <div class="col-md-12">
-      <h1>Tunnel Goons Gallery</h1>
-      <button class="btn btn-secondary" (click)="generate()" *ngIf="isLoggedIn">
-        <i class="fa fa-plus"></i>
-        Generate a Tunnel Goon
-      </button>
+      <h1>
+        Tunnel Goons Gallery
+        <button class="btn btn-secondary pull-right" (click)="generate()" *ngIf="isLoggedIn">
+          <i class="fa fa-plus"></i>
+          Generate a Tunnel Goon
+        </button>
+      </h1>
+      <h2 *ngIf="usePartyName">
+        Party: {{partyNameDisplay}}
+        <button class="btn btn-outline-secondary pull-right" (click)="viewAll()"><i class="fa fa-times"></i> View All
+        </button>
+      </h2>
+      <h2 *ngIf="!usePartyName">
+        All Tunnel Goons
+        <span class="pull-right">
+          <app-modal-trigger-button [boxId]="'party-names'"><i
+            class="fa fa-users"></i> Select a Party</app-modal-trigger-button>
+        </span>
+      </h2>
       <hr>
     </div>
   </div>
   <div class="row my-3">
     <div class="col-md-12">
-      <ng-container *ngIf="tunnelGoons">
+      <ng-container *ngIf="ready">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" *ngIf="tunnelGoonsToShow.length === 0">
             <p>
-              Showing {{tunnelGoons.length}} Tunnel Goon(s)...
+              No Tunnel Goons to show.
             </p>
           </div>
-          <ng-container *ngFor="let goon of tunnelGoons">
-            <div class="col-md-6">
-              <app-tunnel-goon-card [tunnelGoon]="goon" [showingMultiple]="true"
-                                    (refreshData)="ngOnInit()"></app-tunnel-goon-card>
+          <ng-container *ngIf="tunnelGoonsToShow.length > 0">
+            <div class="col-md-12">
+              <p>
+                Showing {{tunnelGoonsToShow.length}} Tunnel Goon(s)...
+              </p>
             </div>
+            <ng-container *ngFor="let goon of tunnelGoonsToShow">
+              <div class="col-md-6">
+                <app-tunnel-goon-card [tunnelGoon]="goon" [showingMultiple]="true"
+                                      (refreshData)="ngOnInit()"></app-tunnel-goon-card>
+              </div>
+            </ng-container>
           </ng-container>
         </div>
       </ng-container>
-      <ng-container *ngIf="!tunnelGoons">
+      <ng-container *ngIf="!ready">
         <app-loading></app-loading>
       </ng-container>
     </div>
   </div>
 </div>
+
+<ng-container *ngIf="ready">
+  <app-modal-box-basic [boxId]="'party-names'" [title]="'Select a party'">
+    <ng-container *ngIf="uniqueParties.length > 0">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let party of uniqueParties">
+          {{party}}
+          <button class="btn btn-outline-secondary pull-right" (click)="viewParty(party)" data-dismiss="modal">
+            Select
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </li>
+      </ul>
+    </ng-container>
+    <ng-container *ngIf="uniqueParties.length === 0">
+      No parties available.
+    </ng-container>
+  </app-modal-box-basic>
+</ng-container>

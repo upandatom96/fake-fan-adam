@@ -43,6 +43,8 @@ import {TunnelGoonsGeneratorComponent} from './components/tunnel-goons-generator
 import {TunnelGoonsGalleryComponent} from './components/tunnel-goons-gallery/tunnel-goons-gallery.component';
 import {TunnelGoonCardComponent} from './components/tunnel-goon-card/tunnel-goon-card.component';
 import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
+import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
+import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 
 @NgModule({
   declarations: [
@@ -85,6 +87,8 @@ import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunne
     TunnelGoonsGalleryComponent,
     TunnelGoonCardComponent,
     TunnelGoonDetailsComponent,
+    ModalBoxBasicComponent,
+    ModalTriggerButtonComponent,
   ],
   imports: [
     BrowserModule,

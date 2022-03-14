@@ -54,6 +54,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.TunnelGoonsGallery);
   }
 
+  public toGoonsGalleryForParty(partyName: string): void {
+    this.goToRoutes([ROUTES_ENUM.TunnelGoonsGallery, partyName]);
+  }
+
   public toGoonsCreate(): void {
     this.goToRoute(ROUTES_ENUM.TunnelGoonsGenerator);
   }
