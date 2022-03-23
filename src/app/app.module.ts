@@ -45,6 +45,7 @@ import {TunnelGoonCardComponent} from './components/tunnel-goon-card/tunnel-goon
 import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
+import {MissingWordComponent} from './components/missing-word/missing-word.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +90,7 @@ import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-but
     TunnelGoonDetailsComponent,
     ModalBoxBasicComponent,
     ModalTriggerButtonComponent,
+    MissingWordComponent,
   ],
   imports: [
     BrowserModule,

@@ -72,6 +72,16 @@
       </app-card>
     </div>
     <div class="col-md-4 my-3">
+      <app-card [title]="'Missing Word'" [icon]="'fa-pencil-square'">
+        <p>
+          Missing Word game.
+        </p>
+        <button class="btn btn-secondary" (click)="goToMissingWord()">
+          Go
+        </button>
+      </app-card>
+    </div>
+    <div class="col-md-4 my-3">
       <app-card [title]="'Muppet Ranking'" [icon]="'fa-user'">
         <p>
           Ranking the Muppets.

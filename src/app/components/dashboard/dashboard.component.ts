@@ -35,6 +35,10 @@ export class DashboardComponent implements OnInit {
     this.navHelper.goToMonitor();
   }
 
+  public goToMissingWord() {
+    this.navHelper.goToMissingWord();
+  }
+
   public goToLinks() {
     this.navHelper.goToLinks();
   }

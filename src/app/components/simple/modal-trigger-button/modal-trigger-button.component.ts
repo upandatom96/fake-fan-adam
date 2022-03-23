@@ -8,4 +8,5 @@ import {Component, Input} from "@angular/core";
 export class ModalTriggerButtonComponent {
   @Input() public boxId = "modalBox";
   @Input() public block = false;
+  @Input() public buttonClass = "btn-secondary";
 }

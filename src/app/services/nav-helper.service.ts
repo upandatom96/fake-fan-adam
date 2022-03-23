@@ -38,6 +38,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Monitor);
   }
 
+  public goToMissingWord(): void {
+    this.goToRoute(ROUTES_ENUM.MissingWord);
+  }
+
   public goToElf(): void {
     this.goToRoute(ROUTES_ENUM.Stage);
   }

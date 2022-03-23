@@ -22,6 +22,7 @@ import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.compo
 import {TunnelGoonsGalleryComponent} from "./components/tunnel-goons-gallery/tunnel-goons-gallery.component";
 import {TunnelGoonsGeneratorComponent} from "./components/tunnel-goons-generator/tunnel-goons-generator.component";
 import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
+import {MissingWordComponent} from './components/missing-word/missing-word.component';
 
 const routes: Routes = [
   // main
@@ -47,6 +48,7 @@ const routes: Routes = [
   {path: ROUTES_ENUM.Links, component: LinkComponent},
   {path: ROUTES_ENUM.Monitor, component: MonitorComponent},
   {path: ROUTES_ENUM.SuperlativeScavenger, component: SuperlativeScavengerComponent},
+  {path: ROUTES_ENUM.MissingWord, component: MissingWordComponent},
   {path: ROUTES_ENUM.TunnelGoonsGallery, component: TunnelGoonsGalleryComponent},
   {path: ROUTES_ENUM.TunnelGoonsGallery + "/:partyName", component: TunnelGoonsGalleryComponent},
   {path: ROUTES_ENUM.TunnelGoonsGenerator, component: TunnelGoonsGeneratorComponent},

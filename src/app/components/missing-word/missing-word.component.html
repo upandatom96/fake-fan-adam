@@ -1,0 +1,72 @@
+<div class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 my-3">
+        <section class="text-center">
+          <h4>
+            Missing Word
+          </h4>
+          <p>
+            Get a group of friends together for a game of Missing Word.
+          </p>
+          <p>
+            <app-modal-trigger-button [boxId]="'rules'" [buttonClass]="'btn-link'">
+              <i class="fa fa-info"></i>
+              View Rules
+            </app-modal-trigger-button>
+          </p>
+        </section>
+        <app-modal-box-basic [title]="'Missing Word Rules'" [boxId]="'rules'">
+          <ul>
+            <li>
+              For each round, a random two-word phrase is selected with one missing word (_____).
+            </li>
+            <li>
+              Each player privately writes down one word to fill-in-the-blank for the missing word.
+            </li>
+            <li>
+              After everyone has written an answer, players reveal their written words.
+            </li>
+            <li>
+              If exactly two players reveal the same word, they each earn 3 points.
+            </li>
+            <li>
+              If more than two players reveal the same word, they each earn 1 point.
+            </li>
+            <li>
+              Any other player earns 0 points.
+            </li>
+            <li>
+              The first player to reach 25 points win!
+            </li>
+          </ul>
+        </app-modal-box-basic>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 my-3">
+        <h1 class="text-center">
+          <span *ngIf="isWordReady">
+            {{missingWord.display}}
+          </span>
+          <span *ngIf="!isWordReady">
+            ...
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 my-3">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <button class="btn btn-block btn-primary" (click)="drawCard()">
+              <i class="fa fa-refresh"></i>
+              Draw New Phrase
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

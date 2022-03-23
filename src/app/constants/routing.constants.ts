@@ -12,6 +12,7 @@ export const enum ROUTES_ENUM {
   Stage = "stage",
   Links = "links",
   Monitor = "monitor",
+  MissingWord = "missing-word",
   SuperlativeScavenger = "superlative-scavenger",
   TunnelGoonsGallery = "tunnel-goons-gallery",
   TunnelGoonsGenerator = "tunnel-goons-generator",
