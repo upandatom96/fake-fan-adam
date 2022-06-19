@@ -2,8 +2,13 @@
 
 This is a fan-made consolidation of the rules for Bézier Games *One Night Ultimate Werewolf* series.
 
+To purchase the games, check out [Bézier Games website](https://beziergames.com/).
+
+## Overview
+
 - 4-10 players (Best with 6-8)
-- 10 minute game
+- 10 minutes per game
+- Social Deduction
 
 ## Roles
 
@@ -678,16 +683,70 @@ Wake Order appears on the Tokens and works as follows:
 
 - TBD
 
-## Notes
+## Suggested Cards
 
-### Starting Setup
+### Werewolf - "Basic Setup"
 
-- Werewolf (x2)
-- Villager (x2)
+- Werewolf
+- Werewolf
+- Seer
 - Robber
 - Troublemaker
+- Villager
+- Villager (if 4 players)
+- Villager (if 5 players)
+
+### Daybreak - "Evil Transformation" (3+ players)
+
+- Doppelgänger
+- Alpha Wolf
+- Mystic Wolf
+- Minion
+- Robber
+- Witch
+
+### Daybreak - "Trust No One" (3+ players)
+
+- Doppelgänger
+- Alpha Wolf
+- Dream Wolf
+- Robber
+- Witch
 - Tanner
+
+### Daybreak - "Cautionary Tale" (4+ players)
+
+- Werewolf
+- Mystic Wolf
 - Seer
+- Apprentice Seer
+- Revealer
+- Hunter
+- Bodyguard
+
+### Daybreak - "Information Society" (5+ players)
+
+- Werewolf
+- Mystic Wolf
+- Seer
+- Apprentice Seer
+- Paranormal Investigator
+- Witch
+- Insomniac
+- Revealer
+
+### Daybreak - "Total Chaos" (5+ players)
+
+- Doppelgänger
+- Alpha Wolf
+- Werewolf
+- Robber
+- Witch
+- Troublemaker
+- Village Idiot
+- Curator
+
+## Notes
 
 ### Unlock Randomization
 
