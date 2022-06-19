@@ -36,13 +36,19 @@ All roles that can view or move a center card may also view or move the Center W
 
 #### Apprentice Assassin
 
-- Team: ?
-- Set: ?
+- Team: Special - Apprentice Assassin
+- Set: Vampire
+
+- TBD
 
 #### Apprentice Seer
 
 - Team: Villager
-- Set: Bonus
+- Set: Daybreak
+
+The Apprentice Seer wakes up and may look at one of the center cards. 
+
+**The Apprentice Seer is on the villager team.**
 
 #### Apprentice Tanner
 
@@ -59,8 +65,8 @@ If there is no Tanner, the Apprentice Tanner realizes that the Tanner job is not
 
 #### Assassin
 
-- Team: ?
-- Set: ?
+- Team: Special - Assassin
+- Set: Vampire
 
 #### Aura Seer
 
@@ -87,10 +93,26 @@ Just to make sure they haven't been switched with other roles, the Beholder may 
 - Team: Special - Blob
 - Set: Alien
 
+The Blob doesn't wake up, but is told which and how many players adjacent to it are now part of the Blob.
+The Blob wins as long as none of the players who are part of the Blob (including the Blob player) are killed.
+The Blob wins in addition to any other teams that might win.
+
+The players the Blob must keep alive are always relative to the location of the Blob card at the end of the game.
+
+**The Blob is on its own team.**
+
 #### Bodyguard
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+When everyone votes, the player that the Bodyguard points to cannot be killed. 
+If that player received the most votes, the player with the next most votes (at least two) is killed.
+Recommended for five or more players.
+
+When the Bodyguard is in the game, it is necessary for all players to turn their cards over right after the vote (to see if the Bodyguard is pointing to the player with the most votes).
+
+**The Bodyguard is on the villager team.**
 
 #### Body Snatcher
 
@@ -110,10 +132,15 @@ The player who has the Body Snatcher Card is also an alien.
 - Team: Villager
 - Set: Alien
 
+The Cow sticks out their fist while the aliens are awake.
+If any alien is sitting next to the Cow, one alien must tap her on the fist, which tips her.
+
 #### Copycat
 
-- Team: ?
-- Set: ?
+- Team: Special - ?
+- Set: Vampire
+
+- TBD
 
 #### The Count
 
@@ -132,10 +159,19 @@ The Mark of Fear prevents a player from using their Night action (if they have o
 - Team: Villager
 - Set: Vampire
 
+- TBD
+
 #### Curator
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+The Curator wakes up and may choose and place a random face down Artifact token (without looking at it)
+on any player's card (including his own). See the Artifact list for information about the tokens and their effects.
+
+The Curator may not place an Artifact token on a card that has a shield token on it.
+
+**The Curator is on the villager team.**
 
 #### Cursed
 
@@ -150,7 +186,9 @@ and then he becomes a Werewolf of a Vampire and join the werewolf or vampire tea
 #### Diseased
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
+
+- TBD
 
 #### Doppelgänger
 
@@ -191,12 +229,21 @@ The Empath wakes up, and watches as certain players do things (as determined by 
 #### Exposer
 
 - Team: Villager
-- Set: ?
+- Set: Alien
+
+The Exposer wakes up and may flip one, two, or three of the center cards by turning them over and leaving them that way.
+The number of cards turned over is determined by the app.
+If the Exposer is told that he may flip two cards, he must flip two or none at all.
+If he is told that he may flip three cards, he must flip three or none at all.
+
+**The Exposer is on the villager team.**
 
 #### Gremlin
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
+
+- TBD
 
 #### Groob & Zerb
 
@@ -235,17 +282,23 @@ Only use the Insomniac if the Robber and/or the Troublemaker are in the game.
 #### Instigator
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
+
+- TBD
 
 #### Leader
 
-- Team: ?
-- Set: ?
+- Team: Special - Village or Leader
+- Set: Alien
+
+- TBD
 
 #### Marksman
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
+
+-TBD
 
 #### Mason
 
@@ -287,6 +340,12 @@ This role can be a very powerful ally for the werewolf team.
 - Team: Special - Mortician
 - Set: Alien
 
+The Mortician wakes up and may look at one, both, or none of their neighbors (based on what the app tells them to do).
+The Mortician needs more business, and on top of that they're really lazy, so they win if at least one of their neighbors (the players directly adjacent to them) dies.
+The Mortician wins in addition to any other teams that might win.
+
+**The Mortician is on his own team.**
+
 #### Mystic Wolf
 
 - Team: Werewolf
@@ -317,22 +376,31 @@ If a player receives the Nostradamus card from the center cards, he is on the te
 #### Oracle
 
 - Team: Villager
-- Set: ?
+- Set: Alien
+
+The Oracle wakes up and the app asks her a question.
+She responds by tapping an answer on the app. If she does not respond for any reason (including if the card is in the center), the app chooses an answer for her.
+
+**The Oracle is on the villager team.**
 
 #### Paranormal Investigator
 
-- Team: ?
-- Set: ?
+- Team: Special - ?
+- Set: Daybreak
+
+- TBD
 
 #### Pickpocket
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
+
+- TBD
 
 #### Priest
 
 - Team: Villager
-- Set: ?
+- Set: Vampire
 
 #### Prince
 
@@ -347,12 +415,22 @@ If the Prince receives the most votes, the player who receives the next largest 
 #### Psychic
 
 - Team: Villager
-- Set: ?
+- Set: Alien
+
+The Psychic wakes up and the app tells her to look at one or more cards.
+Which cards may be viewed can be different for each game.
+
+**The Psychic is on the village team.**
 
 #### Rascal
 
 - Team: Villager
-- Set: ?
+- Set: Alien
+
+The Rascal wakes up and the app tells them if they may (or must) move two or more cards.
+Which cards may be moved can be different for each game.
+
+**The Rascal is on the village team.**
 
 #### Renfield
 
@@ -371,7 +449,13 @@ If the Mark of the Bat ends up on another player, it has no effect on that playe
 #### Revealer
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+The Revealer wakes up and may flip any other player's card face up.
+If a Werewolf or Tanner is showing, he must flip it over again face down.
+If the Revealer reveals a Doppelgänger or Paranormal Investigator card, he leaves it face up. The Revealer only flips one card face up, even if he finds a Werewolf or Tanner.
+
+**The Revealer is on the villager team.**
 
 #### Robber
 
@@ -397,7 +481,17 @@ At night, the Seer may look either at one other player's card or at two of the c
 #### Sentinel
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+The Sentinel wakes upa nd may place a shield token on any player's card except his own.
+That card may not be viewed or moved, and may not have an artifact placed on it.
+
+The Sentinel's shield prevents the Witch, Robber, Drunk, and Insomniac from viewing or moving their own card (if it is shielded).
+While the Drunk's power is normally mandatory, a shield on the Drunk's card prevents the Drunk from using his power.
+
+During setup, a shield token should be placed near the center cards so the Sentinel can easily reach it.
+
+**The Sentinel is on the village team.**
 
 #### Squire
 
@@ -469,7 +563,12 @@ Then the Vampires must place the Mark of the Vampire in front of one other non-V
 #### Village Idiot
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+The Village Idiot wakes up and may move *all* player's cards but his own one place to the left or move *all* player's cards but his own one place to the right.
+If he chooses to move cards, he must always move all player's cards *except* his own card, the center cards, and any cards with a shield token on them.
+
+**The Village Idiot is on the villager team.**
 
 #### Villager
 
@@ -496,7 +595,13 @@ Lone Wolf Option - If there is only one Werewolf, the Werewolf may view one cent
 #### Witch
 
 - Team: Villager
-- Set: ?
+- Set: Daybreak
+
+The Witch wakes up and may look at one of the center cards.
+If she *does* look at a center card, then she *must* exchange that card with any player's card (including her own card),
+placing that player's card back in the center (in the same location without looking at it).
+
+**The Witch is on the village team, unless she replaces her own card with a card from a different team.**
 
 ## Wake-Up Order
 
@@ -517,7 +622,6 @@ Wake Order appears on the Tokens and works as follows:
         - -1-B: Apprentice Assassin*
     - 00: Lovers
     - 0: Sentinel
-
 - Night
     - 1-A: Aliens/Synthetic/Groob/Zerb/Body Snatcher
         - 1-C: Cow
@@ -555,15 +659,15 @@ Wake Order appears on the Tokens and works as follows:
     - 11: Curator*
     - 13: Blob
     - 13-A: Mortician
-
 - Some roles do not wake up, including:
+    - Blob
+    - Bodyguard
     - Cursed
     - Dream Wolf
     - Hunter
     - Prince
     - Tanner
     - Villager
-
 - (*) Doppelgänger takes action after the real role
 
 ## Artifacts
