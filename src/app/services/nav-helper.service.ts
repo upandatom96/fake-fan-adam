@@ -32,6 +32,10 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Login);
   }
 
+  public goToMarkdownViewer(path: string): void {
+    this.goToRoute(ROUTES_ENUM.MarkdownViewer + `/${path}`);
+  }
+
   // PROJECTS
 
   public goToMonitor(): void {

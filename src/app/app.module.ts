@@ -46,6 +46,7 @@ import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunne
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 import {MissingWordComponent} from './components/missing-word/missing-word.component';
+import {MarkdownViewerComponent} from './components/simple/markdown-viewer/markdown-viewer.component';
 
 @NgModule({
   declarations: [
@@ -91,6 +92,7 @@ import {MissingWordComponent} from './components/missing-word/missing-word.compo
     ModalBoxBasicComponent,
     ModalTriggerButtonComponent,
     MissingWordComponent,
+    MarkdownViewerComponent,
   ],
   imports: [
     BrowserModule,

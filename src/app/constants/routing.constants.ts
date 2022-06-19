@@ -1,5 +1,5 @@
 export const enum ROUTES_ENUM {
-  Dashboard = "dashboard",
+  Dashboard = "",
   Info = "info",
   Muppet = "muppet",
   MuppetForm = "muppet-form",
@@ -19,4 +19,5 @@ export const enum ROUTES_ENUM {
   TunnelGoons = "tunnel-goons",
   Admin = "admin",
   Login = "login",
+  MarkdownViewer = "view",
 }

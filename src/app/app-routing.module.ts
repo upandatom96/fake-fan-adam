@@ -23,6 +23,7 @@ import {TunnelGoonsGalleryComponent} from "./components/tunnel-goons-gallery/tun
 import {TunnelGoonsGeneratorComponent} from "./components/tunnel-goons-generator/tunnel-goons-generator.component";
 import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
 import {MissingWordComponent} from './components/missing-word/missing-word.component';
+import {MarkdownViewerComponent} from './components/simple/markdown-viewer/markdown-viewer.component';
 
 const routes: Routes = [
   // main
@@ -53,8 +54,9 @@ const routes: Routes = [
   {path: ROUTES_ENUM.TunnelGoonsGallery + "/:partyName", component: TunnelGoonsGalleryComponent},
   {path: ROUTES_ENUM.TunnelGoonsGenerator, component: TunnelGoonsGeneratorComponent},
   {path: ROUTES_ENUM.TunnelGoons + "/:id", component: TunnelGoonDetailsComponent},
+  {path: ROUTES_ENUM.MarkdownViewer + "/:path", component: MarkdownViewerComponent},
   // default
-  {path: "**", redirectTo: "dashboard"},
+  {path: "**", redirectTo: ROUTES_ENUM.Dashboard},
 ];
 
 @NgModule({

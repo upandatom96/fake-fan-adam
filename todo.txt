@@ -1,0 +1,14 @@
+# TODO
+
+## Tunnel Goons
+
+- "privacy" for items?
+- card height fix
+- character history (logs)
+- Better Gallery
+- Better Editor
+- Link to Avatar Maker, other resources
+- Views for players to play along
+- get "users" concept working
+- pronouns/gender
+- relationships
