@@ -39,6 +39,10 @@ export class DashboardComponent implements OnInit {
     this.navHelper.goToMissingWord();
   }
 
+  public goToWerewolf() {
+    this.navHelper.goToMarkdownViewer("md~werewolf");
+  }
+
   public goToLinks() {
     this.navHelper.goToLinks();
   }
