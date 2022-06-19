@@ -141,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "fake-fan-adam"
+  "defaultProject": "fake-fan-adam",
+  "cli": {
+    "analytics": false
+  }
 }
