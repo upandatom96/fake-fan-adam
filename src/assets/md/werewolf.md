@@ -1,10 +1,12 @@
 # One Night Ultimate Werewolf Guide
 
-This is a fan-made consolidation of the rules for Bézier Games *One Night Ultimate Werewolf* series.
+This is an unofficial fan-made consolidation of the rules for Bézier Games *One Night Ultimate Werewolf* series.
 
 To purchase the games, check out [Bézier Games website](https://beziergames.com/).
 
-## Overview
+If you have questions, corrections, or concerns, you may contact adamontheinternet.com@gmail.com .
+
+## Part One: Overview
 
 - 4-10 players (Best with 6-8)
 - 10 minutes per game
@@ -21,7 +23,7 @@ At the end of each game you'll vote for a player who *isn't* on your tea; the pl
 If a Werewolf is killed, everyone on the village team wins. 
 If no Werewolves are killed, the Werewolf team wins.
 
-## Roles
+## Part Two: Roles
 
 ###  Alien
 
@@ -619,7 +621,7 @@ placing that player's card back in the center (in the same location without look
 
 **The Witch is on the village team, unless she replaces her own card with a card from a different team.**
 
-## Wake-Up Order
+## Part Three: Wake-Up Order
 
 Wake Order appears on the Tokens and works as follows:
 
@@ -686,15 +688,28 @@ Wake Order appears on the Tokens and works as follows:
     - Villager
 - (*) Doppelgänger takes action after the real role
 
-## Artifacts
+## Part Four: Artifacts and Marks
+
+### Artifacts
 
 - TBD
 
-## Marks
+### Marks
 
 - TBD
 
-## Suggested Cards
+## Part Five: Rules & References
+
+- Official Rules PDFs
+    - [One Night Ultimate Werewolf](https://www.fgbradleys.com/rules/rules2/OneNightUltimateWerewolf-rules.pdf)
+    - [One Night Ultimate Werewolf: Daybreak](https://www.fgbradleys.com/rules/rules2/OneNightUltimateWerewolfDaybreak-rules.pdf)
+    - [One Night Ultimate Werewolf: Vampire](https://s3.amazonaws.com/geekdo-files.com/bgg252250?response-content-disposition=inline%3B%20filename%3D%22VAMP_rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T182924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=8c959d3ff5e9abadb1988de160285dc3c7859abbdcba12c0469bc415e771ca13)
+    - [One Night Ultimate Werewolf: Alien](https://s3.amazonaws.com/geekdo-files.com/bgg252247?response-content-disposition=inline%3B%20filename%3D%22ONUA_online_Rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T174754Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=5fa058965669d0ad194ed58f94d320fb6f41e9e11decb3c115847bf17c248414)
+    - [One Night Ultimate Werewolf: Bonus Roles](https://s3.amazonaws.com/geekdo-files.com/bgg252251?response-content-disposition=inline%3B%20filename%3D%22ONBR_online_rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T182505Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=2d9e7e7470ccf5402fb1ca987b50245f247f404c3356d6596739f257b43a5149)
+- Other References
+    - [One Night Ultimate Werewolf: Fan Made Cheat Sheet](https://s3.amazonaws.com/geekdo-files.com/bgg177615?response-content-disposition=inline%3B%20filename%3D%22One_Night_Ultimate_Guide_v1.0.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T174821Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=228a302185ba7abf4138c5c1ae28cc961e2f01e45b5f8143f1435a48a458c284)
+
+## Part Six: Suggested Cards
 
 ### Werewolf - "Basic Setup"
 
@@ -757,7 +772,7 @@ Wake Order appears on the Tokens and works as follows:
 - Village Idiot
 - Curator
 
-## Notes
+## Part Seven: Other Notes
 
 ### Unlock Randomization
 
@@ -767,14 +782,3 @@ Wake Order appears on the Tokens and works as follows:
     - Select only Bodysnatcher, Nostradamus, Empath, and Cursed
     - Start
     - Check settings again
-
-## References
-
-- Official Rules PDFs
-    - [One Night Ultimate Werewolf](https://www.fgbradleys.com/rules/rules2/OneNightUltimateWerewolf-rules.pdf)
-    - [One Night Ultimate Werewolf: Daybreak](https://www.fgbradleys.com/rules/rules2/OneNightUltimateWerewolfDaybreak-rules.pdf)
-    - [One Night Ultimate Werewolf: Vampire](https://s3.amazonaws.com/geekdo-files.com/bgg252250?response-content-disposition=inline%3B%20filename%3D%22VAMP_rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T182924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=8c959d3ff5e9abadb1988de160285dc3c7859abbdcba12c0469bc415e771ca13)
-    - [One Night Ultimate Werewolf: Alien](https://s3.amazonaws.com/geekdo-files.com/bgg252247?response-content-disposition=inline%3B%20filename%3D%22ONUA_online_Rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T174754Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=5fa058965669d0ad194ed58f94d320fb6f41e9e11decb3c115847bf17c248414)
-    - [One Night Ultimate Werewolf: Bonus Roles](https://s3.amazonaws.com/geekdo-files.com/bgg252251?response-content-disposition=inline%3B%20filename%3D%22ONBR_online_rules.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T182505Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=2d9e7e7470ccf5402fb1ca987b50245f247f404c3356d6596739f257b43a5149)
-- Other
-    - [One Night Ultimate Werewolf: Fan Made Cheat Sheet](https://s3.amazonaws.com/geekdo-files.com/bgg177615?response-content-disposition=inline%3B%20filename%3D%22One_Night_Ultimate_Guide_v1.0.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T174821Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=228a302185ba7abf4138c5c1ae28cc961e2f01e45b5f8143f1435a48a458c284)
