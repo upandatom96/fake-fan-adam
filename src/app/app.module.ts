@@ -1,6 +1,7 @@
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
 import {FormsModule} from "@angular/forms";
+import {MarkdownModule, MarkedOptions, MarkedRenderer} from "ngx-markdown";
 
 import {AppComponent} from "./app.component";
 import {DashboardComponent} from "./components/dashboard/dashboard.component";
@@ -8,7 +9,7 @@ import {InfoComponent} from "./components/info/info.component";
 import {AppRoutingModule} from "./app-routing.module";
 import {NavbarComponent} from "./components/navbar/navbar.component";
 import {FooterComponent} from "./components/footer/footer.component";
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {ActuatorReportComponent} from "./components/actuator-report/actuator-report.component";
 import {LoginComponent} from "./components/login/login.component";
 import {ProfileComponent} from "./components/profile/profile.component";
@@ -47,6 +48,24 @@ import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
 import {MissingWordComponent} from './components/missing-word/missing-word.component';
 import {MarkdownViewerComponent} from './components/simple/markdown-viewer/markdown-viewer.component';
+
+// function that returns `MarkedOptions` with renderer override
+export function markedOptionsFactory(): MarkedOptions {
+  const renderer = new MarkedRenderer();
+
+  renderer.blockquote = (text: string) => {
+    return "<div class=\"card mb-2 bg-grey-alt\"><div class=\"card-body py-0 px-3\"><blockquote class=\"blockquote\"><p>" + text + "</p></blockquote></div></div>";
+  };
+
+  return {
+    renderer,
+    gfm: true,
+    breaks: false,
+    pedantic: false,
+    smartLists: true,
+    smartypants: false,
+  };
+}
 
 @NgModule({
   declarations: [
@@ -99,6 +118,13 @@ import {MarkdownViewerComponent} from './components/simple/markdown-viewer/markd
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MarkdownModule.forRoot({
+      loader: HttpClient,
+      markedOptions: {
+        provide: MarkedOptions,
+        useFactory: markedOptionsFactory,
+      },
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

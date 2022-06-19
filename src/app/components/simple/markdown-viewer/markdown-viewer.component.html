@@ -4,7 +4,7 @@
       <ng-container *ngIf="ready; else loading">
         <div class="my-3">
 
-          <!--          <markdown [src]="fullPath"></markdown>-->
+          <markdown [src]="fullPath"></markdown>
 
           <section id="file-options">
             <hr>
@@ -18,8 +18,8 @@
               <a [attr.href]="fullPath" target="_blank">
                 View Raw Text (in Markdown Format)
               </a>
-            <!--                TODO more viewing options -->
-            <!--                | View Raw HTML | Export as PDF | Export as MD | Export as HTML | Export as EPUB-->
+              <!--                TODO more viewing options -->
+              <!--                | View Raw HTML | Export as PDF | Export as MD | Export as HTML | Export as EPUB-->
             </p>
             <p>
               <small>
