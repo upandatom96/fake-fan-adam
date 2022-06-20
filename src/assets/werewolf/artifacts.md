@@ -1,5 +1,7 @@
 # One Night Ultimate Werewolf: Artifacts
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 There are different Artifact tokens that can be placed on any player's card by the Curator.
 When the night phase is over, any player with an ARtifact token on his card must immediately secretly look at his token.
 A player with an Artifact token may not show that token to anyone else.

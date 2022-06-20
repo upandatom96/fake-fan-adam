@@ -1,5 +1,7 @@
 # One Night Ultimate Werewolf: Doppelgänger
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 ## Doppelgänger and Werewolf Roles
 
 **Villager, Tanner, Hunter:** She is now that role and does nothing else at night.

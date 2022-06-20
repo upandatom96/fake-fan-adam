@@ -1,5 +1,7 @@
 # One Night Ultimate Werewolf: Box Sets
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 ## One Night Ultimate Werewolf
 
 - TBD
