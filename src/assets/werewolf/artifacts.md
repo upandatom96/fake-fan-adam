@@ -21,38 +21,82 @@ and the stack of face-down Artifact tokens should be placed near the center card
 
 You may choose to include only some of the Artifacts instead of all of them, based on your personal perference.
 
-## Daybreak Artifacts
+## Alien Artifact
 
-**Clay of the Werewolf:** You are now a Werewolf.
+- Set: Bonus
 
-**Brand of the Villager:** You are now a Villager, with no special abilities.
+You are an Alien, and win and lose with the Alien team.
 
-**Cudget of the Tanner:** You are now the Tanner. You only win if you die.
+## Bow of the Hunter
+
+- Set: Bonus
+
+You are now a Hunter. If you die, the player you are pointing at also dies.
+
+## Brand of the Villager
+
+- Set: Daybreak
+
+You are now a Villager, with no special abilities.
+
+## Clay of the Werewolf
+
+- Set: Daybreak
+
+You are now a Werewolf.
+
+## Cloak of the Prince
+
+- Set: Bonus
+
+You are now a Prince. Votes against you do not count.
+
+## Cudgel of the Tanner
+
+- Set: Daybreak
+
+You are now the Tanner. You only win if you die.
 If you die, the werewolf team cannot win.
 If a Werewolf *and* you both die, both you and the village team wins.
 
-**Void of Nothingness:** This artifact has no effect.
+## Dagger of the Traitor
 
-**Mask of Muting:** You may not speak.
+- Set: Bonus
+
+You are a traitor to your team. You only win if someone else on your team dies.
+
+## Mask of Muting
+
+- Set: Daybreak
+
+You may not speak.
 You may use hand motions, sign language, etc. as long as you are silent.
 
-**Shroud of Shame:** You must turn your chair, body, and face away from the other players.
+## Mist of the Vampire
+
+- Set: Bonus
+
+You are now a Vampire, and win or lose with the Vampire team.
+If you die, the Vampire team (and you) loses.
+Only use this along with roles from *Vampire*.
+
+## Shroud of Shame
+
+- Set: Daybreak
+
+You must turn your chair, body, and face away from the other players.
 You may still speak, but you may not look at the other players or the cards and tokens.
 You may not turn around when voting, but you may (try to) point at any player
 (the other players will determine who you pointed at).
 
-## Bonus Roles Artifacts
+## Sword of the Bodyguard
 
-**Bow of the Hunter:** You are now a Hunter. If you die, the player you are pointing at also dies.
+- Set: Bonus
 
-**Cloak of the Prince:** You are now a Prince. Votes against you do not count.
+You are now a Bodyguard. The player you vote for cannot be killed.
 
-**Sword of the Bodyguard:** You are now a Bodyguard. The player you vote for cannot be killed.
+## Void of Nothingness
 
-**Mist of the Vampire:** You are now a Vampire, and win or lose with the Vampire team.
-If you die, the Vampire team (and you) loses.
-Only use this along with roles from *Vampire*
+- Set: Daybreak
 
-**Dagger of the Traitor:** You are a traitor to your team. You only win if someone else on your team dies.
-
-**Alien Artifact:** You are an Alien, and win and lose with the Alien team.
+This artifact has no effect.

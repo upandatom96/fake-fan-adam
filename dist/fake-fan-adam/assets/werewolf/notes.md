@@ -1,5 +1,7 @@
 # One Night Ultimate Werewolf: Notes
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 ## Scenarios
 
 ### Werewolf - "Basic Setup"

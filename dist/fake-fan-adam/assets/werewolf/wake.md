@@ -1,5 +1,12 @@
 # One Night Ultimate Werewolf: Wake-Up Order
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
+Some (not all) Roles wake up during the Night, and some take actions.
+There is a set order to the Roles waking up, and that order is sometimes important to find out what happened.
+
+The Wake-Up Order number is also noted on the Role Tokens included with the game.
+
 - [Official Wake-Up Order PDF](assets/werewolf/ONUW_wake_order_official.pdf)
 
 ## Waking Roles

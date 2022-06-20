@@ -1,5 +1,7 @@
 # One Night Ultimate Werewolf: Marks
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 In *Vampire*, each player is given a Mark of Clarity at the start of the game.
 During the "Dusk" phase, additional Marks may enter the game, changing one or more players' Marks to a different Mark.
 During the "Night" phase, the Pickpocket and Gremlin may move players' Marks, and the Marksman may view a player's Mark.

@@ -6,16 +6,16 @@ To purchase the games, check out [Bézier Games website](https://beziergames.com
 
 If you have questions, corrections, or concerns, you may contact [adamontheinternet.com@gmail.com](mailto:adamontheinternet.com@gmail.com).
 
-## Contents
+## Table of Contents (Links)
 
-- [Rules Overview](/view/werewolf~rules)
-- [Roles](/view/werewolf~roles)
-- [Wake Order](/view/werewolf~wake)
-- [Doppelgänger](/view/werewolf~doppelganger)
-- [Artifacts](/view/werewolf~artifacts)
-- [Marks](/view/werewolf~marks)
-- [Box Sets](/view/werewolf~sets)
-- [Other Notes](/view/werewolf~notes)
+- [Rules Overview](/fake-fan-adam/view/werewolf~rules)
+- [Roles](/fake-fan-adam/view/werewolf~roles)
+- [Wake Order](/fake-fan-adam/view/werewolf~wake)
+- [Doppelgänger](/fake-fan-adam/view/werewolf~doppelganger)
+- [Artifacts](/fake-fan-adam/view/werewolf~artifacts)
+- [Marks](/fake-fan-adam/view/werewolf~marks)
+- [Box Sets](/fake-fan-adam/view/werewolf~sets)
+- [Other Notes](/fake-fan-adam/view/werewolf~notes)
 
 ## References
 

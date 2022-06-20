@@ -237,6 +237,8 @@ The Doppelgänger wakes up before the other roles.
 
 At night, the Doppelgänger looks at (but does not switch) one player's card and then changes based on the card they see.
 
+If a player receives the Doppelgänger card during the night, she is the role the Doppelgänger originally viewed.
+
 [To learn what each card does to the Doppelgänger, view the "Doppelgänger" page of the Compendium.](/view/werewolf~doppelganger)
 
 **The Doppelgänger's team depends on what card they see.**

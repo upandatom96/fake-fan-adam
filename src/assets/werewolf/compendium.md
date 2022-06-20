@@ -1,6 +1,7 @@
-# One Night Ultimate Werewolf Compendium
+# One Night Ultimate Werewolf: Compendium
 
 This is an unofficial Compendium of the rules for Bézier Games *One Night Ultimate Werewolf* series.
+This Compendium includes content from Werewolf, Daybreak, Vampire, Alien, and Bonus Roles, but not any of the Superhero/Supervillain content.
 
 To purchase the games, check out [Bézier Games website](https://beziergames.com/).
 

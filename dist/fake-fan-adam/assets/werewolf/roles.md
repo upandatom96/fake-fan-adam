@@ -1,5 +1,7 @@
 # Roles
 
+- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+
 ###  Alien
 
 - Team: Alien
