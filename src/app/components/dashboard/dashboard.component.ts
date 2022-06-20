@@ -40,7 +40,7 @@ export class DashboardComponent implements OnInit {
   }
 
   public goToWerewolf() {
-    this.navHelper.goToMarkdownViewer("md~werewolf");
+    this.navHelper.goToMarkdownViewer("werewolf~compendium");
   }
 
   public goToLinks() {
