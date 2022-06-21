@@ -7,7 +7,7 @@ There is a set order to the Roles waking up, and that order is sometimes importa
 
 The Wake-Up Order number is also noted on the Role Tokens included with the game.
 
-- [Official Wake-Up Order PDF](assets/werewolf/ONUW_wake_order_official.pdf)
+- [Official Wake-Up Order PDF](https://cdn.shopify.com/s/files/1/0740/4855/files/Wake_Order_5.0.pdf?38)
 
 ## Waking Roles
 
@@ -68,7 +68,6 @@ The Wake-Up Order number is also noted on the Role Tokens included with the game
 ## Non-Waking Roles
 Some roles do not wake up, including:
 
-- Blob
 - Bodyguard
 - Cursed
 - Dream Wolf

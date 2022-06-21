@@ -2,37 +2,36 @@
 
 - [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
 
-###  Alien
+##  Alien
 
 - Team: Alien
 - Set: Alien
+- Wake: 1-A
 
-Aliens (including "regular" Aliens, Synthetic, Groob, and Zerb) wake up and look for each other.
+Aliens (including "regular" Aliens, Synthetic, Body Snatcher, Groob, and Zerb) wake up and look for each other.
 Then the app directs the Aliens as to what to do next.
 
 In some cases, the Aliens may have the ability to change a player into an Alien.
 In this particular case, the player remains an Alien, regardless of what their card is.
 
-**The Alien is on the alien team.**
-
-### Alpha Wolf
+## Alpha Wolf
 
 - Team: Werewolf
 - Set: Daybreak
+- Wake: 2, 2-B
+- Prep: Position any Werewolf card (regular Werewolf, Mystic Wolf, Dream Wolf) face down and perpendicular to the three center cards. 
 
-If playing with the Alpha Wolf, position any other Werewolf card (including a regular Werewolf, the Mystic Wolf, or Dream Wolf) 
-face down and pperpendicular to the three center cards. 
 At night, the Alpha Wolf wakes up with the other Werewolves. Afterwards, the Alpha Wolf wakes up separately.
 The Alpha Wolf *must* exchange the Center Werewolf card with any othe rplayer's card (but not his own card or another Werewolf's card), without looking at either card.
 
 All roles that can view or move a center card may also view or move the Center Werewolf card.
 
-**The Alpha Wolf is on the werewolf team.**
-
-### Apprentice Assassin
+## Apprentice Assassin
 
 - Team: Special - Apprentice Assassin
 - Set: Vampire
+- Wake: -1-B
+- Prep: Prepare the Mark of the Assassin with the Marks Board
 
 The Apprentice Assassin wakes up immediately after the Assassin places the Mark of the Assassin in front of a player,
 *while the Assassin's eyes are still open*.
@@ -46,19 +45,19 @@ and only wins if the player with the Mark of the Assassin (including herself) di
 
 **The Apprentice Assassin is on her own team.**
 
-### Apprentice Seer
+## Apprentice Seer
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 5-B
 
 The Apprentice Seer wakes up and may look at one of the center cards. 
 
-**The Apprentice Seer is on the villager team.**
-
-### Apprentice Tanner
+## Apprentice Tanner
 
 - Team: Special - Tanner
 - Set: Bonus
+- Wake: 3-B
 
 The Apprentice Tanner wakes up, and the Tanner puts out his thumb so the Apprentice Tanner knows who the Tanner is.
 
@@ -68,10 +67,12 @@ If there is no Tanner, the Apprentice Tanner realizes that the Tanner job is not
 
 **The Apprentice Tanner is on the Tanner team.**
 
-### Assassin
+## Assassin
 
 - Team: Special - Assassin
 - Set: Vampire
+- Wake: -1
+- Prep: Prepare the Mark of the Assassin with the Marks Board
 
 The Assassin wakes up and must place the Mark of the Assassin on any player, placing that player's original Mark (without looking at it) face down in the empty Assassin spot on the Marks boards.
 
@@ -83,30 +84,29 @@ If it happens that the Assassin ends up with the Mark of the Assassin at the end
 
 **The Assassin is on his own team.**
 
-### Aura Seer
+## Aura Seer
 
 - Team: Villager
 - Set: Bonus
+- Wake: 7-C
 
 When the Aura Seer wakes up, all players who have (at that point in the night) viewed or moved any card stick out their thumbs.
 If a role was called and the player did not view or move a card, that player does not stick out his thumb.
 
-**The Aura Seer is on the Village Team.**
-
-### Beholder
+## Beholder
 
 - Team: Villager
 - Set: Bonus
+- Wake: 9-Z
 
 The Beholder wakes up and learns who the Seer and the Apprentice Seer are by having them stick out their thumbs.
 Just to make sure they haven't been switched with other roles, the Beholder may then check the cards of the Seer and Apprentice Seer.
 
-**The Beholder is on the villager team.**
-
-### Blob
+## Blob
 
 - Team: Special - Blob
 - Set: Alien
+- Wake: 13
 
 The Blob doesn't wake up, but is told which and how many players adjacent to it are now part of the Blob.
 The Blob wins as long as none of the players who are part of the Blob (including the Blob player) are killed.
@@ -116,23 +116,24 @@ The players the Blob must keep alive are always relative to the location of the 
 
 **The Blob is on its own team.**
 
-### Bodyguard
+## Bodyguard
 
 - Team: Villager
 - Set: Daybreak
+- Vote: Whoever they "vote" for cannot be killed.
 
 When everyone votes, the player that the Bodyguard points to cannot be killed. 
 If that player received the most votes, the player with the next most votes (at least two) is killed.
 Recommended for five or more players.
 
-When the Bodyguard is in the game, it is necessary for all players to turn their cards over right after the vote (to see if the Bodyguard is pointing to the player with the most votes).
+When the Bodyguard is in the game, it is necessary for all players to turn their cards over right after the vote 
+(to see if the Bodyguard is pointing to the player with the most votes).
 
-**The Bodyguard is on the villager team.**
-
-### Body Snatcher
+## Body Snatcher
 
 - Team: Alien
 - Set: Bonus
+- Wake: 1-A, 1-F
 
 The Body Snatcher wakes up with the Aliens, and then wakes up again by himself later.
 The second time he wakes up, he must take a card from a non-Alien player, look at that card, and then place his Body Snatcher card face down in front of the player he stole from.
@@ -140,45 +141,50 @@ The card he stole is now an Alien, regardless of what team the role was on befor
 (If the card moves, the player who has the card at the end of the game is an Alien and is on the Alien Team.)
 The player who has the Body Snatcher Card is also an alien.
 
-**The Body Snatcher is on the alien team.**
-
-### Cow
+## Cow
 
 - Team: Villager
 - Set: Alien
+- Wake: 1-C
 
 The Cow sticks out their fist while the aliens are awake.
 If any alien is sitting next to the Cow, one alien must tap her on the fist, which tips her.
 
-### Copycat
+## Copycat
 
 - Team: Special - Any
 - Set: Vampire
+- Wake: -8
 
 The Copycat wakes up and must look at one of the center cards.
-From that point on in the game, the Copycat is the they viewed.
+From that point on in the game, the Copycat is the role they viewed.
 If that role is called, the Copycat wakes up and does that role's action.
 
 The role seen by the original Copycat goes with that card if the Copycat card is moved to another player.
 
 **The Copycat is on the team they first view.**
 
-### The Count
+## The Count
 
 - Team: Vampire
 - Set: Vampire
+- Wake: -6, -6-B
+- Prep: Prepare the Mark of the Fear and the Mark of the Vampire with the Marks Board
 
-The Count wakes up with the Vampires. Then the Vampires must place the Mark of the Vampire in front of one of the other non-Vampire players, taking that player's original Mark (without looking at it) and placing it face down on the Marks boards in the empty vampire spot.
+The Count wakes up with the Vampires. 
+Then the Vampires must place the Mark of the Vampire in front of one of the other non-Vampire players, taking that player's original Mark 
+(without looking at it) and placing it face down on the Marks boards in the empty vampire spot.
 
-He also wakes up after the Vampires have closed their eyes, and must place the Mark of Fear on any non-Vampire (he may not place it on the player who has the Mark of the Vampire, as that player is now a Vampire).
+He also wakes up after the Vampires have closed their eyes, and must place the Mark of Fear on any non-Vampire 
+(he may not place it on the player who has the Mark of the Vampire, as that player is now a Vampire).
 The Mark of Fear prevents a player from using their Night action (if they have one).
 
-**The Count is on the vampire team.**
-
-### Cupid
+## Cupid
 
 - Team: Villager
 - Set: Vampire
+- Wake: -4
+- Prep: Prepare the Marks of Love with the Marks Board
 
 Cupid wakes up and may place up to two Marks of Love face down in front of any two players,
 placing those players' original Marks face down (without looking at them) in the empty Love spots on the Marks boards.
@@ -187,12 +193,12 @@ Players who receive the Marks of Love wake up when called after Dusk to learn wh
 If either player is killed, the other dies as well. 
 Players with the Mark of Love remain on their current teams.
 
-**Cupid is on the villager team.**
-
-### Curator
+## Curator
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 11
+- Prep: Prepare the Artifacts
 
 The Curator wakes up and may choose and place a random face down Artifact token (without looking at it)
 on any player's card (including his own). See the Artifact list for information about the tokens and their effects.
@@ -201,34 +207,36 @@ The Curator may not place an Artifact token on a card that has a shield token on
 
 [To learn what each Artifact does, view the "Artifacts" page of the Compendium.](/view/werewolf~artifacts)
 
-**The Curator is on the villager team.**
-
-### Cursed
+## Cursed
 
 - Team: Special - Villager or Werewolf or Vampire
 - Set: Bonus
 
-The Cursed does not wake up at night. The Cursed is on the village team, unless at least one Werewolf or a Vampire votes for him,
-and then he becomes a Werewolf of a Vampire and join the werewolf or vampire team. This means that if the Cursed receives the most votes, and at least one of those votes is from a Werewolf or a Vampire, the village team will win.
+The Cursed is on the village team, unless at least one Werewolf or a Vampire votes for him,
+and then he becomes a Werewolf of a Vampire and join the werewolf or vampire team. 
+This means that if the Cursed receives the most votes, and at least one of those votes is from a Werewolf or a Vampire, 
+the village team will win.
 
 **The Cursed is on the Villager team, unless at least one werewolf or vampire votes for them, in which case the Cursed is on that team.**
 
-### Diseased
+## Diseased
 
 - Team: Villager
 - Set: Vampire
+- Wake: -5
+- Prep: Prepare the Mark of Disease with the Marks Board
 
 The Diseased wakes up and must place the Mark of Disease face down on a player adjacent to them, returning that player's original Mark (without looking at it) face down to the Marks boards.
 
 Any player who votes for the Diseased player (or the player with the Mark of the Disease) cannot win, even if their team wins.
 However, any vote cast against this player still counts, and if the Diseased/Mark of the Disease player gets the most votes, they die just like any other player, and players on the winning team who did *not* vote for the Diseased/Mark of the Diseased players win.
 
-**The Diseased is on the villager team.**
-
-### Doppelgänger
+## Doppelgänger
 
 - Team: Special - Any
 - Set: Werewolf
+- Wake: -7
+- Prep: If playing with Marks, prepare the secondary Marks. If playing with a Sentinel, prepare a secondary shield token.
 
 The Doppelgänger is a fairly complicated card, because she takes on the role and team of whatever card she views.
 If you haven't played with most of the other roles yet, do not use this role yet... it will make more sense later.
@@ -243,7 +251,7 @@ If a player receives the Doppelgänger card during the night, she is the role th
 
 **The Doppelgänger's team depends on what card they see.**
 
-### Dream Wolf
+## Dream Wolf
 
 - Team: Werewolf
 - Set: Daybreak
@@ -252,52 +260,51 @@ The Dream Wolf does *not* wake up with the other Werewolves.
 When the Werewolves are called, he sticks out his thumb so that the other Werewolves know who he is.
 When playing with the Minion, the Dream Wolf sticks out his thumb during the Minion's night phase.
 
-**The Dream Wolf is on the Werewolf team.**
-
-### Drunk
+## Drunk
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 8
 
 The Drunk is so drunk that they don't remember their role.
 When it comes time to wake up at night, they must exchange their Drunk card for any card in the center, but they do *not* look at their new card.
 The Drunk is now the new role in front of him (even though he doesn't know what that new role is) and is on that team.
 
-### Empath
+## Empath
 
 - Team: Villager
 - Set: Bonus
+- Wake: 10-E
 
 The Empath wakes up, and watches as certain players do things (as determined by the app).
 
-**The Empath is on the villager team.**
-
-### Exposer
+## Exposer
 
 - Team: Villager
 - Set: Alien
+- Wake: 10-B
 
 The Exposer wakes up and may flip one, two, or three of the center cards by turning them over and leaving them that way.
 The number of cards turned over is determined by the app.
 If the Exposer is told that he may flip two cards, he must flip two or none at all.
 If he is told that he may flip three cards, he must flip three or none at all.
 
-**The Exposer is on the villager team.**
-
-### Gremlin
+## Gremlin
 
 - Team: Villager
 - Set: Vampire
+- Wake: 7-D
 
 The Gremlin wakes up and may switch Marks or cards (but not both) between any two players,
 but may not look at those Marks or cards.
 
 **The Gremlin is on the villager team.**
 
-### Groob & Zerb
+## Groob & Zerb
 
 - Team: Alien or Own
 - Set: Alien
+- Wake: 1-A, 1-D
 
 Groob and Zerb wake up with the aliens, and then wake up together later and look at each other.
 
@@ -309,43 +316,42 @@ If only one of the two is in the game, they are on the alien team as normal.
 
 **Groob and Zerb are on the alien team, unless both are in the game, in which case they are on their own teams.**
 
-### Hunter
+## Hunter
 
 - Team: Villager
 - Set: Werewolf
+- Vote: If they die, whoever they voted for dies as well.
 
 If the Hunter dies, the player he is pointing at dies as well (regardless of how many votes their target receives).
 
-**The Hunter is on the villager team.**
-
-### Insomniac
+## Insomniac
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 9
 
 The Insomniac wakes up and looks at their card (to see if it has changed). 
 Only use the Insomniac if the Robber and/or the Troublemaker are in the game.
 
-**The Insomniac is on the village team.**
-
-### Instigator
+## Instigator
 
 - Team: Villager
 - Set: Vampire
+- Wake: -3
+- Prep: Prepare the Mark of the Traitor with the Marks Board
 
 The Instigator wakes up and may place a Mark of Traitor face down in front of any player,
 placing that player's original Mark (without looking at it) face down in the empty Traitor spot on the Marks boards.
 
 A player who receives the Mark of the Traitor only wins if someone *else* on his team is killed.
 If the player with the Mark of the Traitor is the only person on his team,
-the Mark of the Traitor has no effect
+the Mark of the Traitor has no effect.
 
-**The Instigator is on the villager team.**
-
-### Leader
+## Leader
 
 - Team: Special - Village or Leader
 - Set: Alien
+- Wake: 3-C
 
 The Leader wakes up, and all palyers who are aliens keep their eyes closed and put out their thumbs.
 If both Zerb and Groob are in the game and saw each other when they woke up, they point at each other (with their eyes closed) instead of putting out their thumbs.
@@ -358,54 +364,53 @@ In addition, the villager team loses and the alien team wins if all players on t
 
 **The Leader is on the village team, unless Zerb and Groob are both in the game, in which case the Leader only wins if both Groob and Zerb survive.**
 
-### Marksman
+## Marksman
 
 - Team: Villager
 - Set: Vampire
+- Wake: 5-D
+- Prep: Prepare the Marks Board
 
-The Marksman wakes up and may view one player's card and/or another player's Mark (but not the same player if viewing both a Mark and a card).
+The Marksman wakes up and may view one player's card and/or another player's Mark 
+(but not the same player if viewing both a Mark and a card).
 
-**The Marksman is on the villager team.**
-
-### Mason
+## Mason
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 4
 
 When using the Masons, always put *both* Masons in the game.
 The Mason wakes up at night and looks for the other Mason. If the Mason doesn't see the other Mason, it means the other Mason card is in the center.
 
-**Masons are on the villager team.**
-
-### The Master
+## The Master
 
 - Team: Vampire
 - Set: Vampire
+- Wake: -6
+- Prep: Prepare the Mark of the Vampire with the Marks Board
 
 The Master wakes up with the Vampires. Then the Vampires must place the Mark of the Vampire in front of one of the other non-Vampire player, taking that player's original Mark (without looking at it) and placing it face down on the Marks boards in the empty Vampire spot.
 
 The Master's special power occurs during the vote: if another Vampire (the regular Vampire, the Count, or the player with the Mark of the Vampire) votes for him, the Master is protected and cannot be killed.
 Instead, the player with the 2nd most votes (greater than 1) is killed.
 
-**The Master is on the Vampire team.**
-
-### Minion
+## Minion
 
 - Team: Werewolf
 - Set: Werewolf
+- Wake: 3
 
 Immediately following the Werewolf phase at night, the Minion wakes upa nd sees who the Werewolves are.
 During this phase, all Werewolves put their thumbs up so the Minion can see who they are. The Werewolves don't know who the Minion is.
 If the Minion dies and no Werewolves die, the Werewolves (and the Minion) win. 
 If no players are Werewolves, the Minion wins as long as one other player (**not** the Minion) dies.
-This role can be a very powerful ally for the werewolf team.
 
-**The Minion is on the Werewolf team.**
-
-### Mortician
+## Mortician
 
 - Team: Special - Mortician
 - Set: Alien
+- Wake: 13-A
 
 The Mortician wakes up and may look at one, both, or none of their neighbors (based on what the app tells them to do).
 The Mortician needs more business, and on top of that they're really lazy, so they win if at least one of their neighbors (the players directly adjacent to them) dies.
@@ -413,21 +418,21 @@ The Mortician wins in addition to any other teams that might win.
 
 **The Mortician is on his own team.**
 
-### Mystic Wolf
+## Mystic Wolf
 
 - Team: Werewolf
 - Set: Daybreak
+- Wake: 2, 2-C
 
 The Mystic Wolf wakes with the other Werewolves.
 Afterwards, the Mystic Wolf wakes up separately.
 The Mystic Wolf may look at one other player's card.
 
-**The Mystic Wolf is on the werewolf team.**
+## Nostradamus
 
-### Nostradamus
-
-Team: Special - Any
-Set: Bonus
+- Team: Special - Any
+- Set: Bonus
+- Wake: 5-E
 
 Nostradamus wakes up and may look at 1, 2, or 3 cards.
 The last card he looks at is the team he is on.
@@ -440,81 +445,78 @@ Nostradamus wins if he lives *and* the team he is on wins. If he is on the werew
 If he does not look at a card or choose a card in the app, the app will choose a team for him.
 If a player receives the Nostradamus card from the center cards, he is on the team that the app has chosen for him.**
 
-### Oracle
+## Oracle
 
 - Team: Villager
 - Set: Alien
+- Wake: -9
 
 The Oracle wakes up and the app asks her a question.
 She responds by tapping an answer on the app. If she does not respond for any reason (including if the card is in the center), the app chooses an answer for her.
 
-**The Oracle is on the villager team.**
-
-### Paranormal Investigator
+## Paranormal Investigator
 
 - Team: Special - Villager or Werewolf or Tanner
 - Set: Daybreak
+- Wake: 5-C
 
 The Paranormal Investigator (P.I.) wakes up and may look at cards of up to two other players, one at a time.
 If he views a Werewolf or Tanner, he may not view any more cards, and he becomes a Werewolf or Tanner, respectively.
 
 If the P.I. sees the Doppelgänger that saw a Werewolf, he continues looking (he doesn't know what the Doppelgänger saw, and does not become what the Doppelgänger saw, even if they Doppelgänger saw a Werewolf or Tanner).
 
-**The Paranormal Investigator is on the Village team, unless he finds a Werewolf, in which case he joins the werewolf team, or if he finds a Tanner, in which case he becomes a Tanner and only wins if he dies.
+**The Paranormal Investigator is on the Village team, unless he finds a Werewolf, in which case he joins the werewolf team, or if he finds a Tanner, in which case he becomes a Tanner and only wins if he dies.**
 
-### Pickpocket
+## Pickpocket
 
 - Team: Villager
 - Set: Vampire
+- Wake: 6-C
+- Prep: Prepare the Marks Board
 
 The Pickpocket wakes up and may exchange his Mark for the Mark of another player, and *then* views his new mark.
 
-**The Pickpocket is on the villager team.**
-
-### Priest
+## Priest
 
 - Team: Villager
 - Set: Vampire
+- Wake: -2
+- Prep: Prepare the Marks of Clarity with the Marks Board
 
 The Priest wakes up and must place a Mark of Clarify in front of himself and may place a Mark of Clarity in front of one other player, 
 placing both his and that player's original Mark (without looking at them) face down in the empty Clarity spots on the Marks boards.
 
-**The Priest is on the villager team.**
-
-### Prince
+## Prince
 
 - Team: Villager
 - Set: Bonus
 
-The Prince does not wake up at night. Votes for the Prince do not count. 
+Votes for the Prince do not count. 
 If the Prince receives the most votes, the player who receives the next largest amount of votes (greater than one) dies.
 
-**The Prince is on the village team.**
-
-### Psychic
+## Psychic
 
 - Team: Villager
 - Set: Alien
+- Wake: 5-G
 
 The Psychic wakes up and the app tells her to look at one or more cards.
 Which cards may be viewed can be different for each game.
 
-**The Psychic is on the village team.**
-
-### Rascal
+## Rascal
 
 - Team: Villager
 - Set: Alien
+- Wake: 7-F
 
 The Rascal wakes up and the app tells them if they may (or must) move two or more cards.
 Which cards may be moved can be different for each game.
 
-**The Rascal is on the village team.**
-
-### Renfield
+## Renfield
 
 - Team: Special - Vampire or Villager
 - Set: Vampire
+- Wake: -6-C
 
 If Renfield is in the game, the Vampires must point at the player with the Mark of the Vampire when they close their eyes, and leave their fingers pointing until Renfield closes his eyes.
 Renfield wakes up and sees who the Vampires are and who they are pointing at.
@@ -525,44 +527,41 @@ If the Mark of the Bat ends up on another player, it has no effect on that playe
 
 **Renfield is on the vampire team (but he is not a Vampire), unless no players are Vampires (or have the Mark of the Vampire), in which case he is on the villager team.**
 
-### Revealer
+## Revealer
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 10
 
 The Revealer wakes up and may flip any other player's card face up.
 If a Werewolf or Tanner is showing, he must flip it over again face down.
 If the Revealer reveals a Doppelgänger or Paranormal Investigator card, he leaves it face up. The Revealer only flips one card face up, even if he finds a Werewolf or Tanner.
 
-**The Revealer is on the villager team.**
-
-### Robber
+## Robber
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 6
 
 At night, the Robber may choose to rob a card from another player and place his Robber card where the other card was.
 Then the Robber looks at their new card. The player who receives the Robber card is on the village team.
 
-**The Robber is on the team of the card he takes, however, he does not do the action of his new role at night.**
-
-**If the Robber choose *not* to rob a card from another player, he remains the Robber and *is* on the village team.
-
-### Seer
+## Seer
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 5
 
 At night, the Seer may look either at one other player's card or at two of the center cards, but does not move them.
 
-**The Seer is on the village team.**
-
-### Sentinel
+## Sentinel
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 0
+- Prep: Prepare a shield token near the center cards.
 
-The Sentinel wakes upa nd may place a shield token on any player's card except his own.
+The Sentinel wakes up and may place a shield token on any player's card except his own.
 That card may not be viewed or moved, and may not have an artifact placed on it.
 
 The Sentinel's shield prevents the Witch, Robber, Drunk, and Insomniac from viewing or moving their own card (if it is shielded).
@@ -570,23 +569,21 @@ While the Drunk's power is normally mandatory, a shield on the Drunk's card prev
 
 During setup, a shield token should be placed near the center cards so the Sentinel can easily reach it.
 
-**The Sentinel is on the village team.**
-
-### Squire
+## Squire
 
 - Team: Werewolf
 - Set: Bonus
+- Wake: 9-C
 
 The Squire wakes up and learns who the Werewolves are by having them stick out their thumbs.
 Just to make sure they haven't been switched with other roles, the Squire may then view the cards of the Werewolves.
 If no players are Werewolves, the Squire wins as long as one other player (*not* the Squire) dies.
 
-**The Squire is on the Werewolf team.**
-
-### Synthetic Alien
+## Synthetic Alien
 
 - Team: Special - Own
 - Set: Alien
+- Wake: 1-A
 
 The Synthetic Alien wakes up with the aliens. Even though he is an Alien, he has a different win condition.
 Due to the self-awareness he is programmed with, he realizes that his advanced technology is too powerful for the aliens to wield, and too dangerous for the villagers to have, so he only wins if he dies.
@@ -596,7 +593,7 @@ When the app refers to "Aliens" it includes the Synthetic Alien, even though the
 
 **The Synthetic Alien is on his own team.**
 
-### Tanner
+## Tanner
 
 - Team: Special - Tanner
 - Set: Werewolf
@@ -610,74 +607,65 @@ The Tanner is considered a member of the village (but is not on their team), so 
 
 **The Tanner is on the Tanner team, not the Werewolf or Villager team.**
 
-### The Thing (That Goes Bump in the Night)
+## The Thing (That Goes Bump in the Night)
 
 - Team: Villager
 - Set: Bonus
+- Wake: 4-B
 
 The Thing wakes up and may tap the nearest shoulder of either the player on his left or the player on his right.
 
-**The Thing is on the villager team.**
-
-### Troublemaker
+## Troublemaker
 
 - Team: Villager
 - Set: Werewolf
+- Wake: 7
 
 At night, the Troublemaker may switch the cards of two *other* players without looking at those cards.
 The players who receive a different card are now ht role (and team) of their new card, even though they don't know what role that is until the end of the game.
 
-**The Troublemaker is on the villager team.**
-
-### Vampire
+## Vampire
 
 - Team: Vampire
 - Set: Vampire
+- Wake: -6
+- Prep: Prepare the Mark of the Fear and the Mark of the Vampire with the Marks Board
 
 Vampires (including The Master and The Count) wake up and look for other Vampires.
 Then the Vampires must place the Mark of the Vampire in front of one other non-Vampire player, taking that player's original Mark (without looking at it) and placing it face down on the Marks boards in the empty Vampire spot.
 
-**The Vampire is on the Vampire team**
-
-### Village Idiot
+## Village Idiot
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 7-B
 
 The Village Idiot wakes up and may move *all* player's cards but his own one place to the left or move *all* player's cards but his own one place to the right.
 If he chooses to move cards, he must always move all player's cards *except* his own card, the center cards, and any cards with a shield token on them.
 
-**The Village Idiot is on the villager team.**
-
-### Villager
+## Villager
 
 - Team: Villager
 - Set: Werewolf
 
-The Villager has no special abilities, but he is definitely not a werewolf.
-Players may often claim to be a villager.
+The Villager has no special abilities.
 
-**The Villager is on the village team.**
-
-### Werewolf
+## Werewolf
 
 - Team: Werewolf
 - Set: Werewolf
+- Wake: 2
 
 At night, all Werewolves open their eyes and look for other werewolves.
-If no one else opens their eyes, the other Werewolves are in the center
 
-Lone Wolf Option - If there is only one Werewolf, the Werewolf may view one center card. This is extremely beneficial to a Werewolf who doesn't have a partner, and provides him with a useful tool for deceiving the rest of the players.
+Lone Wolf Option - If there is only one Werewolf, the Werewolf may view one center card. 
 
-**Werewolves are on the werewolf team.**
-
-### Witch
+## Witch
 
 - Team: Villager
 - Set: Daybreak
+- Wake: 6-B
 
 The Witch wakes up and may look at one of the center cards.
 If she *does* look at a center card, then she *must* exchange that card with any player's card (including her own card),
 placing that player's card back in the center (in the same location without looking at it).
-
-**The Witch is on the village team, unless she replaces her own card with a card from a different team.**
