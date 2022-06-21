@@ -7,7 +7,10 @@ During the "Dusk" phase, additional Marks may enter the game, changing one or mo
 During the "Night" phase, the Pickpocket and Gremlin may move players' Marks, and the Marksman may view a player's Mark.
 
 No player may ever have more than one Mark;
-as soon as a player gives a Mark to a player, the receiveing player's Mark is returned to the empty spot in the Marks Board
+as soon as a player gives a Mark to a player, the receiving player's Mark is returned to the empty spot in the Marks Board.
+
+All Marks are a part of the *Vampire* set.
+[For more information, check out the Sets page.](/fake-fan-adam/view/werewolf~sets)
 
 ## Marks
 
