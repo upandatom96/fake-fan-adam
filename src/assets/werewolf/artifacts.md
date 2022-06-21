@@ -19,84 +19,68 @@ However, you often can't be sure if your card was changed; but if it was, the to
 During setup, all of the Artifact tokens should be placed face down and shuffled,
 and the stack of face-down Artifact tokens should be placed near the center cards so the Curator can easily reach them.
 
-You may choose to include only some of the Artifacts instead of all of them, based on your personal perference.
+You may choose to include only some of the Artifacts instead of all of them, based on your personal preference.
 
-## Alien Artifact
+These Artifacts come from the Daybreak and Bonus sets.
+[For more information, check out the Sets page.](/fake-fan-adam/view/werewolf~sets)
 
-- Set: Bonus
+## Artifacts
 
+**Alien Artifact:**
 You are an Alien, and win and lose with the Alien team.
+(Set: Bonus)
 
-## Bow of the Hunter
+**Bow of the Hunter:**
+You are now a Hunter. 
+If you die, the player you are pointing at also dies.
+(Set: Bonus)
 
-- Set: Bonus
-
-You are now a Hunter. If you die, the player you are pointing at also dies.
-
-## Brand of the Villager
-
-- Set: Daybreak
-
+**Brand of the Villager:**
 You are now a Villager, with no special abilities.
+(Set: Daybreak)
 
-## Clay of the Werewolf
-
-- Set: Daybreak
-
+**Clay of the Werewolf:**
 You are now a Werewolf.
+(Set: Daybreak)
 
-## Cloak of the Prince
+**Cloak of the Prince:**
+You are now a Prince. 
+Votes against you do not count.
+(Set: Bonus)
 
-- Set: Bonus
-
-You are now a Prince. Votes against you do not count.
-
-## Cudgel of the Tanner
-
-- Set: Daybreak
-
+**Cudgel of the Tanner:**
 You are now the Tanner. You only win if you die.
 If you die, the werewolf team cannot win.
 If a Werewolf *and* you both die, both you and the village team wins.
+(Set: Daybreak)
 
-## Dagger of the Traitor
+**Dagger of the Traitor:**
+You are a traitor to your team. You only win if someone else on your team dies. 
+(Set: Bonus)
 
-- Set: Bonus
-
-You are a traitor to your team. You only win if someone else on your team dies.
-
-## Mask of Muting
-
-- Set: Daybreak
-
+**Mask of Muting:**
 You may not speak.
-You may use hand motions, sign language, etc. as long as you are silent.
+You may use hand motions, sign language, etc. as long as you are silent. 
+(Set: Daybreak)
 
-## Mist of the Vampire
-
-- Set: Bonus
-
+**Mist of the Vampire:**
 You are now a Vampire, and win or lose with the Vampire team.
 If you die, the Vampire team (and you) loses.
-Only use this along with roles from *Vampire*.
+Only use this along with roles from *Vampire*. 
+(Set: Bonus)
 
-## Shroud of Shame
-
-- Set: Daybreak
-
+**Shroud of Shame:**
 You must turn your chair, body, and face away from the other players.
 You may still speak, but you may not look at the other players or the cards and tokens.
 You may not turn around when voting, but you may (try to) point at any player
 (the other players will determine who you pointed at).
+(Set: Daybreak)
 
-## Sword of the Bodyguard
+**Sword of the Bodyguard:**
+You are now a Bodyguard. 
+The player you vote for cannot be killed.
+(Set: Bonus)
 
-- Set: Bonus
-
-You are now a Bodyguard. The player you vote for cannot be killed.
-
-## Void of Nothingness
-
-- Set: Daybreak
-
+**Void of Nothingness:**
 This artifact has no effect.
+(Set: Daybreak)
