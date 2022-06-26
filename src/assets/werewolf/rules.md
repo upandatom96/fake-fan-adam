@@ -19,6 +19,18 @@ At the end of each game you'll vote for a player who *isn't* on your tea; the pl
 If a Werewolf is killed, everyone on the village team wins. 
 If no Werewolves are killed, the Werewolf team wins.
 
-### Basic Rules / Special Rules / Epic Battles
+## Gameplay
+
+- TBD
+
+## Voting Rules
+
+- TBD
+
+## Special Cases
+
+- TBD
+
+## Epic Battles
 
 - TBD
