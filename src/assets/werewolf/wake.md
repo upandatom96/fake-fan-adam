@@ -1,4 +1,4 @@
-# One Night Ultimate Werewolf: **Wake-Up Order
+# One Night Ultimate Werewolf: Wake-Up Order
 
 - [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
 
