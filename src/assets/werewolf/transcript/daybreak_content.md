@@ -45,27 +45,182 @@ add a few of the *Daybreak* roles to each game until you become comfortable with
 
 ### Sentinel
 
+The Sentinel wakes up and may place a shield token on any player's card except his own.
+That card may not be viewed or moved, and may not have an artifact placed on it.
+
+The Sentinel's shield prevents the Witch, Robber, Drunks, and Insomniac from viewing or moving their own card
+(if it is shielded). While the Drunk's power is normally mandatory, a shield
+on the Drunk's card prevents the Drunk from using his power.
+
+During setup, a shield token should be placed near the center cards so the Sentinel can easily reach it.
+
+*The Sentinel is on the village team.*
+
+> "Sentinel, wake up. You may place a shield token on any player's card but your own."
+>
+> *The Sentinel opens his eyes and may place a shield token on any player's card but his own.*
+> 
+> "Sentinel, close your eyes."
+
 ### Alpha Wolf
+
+If playing with the Alpha Wolf,
+position any other Werewolf card (including a regular Werewolf,
+the Mystic Wolf, or Dream Wolf)
+face down and perpendicular to the three center cards (see the setup image under "First Game Setup" in the Getting Started Guide
+for an example of where to place the Center Werewolf Card).
+At night,
+the Alpha Wolf wakes up seperately.
+The Alpha Wolf *must* exchange the Center Werewolf card with any other player's card
+(but not his own card or another Werewolf's card), without looking at either card.
+
+All roles that can view or move a center card may also view or move the Center Werewolf card.
+
+*The Alpha Wolf is on the Werewolf team.*
+
+> "Alpha Wolf, wake up and exchange the Center Werewolf card for any other player's card."
+>
+> *The Alpha Wolf opens his eyes and exchanges the Center Werewolf card with another player's card.*
+>
+> "Alpha Wolf, close your eyes."
 
 ### Mystic Wolf
 
+The Mystic Wolf wakes with the other Werewolves.
+Afterwards, the Mystic Wolf wakes up seperately. The Mystic Wolf may look at one other player's card.
+*The Mystic Wolf is on the Werewolf team.*
+
+> "Mystic Wolf, wake up. You may look at another player's card."
+>
+> *The Mystic Wolf opens her eyes and may quietly look at one other player's card.*
+>
+> "Mystic Wolf, close your eyes."
+
 ### Apprentice Seer
+
+The Apprentice Seer wakes up and may look at one of the center cards.
+*The Apprentice Seer is on the village team.*
+
+> "Apprentice Seer, wake up. You may look at one of the center cards."
+>
+> *The player with the Apprentice Seer card opens her eyes and may quietly look at one of the cards in the center.*
+>
+> "Apprentice Seer, close your eyes."
 
 ### Paranormal Investigator
 
+The P.I. wakes up and may look at the cards of up to two other players, one at a time.
+If he views a Werewolf or a Tanner, he may not view any more cards,
+and he becomes a Werewolf or a Tanner, respectively.
+
+If the P.I. sees the Doppelgänger that saw a Werewolf or Tanner,
+he continues looking (he doesn't know what the Doppelgänger saw,
+and does not become what the Doppelgänger saw, even if the Doppelgänger saw a Werewolf or Tanner).
+
+*The Paranormal Investigator is on the village team,
+unless he finds a Werewolf, in which case he joins the Werewolf team,
+or if he finds a Tanner,
+in which case he becomes a Tanner and only wins if he dies.
+
+> "P.I., wake up. You may look at up to two cards of other players. If you see a Werewolf or the Tanner, you must stop, and you become a Werewolf or a Tanner."
+>
+> *The player with the P.I. card opens his eyes and may quietly look at up to two other player's cards. If he sees a Werewolf or the Tanner, he stops looking and becomes a Werewolf or the Tanner.*
+>
+> "P.I., close your eyes."
+
 ### Witch
+
+The Witch wakes up and may look at one of the center cards.
+If she *does* look at a center card, then she must echange that card with any player's card (including her own card),
+placing that player's card back in the center (in the same location) without looking at it.
+If the Witch gives herself a role that wakes up later in the night, she does *not* wake up again.
+
+*The Witch is on the village team, unless she replaces her own card with a card from a different team.*
+
+> "Witch, wake up. You may look at one of the center cards. If you do, you must echange that card with any player's card."
+>
+> *The player with the Witch card opens her eyes and may quietly look at one of the cards in the center. If she does, she must exchange that card with any player's card.*
+>
+> "Witch, close your eyes."
 
 ### Village Idiot
 
+The Village Idiot wakes up and may move *all* players' cards but his own one place to the left or move *all*
+players' cards but his own one place to the right.
+If he chooses to move cards, he must always move all player's cards except his own card,
+the center cards, and any cards with a shield token on them.
+
+*The Village Idiot is on the Village team.*
+
+> "Village Idiot, wake up. You may move everyone's card but your own to the left or to the right."
+>
+> *The player with the Village Idiot card opens his eyes and may quietly move everyone's card but his own, the center cards, or a card with a shield token on it to the left or to the right.*
+>
+> "Village Idiot, close your eyes."
+
 ### Revealer
 
+The Revealer wakes up and may flip any other player's card face up.
+If a Werewolf or Tanner is showing, he must flip it over again face down.
+If the Revealer reveals a Doppelgänger or P.I., he leaves it face up.
+The Revealer only flips one card face up, even if he finds the Werewolf or Tanner.
+
+*The Revealer is on the Village team.*
+
+> "Revealer, wake up. You may flip over any other player's card. If it is a Werewolf or Tanner, flip it over face down."
+>
+> *The player with the Revealer card opens his eyes and may quietly flip another player's card over so it is face up. If it is a Werewolf or the Tanner, it must be flipped again face down.*
+>
+> "Revealer, close your eyes."
+
 ### Curator
+
+The Curator wakes up and may choose and place a random face down Artifact token (without looking at it)
+on any player's card (including his own).
+See the list on the opposite page for tokens and their effects.
+
+The Curator may not place an Artifact token on a card that has a shield token on it.
+
+*The Curator is on the village team.*
+
+> "Curator, wake up. You may place an Artifact token face down on any player's card."
+>
+> *The player with the Curator card opens his eyes and chooses one of the face down Artifact tokens and places it on any player's card.*
+>
+> "Curator, close your eyes."
 
 ## No-Wake Roles
 
 ### Bodyguard
 
+When everyone votes, the player that the Bodyguard points to cannot be killed.
+If that player received the most votes, the player with the next most votes (at least two)
+is killed.
+Recommended for five or more players.
+
+When the Bodyguard is in the game,
+it is necessary for all players to turn their cards over right after the vote
+(to see if the Bodyguard is pointing to the player with the most votes).
+
+*The Bodyguard is on the village team.*
+
 ### Dream Wolf
+
+The Dream Wolf does *not* wake up with the other Werewolves.
+When the Werewolves are called,
+he sticks out his thumb so that the other Werewolves know who he is.
+When playing with the Minion, the Dream Wolf sticks out his thumb duirng the Minion's night phase.
+*The Dream Wolf is on the Werewolf team.*
+
+When playing with the Dream Wolf, the announcer should wake the Werewolves slightly differently:
+
+> "Werewolves, except for the Dream Wolf, wake up and look for other Werewolves. Dream Wolf, stick out your thumb."
+> 
+> *The Werewolves (except for the Dream Wolf) open their eyes
+> and look for anyone else whose eyes are open.
+> The Dream Wolf sticks out her thumb, so the Werewolves know who he is.*
+> 
+> "Dream Wolf, put your thumb away. Werewolves, close your eyes."
 
 ## Artifacts
 
