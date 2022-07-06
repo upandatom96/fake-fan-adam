@@ -551,3 +551,7 @@ When playing with the "Lone Wolf" option, if there is only one Werewolf, the Wer
 Wakes up and *may* look at one of the center cards.
 If they look at a center card, then they *must* exchange that card with any player's card (including their own),
 placing that player's card back in the same location without looking at it.
+
+## Zerb
+
+(See: "Groob & Zerb")
