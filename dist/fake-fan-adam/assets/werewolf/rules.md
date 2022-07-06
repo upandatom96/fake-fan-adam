@@ -23,14 +23,58 @@ If no Werewolves are killed, the Werewolf team wins.
 
 - TBD
 
-## Voting Rules
+## Voting Rules - "Day Phase"
 
-- TBD
+After the Night Phase has ended and everyone has woken up,
+players discuss who they believe the werewolves (and/or other characters) are.
+All players may say anything, but may not show their card (or look at their card)
+unless the rules say otherwise.
+
+After a few minutes of discussion, players vote.
+
+- Each player gets one vote and cannot vote for themselves.
+- The player with the most votes dies.
+- In the case of a tie, all players tied with the most votes die and reveal their cards.
+- If no player receives more than one vote, no one dies. (One way to achieve this is if everyone votes in the same direction around the table.)
 
 ## Special Cases
 
 - TBD
 
-## Epic Battles
+## Epic Battles: Aliens V Villagers V Werewolves V Vampires
 
-- TBD
+You can have Aliens, Villager, Werewolves, and Vampires in the same game.
+
+If 3 or more of these groups are in the game and active (i.e. actually in front of at least one player, not just in the center card group),
+at least *two players* will be killed during the vote: 
+the player with the most votes and the player with the second-most votes
+(in this case one vote counts if it is the second-highest number).
+
+If there is a tie for most votes, only those tied for the most votes are killed.
+If there isn't a tie for the most votes, and there is a tie for the second-most votes,
+the person with the most votes and those with the second-most votes are also killed.
+If it is determined that only two of these groups are in play (because the other cards were in the center),
+then only the player(s) with the most votes (as long as they have at least two) are killed. 
+All win conditions must be fulfilled for each team to win:
+
+Villager Team Epic Battle Win Conditions:
+- At least 1 player from *two* different non-villager teams must be killed
+
+Alien Team Epic Battle Win Conditions:
+- At least 1 Werewolf or 1 Vampire must be killed
+- No Aliens may be killed
+
+Vampire Team Epic Battle Win Conditions:
+- At least 1 Werewolf or 1 Alien must be killed
+- No Vampires may be killed
+
+Werewolf Team Epic Battle Win Conditions:
+- At least 1 Vampire or 1 Alien must be killed
+- No Werewolves may be killed
+
+When four teams are in play, more than one team can win.
+For instance, if a Villager and a Vampire are killed, both the Alien and the Werewolf team win.
+Colluding with another team to try to get the numbers is encouraged, but it might just out you and result in your team losing!
+
+All other (special) teams, such as the Tanner, retain their original win conditions.
+
