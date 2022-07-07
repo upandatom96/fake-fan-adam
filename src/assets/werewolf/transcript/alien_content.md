@@ -135,25 +135,126 @@ Once you get the hang of how *Alien* works, you can add cards from the other
 
 ### Oracle
 
+The Oracle wakes up and may resond to the app,
+which will ask her a question.
+She responds by tapping an answer on the app.
+If she does not respond for any reason (including if the card is not given to any player, but is instead in the center),
+the app will choose an answer for her.
+
+*The Oracle is on the Village team.*
+
 ### Alien
+
+Aliens (including the "regular" Aliens, Synthetic, Groob, and Zerb) wake up
+and look for other Aliens. Then the app will direct the Aliens as to what to do next.
+
+In some cases, the Aliens may have the ability to change a player into an Alien.
+In this particular case, the *player* remains an Alien, regardless of what his card is.
+
+*The Alien is on the Alien team.*
 
 ### Synthetic Alien
 
+The Synthetic Alien wakes up with the Aliens.
+Even though he is an Alien, he has a different winning condition.
+Due to the self-awareness he is programmed with, he realizes that his advanced technology is too powerful for the aliens to wield,
+and too dangerous for the villagers to have, so he only wins if he dies.
+If the Synthetic dies, everyone on the alien and villager teams lose.
+
+When the app refers to "Aliens" it includes the Synthetic Alien, even though he is on a different team.
+
+*The Synthetic Alien is on his own team.*
+
 ### Cow
+
+The Cow sticks out her fist while the Aliens are awake.
+If any Alien is sitting next to the Cow, one Alien must tap her on the fist, which tips her.
+
+*The Cow is on the villager team.*
 
 ### Groob & Zerb
 
+Groob and Zerb wake up with the Aliens, and then wake up together later and look at each other.
+
+If both Groob and Zerb are in the game,
+they have a different winning condition:
+Groob only wins if Zerb dies and Groob stays alive,
+and Zerb only wins if Groob dies and Zerb stays alive.
+In both cases, the villager team wins as well, since at least one Alien was killed.
+Any other Aliens in the game lose if either Zerb or Groob dies.
+
+If only one of the two is in the game,
+she is on the alien team as normal.
+
+*Groob and Zerb are on the Alien team, unless both are in the game,
+in which case they are on their own teams.*
+
 ### Leader
+
+The Leader wakes up,
+and all players who are Aliens keep their eyes closed and put out their thumbs.
+If both Zerb and Groob are in the game and saw each other when they woke up,
+they point at each other (with their eyes closed)
+instead of putting out their thumbs.
+
+If Zerb and Groob are *not* both in the game,
+the Leader wins with the villager team.
+If both of them are in the game, the only way the Leader wins is if both Zerb and Groob
+are alive at the end of the game.
+In addition, the villager team loses and the alien team wins if all of the players
+on the alien team (including Zerb and Groob, if either or both are in the game)
+point to the Leader, even if an Alien is killed.
+
+*The Leader is on the villager team, unless Zerb and Groob are both in the game, in which case
+the Leader only wins if both Groob and Zerb survive.*
 
 ### Psychic
 
+The Psychic wakes up, and is told that she may look at one or more cards by the app.
+Which cards may be viewed may be different for each game.
+
+*The Psychic is on the villager team.*
+
 ### Rascal
+
+The Rascal wakes up, and is told by the app if he may (or must)
+move two or more cards.
+Which cards may be moved may be different for each game.
+
+*The Rascal is on the villager team.*
 
 ### Exposer
 
+The Exposer wakes up, and may flip
+one, two, or three of the center cards by turning them over and leaving them that way.
+The number of cards turned over is determined by the app.
+If the Exposer is told that he may flip two cards, he must flip two or none at all.
+If he is told that he may flip three cards, he must flip three or none at all.
+
+*The Exposer is on the villager team.*
+
 ### Blob
 
+The Blob doesn't wake up, but is told which and how many players adjacent to it are
+now part of the Blob.
+The Blob wins as long as none of the lpayers who are part of the Blob
+(including the Blob player) are killed.
+The Blob wins in addition to any other teams that might win.
+
+The players the Blob must keep alive are always relative to the location of the Blob card at the end of the game.
+
+*The Blob is on its own team.*
+
 ### Mortician
+
+The Mortician wakes up and may look at the cards of one, both, or none of his neighbors (based on what the app tells him to do).
+The Mortician needs more business, and on top of that he's really lazy,
+so he wins if at least one of his neighbors
+(the players directly adjacent to him) dies
+(Whether he saw their cards or not).
+The Mortician wins in addition to any other teams that might win.
+
+*The Mortician is on his own team.*
 
 ## Doppelgänger & Alien
 
