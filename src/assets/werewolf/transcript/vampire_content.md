@@ -290,13 +290,116 @@ The Cursed and Prince from *Bonus Pack 1* are never woken up at night.
 
 ## Epic Battles: Vampires vs Villagers vs Werewolves
 
+You can have Vampires, Villagers, and Werewolves
+(from *One Night* and *Daybreak*), in the same game.
+
+If all three are in the game and active
+(i.e. actually in front of at least one player,
+not just in the center card group),
+at least two players will be killed during the vote:
+the player with the most votes and the player with the 2nd most votes
+(in this case 1 vote counts if it is the 2nd highest number).
+If there is a tie for most votes, only those tied for the most votes are killed.
+If there isn't a tie for the most votes, and there is a tie for 2nd most votes, the person with the most votes is killed
+and those with the 2nd most votes are also killed.
+If it is determined that either Werewolves, Vampires, or Villagers were not in play (because those cards were in the center),
+then only the player(s) with the most votes
+(as long as they have at least 2) are killed.
+Both of the win conditions below must be fulfilled for each team to win:
+
+- Vampire Team
+  - At least 1 Werewolf must be killed
+  - No Vampires may be killed
+- Villager Team
+  - At least 1 Vampire must be killed
+  - At least 1 Werewolf must be killed
+- Werewolf Team
+  - At least 1 Vampire must be killed
+  - No Werewolves may be killed
+
+In cases where all Werewolves, Vampires or village team members are in the center,
+winning conditions are normal, and only one player is killed.
+
 ## Special Cases when Combining Games
+
+If the Prince (*Bonus Pack 1*) has the Mark of the Vampire, he is a Vampire and on the vampire team,
+but he cannot die.
+
+If the Cusred (Bonus Pack 2*) has the Mark of the Vampire, and a Werewolf points at him during the vote,
+he's still a Vampire.
+
+If the Bodyguard (*Daybreak*) has the Mark of the Vampire,
+the player he points at still cannot be killed.
+
+If a player has the Shield token from the Sentinel
+(*Daybreak*), only his card is protected, not his Mark
+
+If the Copycat card *starts* as a Center card,
+and is later given to a player by a card like the Drunk (*One Night*)
+or the Witch (*Daybreak*),
+that player is on the village team and has no special power.
+
+A player with the Mark of Fear may not do any part of their night action,
+including openning their eyes.
+However, if another night action requires that you put out your thumb, you must do that.
+The exception to this is that the Dreamwolf (*Daybreak*)
+with a Mark of Fear cannot put out his thumb initially when Werewolves wake,
+but most put out his thumb for the Minion (*One Night*) or Squire (*Bonus Pack 2*).
+
+If a Werewolf (*One Night*) has the Mark of the Vampire,
+he still wakes up with the other Werewolves,
+but he is a Vampire and wins with the Vampire team.
+
+If there is no Mark of the Assassin in the game,
+the Assassin is a simple villager, and wins with the Village team.
+this can happen if the Assassin card starts in the middle and is given to a player via
+the Witch (*Daybreak*), Drunk (*One Night*), or another role.
+
+When playing Epic Battles,
+if all Werewolves are in the center, but at least one player
+is a Minion (*One Night*)
+or Squire (*Bonus Pack 2*), only one player dies during the vote
+(because there are no Werewolves).
+
+to help track who has the most votes, use the included doublesided #1 and #2 tokens,
+giving them to the player(s) who receive the most and 2nd-most votes.
 
 ## Thanks Playtesters
 
+Carol Alspach, Dakota Alspach, Alan Aspinwall, Mostafa Attic,
+Thomas Bokumeurer, Ric Bretschneider, Tiffany Carter,
+Steven Chan, Bay Chang, Adam Copeland, Catherine Wright Copeland,
+Audrey Cueto, Eric Edens, Shawna Flener, Jason Fox,
+Matt Gallaer, Shelley Ganschow, Evelyn Kislig,
+Edward Lazarian, Dean Lizardo, Jonathan McCrary, Kaiya McCrary,
+Rowan Mcrary, Beck Milner,
+Scott Joseph Moloy,
+John Moore, Liam Moore, Nicholas Moore, Richard New,
+Lan Nham, Colby Nichols, Marcelo Nishimura,
+Imran Pirani, Krystal Pirani, Andrea Richards, Lorein Riead,
+ Abby Rynko, Jeffery Shih, Tina Shin,
+ Steven Shulmister,
+ Tony Sladek,
+ Mark Sliwoski, Mark Smith,
+ Julia Stanfield, Michelle Tarson, Bernardo Telles,
+ VikingJ, Linda Vu,
+ Ray Wisneski, Jon Woddell, Alan Wong, Clyde Wright,
+ Gordon Wright, and many others.
+
 ## About the Designers
 
+**Ted Alspach** is the designer of several games including *One Night Ultimate Werewolf*,
+*Castles of Mad King Ludwig*, *Ultimate Werewolf*, and *Suburbia*.
+He lives in a secluded fortress somewhere in North America with his wife, son, daughter, dog, and two cats,
+all of whom claim *not* to be vampires. Ted doesn't believe any of them.
+
+**Akihisa Okui** is the designer of Japan's *One Night Werewolf*.
+
 ## About the Artist
+
+Brazilian artist **Gus Batts** has illustrated more than 50 children's books, and is the artist for *One Night Ultimate Werewolf*
+and *One Night Ultimate Werewolf Daybreak*.
+See more of his fantastic artwork at www.gusbatts.daportfolio.com.
 
 ## bezier games
 
@@ -309,12 +412,50 @@ All Rights Reserved.
 
 ## One Night Playmats
 
+Keep night card movement quieter by purcahsing an official 14" x 26" *One Night* soft (mousepad style)
+playmat directly from Bezier Games at www.beziergames.com.
+
 ## One Night Card Sleeves
+
+Keep your cards mark-free by purchasing these high quality *One Night* card sleeves
+directly from Bezier Games at www.beziergames.com.
 
 ## One Night Ultimate Werewolf
 
+The original *One Night Ultimate Werewolf* game has 12 unique roles on 16 cards, including the Robber,
+who steals a player's card, the Troublemaker, who switches roles between two different players,
+and the Doppelgänger, who can become the same role as any other player.
+Order *One Night Ultimate Werewolf*
+directly from Bezier Games at www.beziergames.com.
+
 ## One Night Ultimate Werewolf Bonus Pack 1
+
+*Bonus Pack 1* contains 3 new roles: the Aura Seer, who knows who viewed or moved a card;
+the Prince, who can't be killed; and the Cursed,
+who turns into a Werewolf if any Werewolf votes for him.
+It also includes three new artifacts and three alternative artwork cards for Werewolves and the Tanner.
+Order *Bonus Pack 1*
+directly from Bezier Games at www.beziergames.com.
 
 ## One Night Ultimate Werewolf Bonus Pack 2
 
+*Bonus Pack 2* contains 4 new roles:
+the Apprentice Tanner, who is on the Tanner team;
+the Beholder, who knows who the Seer is;
+the Squire, who is on the Werewolf team and knows if any of them have been changed during the night;
+and the Thing (that goes bump in the night),
+which goes bump...in the night.
+It also includes new new artifacts and two alternative artwork cards for the Vampire and Seer.
+Order *Bonus Pack 2*
+directly from Bezier Games at www.beziergames.com.
+
 ## One Night Ultimate Werewolf Daybreak
+
+*One Night Ultimate Werewolf Daybreak* adds 11 new roles
+to the original *One Night Ultimate Werewolf* game,
+including the Alpha Wolf (which transforms another player into a Werewolf during the night),
+the Apprentice Seer (who is just laerning, and can only view a single card at night),
+and the Curator, wh oplaces a mysterious artifact on another player's card,
+which can dramatically change them.
+Order *Daybreak*
+directly from Bezier Games at www.beziergames.com.
