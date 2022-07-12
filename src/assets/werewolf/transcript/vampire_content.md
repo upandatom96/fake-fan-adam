@@ -170,35 +170,250 @@ you can add Werewolves (see the section "Epic Battles" for more details on combi
 
 ### Copycat
 
+The Copycat wakes up and must look at one of the center cards.
+From that point on in the game,
+the Copycat is the role he viewed.
+If that role is called, the Copycat wakes up and does that role's action.
+
+The role seen by the original Copycat goes with that card if the Copycat card is moved to another player.
+
+*The Copycat is on the team he first views.*
+
+> "Copycat, wake up and look at one of the center cards. You are now that role. If that role is called, wake up and do that action."
+>
+> *The Copycat opens his eyes and must look at one of the Center cards. He becomes that role and will wake up again later if that role has  a Dusk or Night action.*
+>
+> "Copycat, close your eyes."
+
 ### Vampire
+
+Vampires (including The Master and The Count) wake up and look for other Vampires.
+Then the Vampires must place the Mark of the Vampire in front of one other non-Vampire player, taking that player's original Mark (without looking at it) and placing it face down on the Marks baords in the empty Vampire spot.
+
+*The Vampire is on the Vampire team.*
+
+> "Vampires, wake up and look for other Vampires. Give any non-vampire player a Mark of the Vampire."
+?
+> *The Vampires open their eyes, look around for other Vampires, and hten must place a Mark of the Vampire in front of any non-Vampire.*
+>
+> "Vampires, close your eyes."
 
 ### The Master
 
+The Master wakes up with the Vampires.
+Then the Vampires must place the Mark of the Vampire in front of one other non-Vampire player,
+taking that player's original Mark (without looking at it) and placing it face down on the Marks boards in the empty Vampire spot.
+
+The Master's special power occurs during the vote: if another Vampire
+(the regular Vampire, the Count, or the player with the Mark of the Vampire) votes for
+him, the Master is protected and cannot be killed.
+Instead, the player with the 2nd most votes (greater than 1) is killed.
+
+*The Master is on the Vampire team.*
+
 ### The Count
+
+The Count wakes up with the Vampires.
+Then the Vampires must place the Mark of the Vampire in front of one other non-Vampire player, taking that player's original Mark
+(without looking at it) and placing it
+face down on the Marks boards in the empty Vampire spot.
+
+He also wakes up after the Vampires have closed their eyes,
+and must place the Mark of Fear on any non-Vampire (he may not place it on the player who has the Mark of the Vampire,
+as that player is now a Vampire).
+The Mark of Fear prevents a player from using their Night action (if they have one).
+
+*The Count is on the Vampire team.*
+
+> "Count, wake up and place the Mark of Fear in front of any non-vampire player."
+>
+> *The Count opens his eyes, and then must place a Mark of Fear in front of any non-vampire.*
+>
+> "Count, close your eyes."
 
 ### Renfield
 
+If Renfield is in the game, the Vampires must point at the player with the Mark of the Vampire when they close their eyes,
+and leave their fingers pointing until Renfield closes his eyes.
+Renfield wakes up and sees who the VAmpires are and who they are pointing at.
+Then Renfield must take the Mark of the Bat and place it in front of him face down,
+replacing his original Mark (without looking at it) face down
+on the empty Bat spot on the Marks boards.
+Renfield wins as long as no Vampires are killed,
+even if Renfield himself dies.
+
+If the Mark of the Bat ends up on another player, it has no effect on that player.
+
+*Renfield in on the Vampire team (but he is not a Vampire), unless no players are Vampires (or have the Mark of the Vampire), in which case he is on the villager team.*
+
+> "Vampires, point at the player who has the Mark of the Vampire and close your eyes. Renfield, wake up and look around for the Vampires, then place the Mark of the Bat in front of you."
+>
+> *Renfield opens his eyes and looks around to see who the Vampires are and to see who they are pointing at, and must place the Mark of the Bat in front of himself.*
+>
+> "Vampires, put your hands down. Renfield, close your eyes."
+
 ### Diseased
+
+The Diseased wakes up and must place the Mark of Disease face down on a player adjacent to her, returning
+that player's original Mark (without looking at it) face down to the Marks boards.
+
+Any player who votes for the Diseased player (or the player with the Mark of Disease)
+cannot win, even if their team wins. However,
+any vote cast against this player still counts,
+and if the Diseased/Mark of Disease player gets the most votes, they die just like any other player, and the players
+on the winning team who did *not* vote for the Diseased/Mark of Disease players win.
+
+*The Diseased is on the villager team.*
+
+> "Diseased, wake up. Place a Mark of Disease in front of the player to your left or right."
+>
+> *The Diseased opens her eyes, and then must place a Mark of Disease in front of a player directly to their left or to their right.*
+>
+> "Diseased, close your eyes."
 
 ### Cupid
 
+Cupid wakes up and may place up to two Marks of Love face down in front of any two players,
+placing those players' original Marks face down (without looking at them)
+in the empty Love spots on the Marks boards.
+
+Players who receive the Marks of Love wake up when called after Dusk to learn who they are in love with.
+If either player is killed, the other dies as well.
+Players with the Mark of Love remain on their current teams.
+
+*Cupid is on the villager team.*
+
+> "Cupid, wake up. You may give any two players a Mark of Love."
+>
+> *Cupid opens her eyes, and then may give a Mark of Love to two different players.*
+>
+> "Cupid, close your eyes."
+
 ### Instigator
+
+The Instigator wakes up and may place a Mark of the Traitor face down in front of any player,
+placing that player's original Mark (without looking at it)
+face down in the empty Traitor spot on the Marks boards.
+
+A player who receives tha Mark of the Traitor only wins
+if someone *else* on his team is killed.
+If the player with the Mark of the Traitor is the only person
+on his team, the Mark of the Traitor has no effect.
+
+*The Instigator is on the villager team.*
+
+> "Instigator, wake up. You may give any player the Mark of the Triator."
+>
+> *The Instigator opens her eyes, and then may place a Mark of the Traitor in front of any player.*
+>
+> "Instigator, close your eyes."
 
 ### Priest
 
+The Priest wakes up and must place a Mark of Clarity in front of himself
+and may place a Mark of Clarity in front of one other player,
+placing both his and that player's original Mark
+(without looking at them) face down
+in the empty Clarity spots on the Marks boards.
+
+*The Priest is on the Villager team.*
+
+> "Priest, wake up and give yourself a Mark of Clarity. You may also give any other player a Mark of Clarity."
+>
+> *The Priest opens his eyes, gives himself a Mark of Clarity and may place a Mark of Clarity in front of any other player.*
+>
+> "Priest, close your eyes."
+
 ### Assassin
+
+The Assassin wakes up and must place the Mark of the Assassin on any player,
+placing that player's original MArk (without looking at it)
+face down in the empty Assassin spot on the Marks boards.
+
+The Assassin can only win if the player with the Mark of the Assassin dies,
+regardless of what that player's team is.
+The Assassin does not have to be alive at the end of the game in order to win.
+The Assassin is unique in that if he wins, 
+other teams can still meet their winning conditions and win,
+so it is possible to have the Assassin win along with the Vampires,
+the villagers, or even the Tanner.
+
+If it happens that the Assassin ends up with the Mark of the Assassin at the end of the game,
+he only wins if he himself dies.
+
+*The Assassin is on his own team.*
+
+> "Assassin, wake up and place the Mark of the Assassin in front of any player."
+>
+> *The Assassin opens his eyes, and then must place a Mark of the Assassin in front of any player.*
+>
+> "Assassin, close your eyes."
 
 ### Apprentice Assassin
 
+The Apprentice Assassin wakes up immediately after the Assassin places the Mark of the Assassin
+in front of any player, *while the Assassin's eyes are still open*.
+The Apprentice Assassin looks for the Assassin (and the Assassin looks for her).
+
+The Apprentice Assassin wins if the Assassin dies.
+The Apprentice Assassin does not have to be alive at the end of the game in order to win.
+
+If there is no Assassin,
+the Apprentice Assassin must place the Mark of the Assassin in front of any player,
+and only wins if the player with the Mark of the Assassin (including herself) dies.
+
+*The Apprentice Assassin is on her own team.*
+
+> "Assassin, wake up. Place the Mark of the Assassin in front of any player."
+>
+> *The Assassin opens his eyes, and then must place the Mark of the Assassin in front of any player.*
+>
+> "Apprentice Assassin, wake up and look for the Assassin. If there is no Assassin, place the Mark of the Assassin on front of any player."
+> *The Apprentice Assassin opens her eyes and looks for the Assassin (whose eyes are still open). If she doesn't see the Assassin, she then places the Mark of the Assassin in front of any player.*
+>
+> "Assassin and Apprentice Assassin, close your eyes."
+
 ## Night
+
+After Dusk, all players must open their eyes and look at their Marks (but *not* at their cards).
+
+> "Everyone, wake up and secretly view your Mark."
+>
+> *Everyone wakes up and secretly looks at their Marks.*
+>
+> "Everyone, close your eyes."
 
 ### Players in Love
 
+> ""
+>
+> **
+>
+> ""
+
 ### Marksman
+
+> ""
+>
+> **
+>
+> ""
 
 ### Pickpocket
 
+> ""
+>
+> **
+>
+> ""
+
 ### Gremlin
+
+> ""
+>
+> **
+>
+> ""
 
 ## Artifacts & Vampire
 
