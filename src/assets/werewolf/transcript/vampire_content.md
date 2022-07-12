@@ -385,35 +385,58 @@ After Dusk, all players must open their eyes and look at their Marks (but *not* 
 
 ### Players in Love
 
-> ""
+After players close their eyes, the players who are in love
+(who have the Mark of Love) are called to wake up and look for the player they are in love with.
+The players with the Marks of Love are linked; if one of them dies, the other one dies as well.
+
+It is possible that only one player will have the Mark of Love at this time if the Instigator, Priest, Assassin, and/or Apprentice Assassin are in the game.
+In this case, the Mark of Love has no effect on the player who has it.
+
+*Having the Mark of Love does not change that player's team affiliation.*
+
+> "If you are in Love, wake up and look for your love interest."
 >
-> **
+> *Player who have a Mark of Love must wake up and look around for another player who has their eyes open.*
 >
-> ""
+> "Lovers, close your eyes."
 
 ### Marksman
 
-> ""
+The Marksman wakes up and may view one player's card and/or another player's Mark
+(but not the same player if viewing both a Mark and a Card).
+
+*The Marksman is on the villager team.*
+
+> "Marksman, wake up. You may view the card of one player and the Mark of another player."
 >
-> **
+> *The Marksman opens his eyes and may look at the card in front of one player and the Mark in front of another player.*
 >
-> ""
+> "Marksman, close your eyes."
 
 ### Pickpocket
 
-> ""
+The Pickpocket wakes up and may exchange his Mark for the Mark of another player, and *then* views his new Mark.
+
+*The Pickpocket is on the villager team.*
+
+> "Pickpocket, wake up. You may exchange your Mark with another player's Mark, and then view your new Mark."
 >
-> **
+> *The Pickpocket opens his eyes, and then may exchange his Mark with another player's Mark. If he does so, he then looks at his new Mark.*
 >
-> ""
+> "Pickpocket, close your eyes."
 
 ### Gremlin
 
-> ""
+The Gremlin wakes up and may switch Marks *or* cards (but not both) between any two players, 
+but may not look at those Marks or cards.
+
+*The Gremlin is on the villager team.*
+
+> "Gremlin, wake up. You may switch Marks or cards between any two players."
 >
-> **
+> *The Gremlin opens his eyes, and then may switch Marks or cards between any two players (including himself).*
 >
-> ""
+> "Gremlin, close your eyes."
 
 ## Artifacts & Vampire
 
