@@ -18,6 +18,9 @@ export class MonitorComponent implements OnInit {
   public currentHero: Hero = null;
   public heroStats: QuestBotStats = null;
 
+  public author = "adam_on_the_net";
+  public listUrl = "adam-on-the-internet-25746";
+
   public get questBotReady(): boolean {
     return this.currentHero !== null
       && this.heroStats !== null;
@@ -33,22 +36,19 @@ export class MonitorComponent implements OnInit {
 
   public openCases: Case[] = null;
   public closedCases: Case[] = null;
+  public caseSummaries: string[] = null;
   public allEvidence: Evidence[] = null;
   public allWitnesses: Evidence[] = null;
   public allIssues: Issue[] = null;
 
-  public get latestCase(): Case {
-    if (this.openCases.length > 0) {
-      return this.openCases[0];
-    } else if (this.closedCases.length > 0) {
-      return this.closedCases[0];
-    }
-    return null;
+  public get latestCasePieces(): string[][] {
+    return this.caseSummaries.slice(0, 3).map(x => x.split("|"));
   }
 
   public get orderReady(): boolean {
     return this.openCases !== null
       && this.closedCases !== null
+      && this.caseSummaries !== null
       && this.allEvidence !== null
       && this.allWitnesses !== null
       && this.allIssues !== null;
@@ -92,6 +92,7 @@ export class MonitorComponent implements OnInit {
   private checkOrder() {
     this.loadOpenCases();
     this.loadClosedCases();
+    this.loadCaseSummaries();
     this.loadEvidence();
     this.loadWitnesses();
     this.loadIssues();
@@ -139,6 +140,15 @@ export class MonitorComponent implements OnInit {
       .subscribe((res) => this.closedCases = res,
         (error) => {
           console.log("get closed cases failed");
+        });
+  }
+
+  private loadCaseSummaries() {
+    this.closedCases = null;
+    this.monitorService.getCaseSummaries()
+      .subscribe((res) => this.caseSummaries = res,
+        (error) => {
+          console.log("get summary cases failed");
         });
   }
 

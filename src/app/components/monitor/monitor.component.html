@@ -1,6 +1,52 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4 my-3">
+    <div class="col-md-6 my-3">
+      <app-card [title]="'ORDER IN THE COURT'">
+        <hr>
+        <div *ngIf="orderReady; else loading">
+          <p>
+            <strong>Latest Cases:</strong>
+          </p>
+          <ul>
+            <li class="mb-3" *ngFor="let casePieces of latestCasePieces">
+              <ng-container *ngFor="let piece of casePieces; let i = index">
+                <span [class.font-italic]="i === 0">
+                {{piece}}
+                </span>
+                <br>
+              </ng-container>
+            </li>
+          </ul>
+          <hr>
+          <p>
+            <strong>
+              Stats:
+            </strong>
+          </p>
+          <p>
+            {{openCases.length}} open cases
+          </p>
+          <p>
+            {{closedCases.length}} closed cases
+          </p>
+          <p>
+            {{allEvidence.length}} evidence
+          </p>
+          <p>
+            {{allWitnesses.length}} witnesses
+          </p>
+          <p>
+            {{allIssues.length}} issues
+          </p>
+          <hr>
+          <a href="https://order-in-the-court-app.herokuapp.com/" target="_blank">
+            <i class="fa fa-link"></i>
+            More...
+          </a>
+        </div>
+      </app-card>
+    </div>
+    <div class="col-md-6 my-3">
       <app-card [title]="'THE QUEST BOT'">
         <hr>
         <div *ngIf="questBotReady; else loading">
@@ -37,7 +83,7 @@
         </div>
       </app-card>
     </div>
-    <div class="col-md-4 my-3">
+    <div class="col-md-6 my-3">
       <app-card [title]="'THE CLUE BOT'">
         <hr>
         <div *ngIf="clueBotReady; else loading">
@@ -78,57 +124,10 @@
         </div>
       </app-card>
     </div>
-    <div class="col-md-4 my-3">
-      <app-card [title]="'ORDER IN THE COURT'">
-        <hr>
-        <div *ngIf="orderReady; else loading">
-          <p>
-            <strong>
-              Latest Case:
-            </strong>
-          </p>
-          <div *ngIf="latestCase">
-            <p>
-              {{latestCase.fullCaseName}}
-            </p>
-            <p>
-              Opened on
-              {{latestCase.openedDate | date:'medium'}}
-            </p>
-          </div>
-          <div *ngIf="!latestCase">
-            <p>
-              N/A
-            </p>
-          </div>
-          <hr>
-          <p>
-            <strong>
-              Stats:
-            </strong>
-          </p>
-          <p>
-            {{openCases.length}} open cases
-          </p>
-          <p>
-            {{closedCases.length}} closed cases
-          </p>
-          <p>
-            {{allEvidence.length}} evidence
-          </p>
-          <p>
-            {{allWitnesses.length}} witnesses
-          </p>
-          <p>
-            {{allIssues.length}} issues
-          </p>
-          <hr>
-          <a href="https://order-in-the-court-app.herokuapp.com/" target="_blank">
-            <i class="fa fa-link"></i>
-            More...
-          </a>
-        </div>
-      </app-card>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <app-twitter-list [author]="author" [listUrl]="listUrl"></app-twitter-list>
     </div>
   </div>
 </div>

@@ -40,14 +40,15 @@ import {StringListDisplayComponent} from "./components/simple/string-list-displa
 import {MuppetRandomComponent} from "./components/muppet-random/muppet-random.component";
 import {MuppetStatsComponent} from "./components/muppet-stats/muppet-stats.component";
 import {MuppetInfoComponent} from "./components/muppet-info/muppet-info.component";
-import {TunnelGoonsGeneratorComponent} from './components/tunnel-goons-generator/tunnel-goons-generator.component';
-import {TunnelGoonsGalleryComponent} from './components/tunnel-goons-gallery/tunnel-goons-gallery.component';
-import {TunnelGoonCardComponent} from './components/tunnel-goon-card/tunnel-goon-card.component';
-import {TunnelGoonDetailsComponent} from './components/tunnel-goon-details/tunnel-goon-details.component';
+import {TunnelGoonsGeneratorComponent} from "./components/tunnel-goons-generator/tunnel-goons-generator.component";
+import {TunnelGoonsGalleryComponent} from "./components/tunnel-goons-gallery/tunnel-goons-gallery.component";
+import {TunnelGoonCardComponent} from "./components/tunnel-goon-card/tunnel-goon-card.component";
+import {TunnelGoonDetailsComponent} from "./components/tunnel-goon-details/tunnel-goon-details.component";
 import {ModalBoxBasicComponent} from "./components/simple/modal-box-basic/modal-box-basic.component";
 import {ModalTriggerButtonComponent} from "./components/simple/modal-trigger-button/modal-trigger-button.component";
-import {MissingWordComponent} from './components/missing-word/missing-word.component';
-import {MarkdownViewerComponent} from './components/simple/markdown-viewer/markdown-viewer.component';
+import {MissingWordComponent} from "./components/missing-word/missing-word.component";
+import {MarkdownViewerComponent} from "./components/simple/markdown-viewer/markdown-viewer.component";
+import {TwitterListComponent} from "./components/twitter-list/twitter-list.component";
 
 // function that returns `MarkedOptions` with renderer override
 export function markedOptionsFactory(): MarkedOptions {
@@ -112,6 +113,7 @@ export function markedOptionsFactory(): MarkedOptions {
     ModalTriggerButtonComponent,
     MissingWordComponent,
     MarkdownViewerComponent,
+    TwitterListComponent,
   ],
   imports: [
     BrowserModule,
