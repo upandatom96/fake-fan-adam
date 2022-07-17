@@ -1,6 +1,22 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-6 my-3">
+    <div class="col-md-12 my-3">
+      <app-card [title]="'HELLO'">
+        <ng-container *ngIf="sunriseSunsetTimes; else loading">
+          <p>Sunrise: {{sunriseSunsetTimes.results.sunrise}}</p>
+          <p>Sunset: {{sunriseSunsetTimes.results.sunset}}</p>
+          <p>
+            <em>
+              Sunrise & Sunset times provided by:
+              <a href="https://sunrise-sunset.org/api" target="_blank">https://sunrise-sunset.org/api</a>
+            </em>
+          </p>
+        </ng-container>
+      </app-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 my-3">
       <app-card [title]="'ORDER IN THE COURT'">
         <hr>
         <div *ngIf="orderReady; else loading">
@@ -46,7 +62,7 @@
         </div>
       </app-card>
     </div>
-    <div class="col-md-6 my-3">
+    <div class="col-md-4 my-3">
       <app-card [title]="'THE QUEST BOT'">
         <hr>
         <div *ngIf="questBotReady; else loading">
@@ -83,7 +99,7 @@
         </div>
       </app-card>
     </div>
-    <div class="col-md-6 my-3">
+    <div class="col-md-4 my-3">
       <app-card [title]="'THE CLUE BOT'">
         <hr>
         <div *ngIf="clueBotReady; else loading">

@@ -8,6 +8,7 @@ import {Hero} from "../models/Hero.model";
 import {QuestBotStats} from "../models/HeroStats.model";
 import {Mystery, MysteryStats} from "../models/Clue.model";
 import {Case, Evidence, Issue, SortedCases, Witness} from "../models/Order.model";
+import {SunriseSunsetTimes} from "../models/SunriseSunsetTimes.model";
 
 @Injectable({
   providedIn: "root"
@@ -17,6 +18,12 @@ export class MonitorService {
   constructor(
     private http: HttpClient,
   ) {
+  }
+
+  // https://sunrise-sunset.org/api
+  public getSunriseSunset(): Observable<SunriseSunsetTimes> {
+    const url = `https://api.sunrise-sunset.org/json?lat=41.619549&lng=-93.598022&date=today&formatted=0`;
+    return this.http.get(url) as Observable<SunriseSunsetTimes>;
   }
 
   public getOpenCases(): Observable<Case[]> {

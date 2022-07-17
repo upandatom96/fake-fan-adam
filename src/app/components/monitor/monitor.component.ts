@@ -6,6 +6,7 @@ import {Mystery, MysteryStats} from "../../models/Clue.model";
 import {SettingsService} from "../../services/settings.service";
 import {Case, Evidence, Issue} from "../../models/Order.model";
 import {interval, Subscription} from "rxjs";
+import {SunriseSunsetTimes} from "../../models/SunriseSunsetTimes.model";
 
 @Component({
   selector: "app-monitor",
@@ -40,6 +41,7 @@ export class MonitorComponent implements OnInit {
   public allEvidence: Evidence[] = null;
   public allWitnesses: Evidence[] = null;
   public allIssues: Issue[] = null;
+  public sunriseSunsetTimes: SunriseSunsetTimes = null;
 
   public get latestCasePieces(): string[][] {
     return this.caseSummaries.slice(0, 3).map(x => x.split("|"));
@@ -62,6 +64,7 @@ export class MonitorComponent implements OnInit {
   }
 
   public ngOnInit() {
+    this.loadSunriseSunsetTimes();
     this.startRefresh();
   }
 
@@ -185,6 +188,15 @@ export class MonitorComponent implements OnInit {
       .subscribe((res) => this.heroStats = res,
         (error) => {
           console.log("get hero stats failed");
+        });
+  }
+
+  private loadSunriseSunsetTimes() {
+    this.sunriseSunsetTimes = null;
+    this.monitorService.getSunriseSunset()
+      .subscribe((res) => this.sunriseSunsetTimes = res,
+        (error) => {
+          console.log("get sunrise sunset failed");
         });
   }
 
