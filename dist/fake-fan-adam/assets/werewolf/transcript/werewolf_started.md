@@ -193,5 +193,5 @@ After a few plays consider using a timer; when the timer goes off, everyone must
 This adds a sense of urgency to the discussions, and will result in less non-relevant conversations during the day.
 
 Playing with higher player numbers (7+) can make it difficult for everyone to reach the middle of the table.
-STanding at the table during the Night phase can make reaching easier, and using a smaller table can also help.
+Standing at the table during the Night phase can make reaching easier, and using a smaller table can also help.
 If you have to use a long "banquet" table, try to position the players on the long sides of it, and *not* the ends.
