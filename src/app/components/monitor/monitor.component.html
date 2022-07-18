@@ -1,10 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12 my-3">
-      <app-card [title]="'HELLO'">
+      <app-card [title]="'Hello, world!'">
         <ng-container *ngIf="sunriseSunsetTimes; else loading">
-          <p>Sunrise: {{sunriseSunsetTimes.results.sunrise}}</p>
-          <p>Sunset: {{sunriseSunsetTimes.results.sunset}}</p>
+          <p>Today is {{sunriseSunsetTimes.date}}.</p>
+          <p>Sunrise is at {{sunriseSunsetTimes.sunriseTime}}.</p>
+          <p>Sunset is at {{sunriseSunsetTimes.sunsetTime}}.</p>
+          <p>The Day will last {{sunriseSunsetTimes.dayLength}}.</p>
           <p>
             <em>
               Sunrise & Sunset times provided by:
@@ -38,9 +40,6 @@
             <strong>
               Stats:
             </strong>
-          </p>
-          <p>
-            {{openCases.length}} open cases
           </p>
           <p>
             {{closedCases.length}} closed cases

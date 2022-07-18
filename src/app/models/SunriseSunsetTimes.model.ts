@@ -1,9 +1,18 @@
 export interface SunriseSunsetTimes {
-  results: {
-    sunrise: string;
-    sunset: string;
-    day_length: number;
-  };
+  date: string;
+  sunriseTime: string;
+  sunsetTime: string;
+  dayLength: string;
+}
+
+export interface SunriseSunsetTimesResults {
+  sunrise: string;
+  sunset: string;
+  day_length: number;
+}
+
+export interface SunriseSunsetTimesResponse {
+  results: SunriseSunsetTimesResults;
 }
 
 // FULL SAMPLE

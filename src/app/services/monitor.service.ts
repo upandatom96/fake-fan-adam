@@ -7,8 +7,10 @@ import {CookieHelper} from "../utilities/cookie.util";
 import {Hero} from "../models/Hero.model";
 import {QuestBotStats} from "../models/HeroStats.model";
 import {Mystery, MysteryStats} from "../models/Clue.model";
-import {Case, Evidence, Issue, SortedCases, Witness} from "../models/Order.model";
-import {SunriseSunsetTimes} from "../models/SunriseSunsetTimes.model";
+import {Case, Evidence, Issue, Witness} from "../models/Order.model";
+import {SunriseSunsetTimes, SunriseSunsetTimesResponse} from "../models/SunriseSunsetTimes.model";
+import {map} from "rxjs/operators";
+import {StringHelper} from "../utilities/string.util";
 
 @Injectable({
   providedIn: "root"
@@ -20,10 +22,15 @@ export class MonitorService {
   ) {
   }
 
-  // https://sunrise-sunset.org/api
   public getSunriseSunset(): Observable<SunriseSunsetTimes> {
+    return this.getSunriseSunsetTimesResponse()
+      .pipe(map(data => this.mapForDisplay(data))) as Observable<SunriseSunsetTimes>;
+  }
+
+  private getSunriseSunsetTimesResponse(): Observable<SunriseSunsetTimesResponse> {
+    // Credit to: https://sunrise-sunset.org/api
     const url = `https://api.sunrise-sunset.org/json?lat=41.619549&lng=-93.598022&date=today&formatted=0`;
-    return this.http.get(url) as Observable<SunriseSunsetTimes>;
+    return this.http.get(url) as Observable<SunriseSunsetTimesResponse>;
   }
 
   public getOpenCases(): Observable<Case[]> {
@@ -111,5 +118,18 @@ export class MonitorService {
       collection: "currentHero",
     });
     return this.http.get(url, CookieHelper.authHeaders) as Observable<Hero>;
+  }
+
+  private mapForDisplay(response: SunriseSunsetTimesResponse): SunriseSunsetTimes {
+    const results = response.results;
+    const sunriseTime = StringHelper.convertDateStringToDisplayDateWithTimezone(results.sunrise);
+    const sunsetTime = StringHelper.convertDateStringToDisplayDateWithTimezone(results.sunset);
+    const dayLength = StringHelper.convertSecondsToHoursMinutesSeconds(results.day_length);
+    return {
+      dayLength,
+      date: StringHelper.getDateString(new Date(results.sunrise)),
+      sunriseTime,
+      sunsetTime,
+    };
   }
 }

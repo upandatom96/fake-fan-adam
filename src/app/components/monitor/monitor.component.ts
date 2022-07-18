@@ -35,7 +35,6 @@ export class MonitorComponent implements OnInit {
       && this.mysteryStats !== null;
   }
 
-  public openCases: Case[] = null;
   public closedCases: Case[] = null;
   public caseSummaries: string[] = null;
   public allEvidence: Evidence[] = null;
@@ -44,12 +43,12 @@ export class MonitorComponent implements OnInit {
   public sunriseSunsetTimes: SunriseSunsetTimes = null;
 
   public get latestCasePieces(): string[][] {
-    return this.caseSummaries.slice(0, 3).map(x => x.split("|"));
+    return this.caseSummaries.slice(0, 2)
+      .map(x => x.split("|"));
   }
 
   public get orderReady(): boolean {
-    return this.openCases !== null
-      && this.closedCases !== null
+    return this.closedCases !== null
       && this.caseSummaries !== null
       && this.allEvidence !== null
       && this.allWitnesses !== null
@@ -93,7 +92,6 @@ export class MonitorComponent implements OnInit {
   }
 
   private checkOrder() {
-    this.loadOpenCases();
     this.loadClosedCases();
     this.loadCaseSummaries();
     this.loadEvidence();
@@ -125,15 +123,6 @@ export class MonitorComponent implements OnInit {
       .subscribe((res) => this.allEvidence = res,
         (error) => {
           console.log("get evidence failed");
-        });
-  }
-
-  private loadOpenCases() {
-    this.openCases = null;
-    this.monitorService.getOpenCases()
-      .subscribe((res) => this.openCases = res,
-        (error) => {
-          console.log("get open cases failed");
         });
   }
 
