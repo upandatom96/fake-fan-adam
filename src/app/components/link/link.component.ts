@@ -11,7 +11,7 @@ export class LinkComponent {
     {
       title: "Adam on the Internet",
       subtitle: "my professional site",
-      link: "http://www.adamontheinternet.com/dashboard",
+      link: "https://www.adamontheinternet.com/",
       faIcon: "fa fa-laptop",
     },
     {
@@ -29,7 +29,7 @@ export class LinkComponent {
     {
       title: "Order in the Court",
       subtitle: "a story-building improv game for 3+ players",
-      link: "https://order-in-the-court-app.herokuapp.com/",
+      link: "https://www.orderinthecourtgame.com/",
       faIcon: "fa fa-gavel",
     },
     {
