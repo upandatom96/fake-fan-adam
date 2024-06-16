@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Wake-Up Order
 
-- [Back to Compendium](/#/view/view/werewolf~compendium)
+- [Back to Compendium](/#/view/werewolf~compendium)
 
 Some Roles wake up during the Night (or Dusk) in a set order.
 Knowing this order can be crucial to figuring out what happened.

@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Box Sets
 
-- [Back to Compendium](/#/view/view/werewolf~compendium)
+- [Back to Compendium](/#/view/werewolf~compendium)
 
 Each game box contains different roles, tokens, and other components.
 

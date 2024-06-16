@@ -22,7 +22,7 @@ and the stack of face-down Artifact tokens should be placed near the center card
 You may choose to include only some of the Artifacts instead of all of them, based on your personal preference.
 
 These Artifacts come from the *Daybreak* and *Bonus* sets.
-[For more information, check out the Sets page.](/#/view/view/werewolf~sets)
+[For more information, check out the Sets page.](/#/view/werewolf~sets)
 
 ## Artifacts
 

@@ -34,8 +34,6 @@ If you have questions, corrections, or concerns, you may contact [adamontheinter
 - Other Official Sources
     - [Official Wake-Up Order PDF](https://cdn.shopify.com/s/files/1/0740/4855/files/Wake_Order_5.0.pdf?38)
     - [Official Alien FAQ](https://cdn.shopify.com/s/files/1/0740/4855/files/Alien_App_FAQ_8f4f1971-e98f-4171-bce9-824eefd5f802.pdf?12159558826094634344)
-- Other References
-    - [One Night Ultimate Werewolf: Fan Made Cheat Sheet](https://s3.amazonaws.com/geekdo-files.com/bgg177615?response-content-disposition=inline%3B%20filename%3D%22One_Night_Ultimate_Guide_v1.0.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20220619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220619T174821Z&X-Amz-SignedHeaders=host&X-Amz-Expires=120&X-Amz-Signature=228a302185ba7abf4138c5c1ae28cc961e2f01e45b5f8143f1435a48a458c284)
 
 ## App
 
