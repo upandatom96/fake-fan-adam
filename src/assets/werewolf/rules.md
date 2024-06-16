@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Rules
 
-- [Back to Compendium]/#/view/view/werewolf~compendium)
+- [Back to Compendium](/#/view/view/werewolf~compendium)
 
 ## Overview
 

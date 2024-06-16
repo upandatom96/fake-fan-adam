@@ -1,6 +1,6 @@
 # Roles
 
-- [Back to Compendium]/#/view/view/werewolf~compendium)
+- [Back to Compendium](/#/view/view/werewolf~compendium)
 
 ##  Alien 
 

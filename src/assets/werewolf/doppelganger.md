@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Doppelgänger
 
-- [Back to Compendium]/#/view/view/werewolf~compendium)
+- [Back to Compendium](/#/view/view/werewolf~compendium)
 
 The Doppelgänger is a particularly complicated role that changes its behavior based on other player's roles.
 We have consolidated all the official Doppelgänger role rules.
