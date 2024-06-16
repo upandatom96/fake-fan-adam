@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Artifacts
 
-- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+- [Back to Compendium](/#/fake-fan-adam/view/werewolf~compendium)
 
 There are different Artifact tokens that can be placed on any player's card by the Curator.
 When the night phase is over, any player with an ARtifact token on his card must immediately secretly look at his token.
@@ -22,7 +22,7 @@ and the stack of face-down Artifact tokens should be placed near the center card
 You may choose to include only some of the Artifacts instead of all of them, based on your personal preference.
 
 These Artifacts come from the *Daybreak* and *Bonus* sets.
-[For more information, check out the Sets page.](/fake-fan-adam/view/werewolf~sets)
+[For more information, check out the Sets page.]/#/view/view/werewolf~sets)
 
 ## Artifacts
 

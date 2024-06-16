@@ -1,6 +1,6 @@
 # One Night Ultimate Werewolf: Marks
 
-- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+- [Back to Compendium]/#/view/view/werewolf~compendium)
 
 In *Vampire*, each player is given a Mark of Clarity at the start of the game.
 During the "Dusk" phase, additional Marks may enter the game, changing one or more players' Marks to a different Mark.
@@ -10,7 +10,7 @@ No player may ever have more than one Mark;
 as soon as a player gives a Mark to a player, the receiving player's Mark is returned to the empty spot in the Marks Board.
 
 All Marks are a part of the *Vampire* set.
-[For more information, check out the Sets page.](/fake-fan-adam/view/werewolf~sets)
+[For more information, check out the Sets page.]/#/view/view/werewolf~sets)
 
 ## Marks
 

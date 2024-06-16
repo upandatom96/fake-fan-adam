@@ -1,6 +1,6 @@
 # Roles
 
-- [Back to Compendium](/fake-fan-adam/view/werewolf~compendium)
+- [Back to Compendium]/#/view/view/werewolf~compendium)
 
 ##  Alien 
 
