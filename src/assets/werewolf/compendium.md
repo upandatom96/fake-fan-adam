@@ -9,7 +9,7 @@ If you have questions, corrections, or concerns, you may contact [adamontheinter
 
 ## Table of Contents (Links)
 
-- [Rules Overview](/view/werewolf~rules)
+- [Rules Overview](/#/view/werewolf~rules)
 - [Roles](/view/werewolf~roles)
 - [Wake Order](/view/werewolf~wake)
 - [Doppelgänger](/view/werewolf~doppelganger)
@@ -17,6 +17,7 @@ If you have questions, corrections, or concerns, you may contact [adamontheinter
 - [Marks](/view/werewolf~marks)
 - [Box Sets](/view/werewolf~sets)
 - [Other Notes](/view/werewolf~notes)
+- [Role Organization](/#/view/werewolf~role_organization)
 
 ## References
 
