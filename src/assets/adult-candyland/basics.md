@@ -1,0 +1,98 @@
+# classic cards (44)
+
+- 5 treat cards: go forward or backward to the space, immediately
+	- lollipop (TL)
+	- peppermint (TP)
+	- gumdrop (TG)
+	- chocolate (TC)
+	- ice cream (TI)
+- 39 color cards: go forward one or two of the specified color spaces
+	- 6 purple cards
+		- 3 double purple (P2)
+		- 3 single purple (P1)
+	- 6 red cards
+		- 3 double red (R2)
+		- 3 single red (R1)
+	- 6 blue cards
+		- 3 double blue (B2)
+		- 3 single blue (B1)
+	- 7 green cards
+		- 3 double green (G2)
+		- 4 single green (G1)
+	- 7 orange cards
+		- 3 double orange (O2)
+		- 4 single orange (O1)
+	- 7 yellow cards
+		- 3 double yellow (Y2)
+		- 4 single yellow (Y1)
+
+# custom cards
+
+- 5 treat cards: go forward or backward to the space immediately
+	- lollipop (TL)
+	- peppermint (PM)
+	- gumdrop (GD)
+	- chocolate (CC)
+	- ice cream (IC)
+- 39 color cards: go forward one or two of the specified color spaces, if you complete the card
+	- 6 purple cards - Dares
+		- 3 double purple (P2)
+			- P6 add or remove one item of clothing
+			- P5 until your next turn, you must leave your hand on the table
+			- P4 Dance to Advance. At least one person must agree that your dance was "cool" or "silly"
+		- 3 single purple (P1)
+			- P3 Give an inspirational speech about anything you want. If no one in the room is moved by your speech, go back 5 spaces. If at least one person is moved by your speech, go forward.
+			- P2 T pose until your next turn
+			- P1 Have a staring contest with someone else of your choice. Winner advances
+	- 6 red cards - Truths
+		- 3 double red (R2)
+			- R6 Tell everyone 2 truths and 1 lie. Everyone votes on which is the lie. If majority chooses correctly, you don't advance
+			- R5 Tell the room something they don't know about you. If anyone already knew, you don't advance
+			- R4 Share your first kiss
+		- 3 single red (R1)
+			- R3 What color underwear are you wearing?
+			- R2 If you had to be on a reality show, which would you pick?
+			- R1 What's the nicest thing anyone's ever done for you?
+	- 6 blue cards - Other
+		- 3 double blue (B2)
+			- B6 ALL PLAY: Starting with yourself and moving clockwise, everyone must keep naming famous women until someone repeats, takes too long, or says something incorrect. The last person to say a correct answer advances, the first person to mess up goes back.
+			- B5 ALL PLAY: Starting with yourself and moving clockwise, everyone must keep naming fictional dogs until someone repeats, takes too long, or says something incorrect. The last person to say a correct answer advances, the first person to mess up goes back.
+			- B4 Trade an item of clothing with someone in the room. You both get to advance.
+		- 3 single blue (B1)
+			- B3 ALL PLAY: Make a rule that everyone must follow until the end of the game. Anyone who breaks the rule goes back 1 space.
+			- B2 ALL PLAY: Ask the room a yes or no question. Everyone (including you) votes. Anyone who voted for the less popular answer goes back, anyone who voted for the more popular answer moves forward. On a tie, you advance
+			- B1 Get everyone in the room a water
+	- 7 green cards - Dares
+		- 3 double green (G2)
+			- G7 You have until the next turn to get someone to call you. If you fail to have someone call you, don't advance
+			- G6 For the rest of the round, anytime someone draws a card you must give them a standing ovation. If you fail, you don't advance.
+			- G5 Put this block on your head. It must stay here until the end of the game, or else go back 5 spaces
+		- 4 single green (G1)
+			- G4 The person to your right picks a Dare for you
+			- G3 The person to your left picks a Dare for you
+			- G2 The group has to decide on a Dare for you
+			- G1 serenade the person on your right
+	- 7 orange cards - Truths
+		- 3 double orange (O2)
+			- O7 Share an embarrassing thing you've done.
+			- O6 Share a deep regret.
+			- O5 Share a time you cried.
+		- 4 single orange (O1)
+			- O4 Toast! Everyone must say something nice about you. Anyone who fails must go back 2 spaces, and you advance for free.
+			- O3 The person to your left picks a Truth for you.
+			- O2 The person to your left picks a Truth for you
+			- O1 The group has to decide on a Truth for you
+	- 7 yellow cards - Other
+		- 3 double yellow (Y2)
+			- Y7 ALL PLAY: Starting with yourself and moving clockwise, everyone must keep naming animals until someone repeats, takes too long, or says something incorrect. The last person to say a correct answer advances, the first person to mess up goes back.
+			- Y6 For the rest of the game, if someone asks you for a drink you must go get them one. If you fail to get someone a drink, you must go back 1 space per failure. Each person can ask once.
+			- Y5 Choose someone to marry for the rest of the game. When you go backwards, they go backwards (and vice versa).
+		- 4 single yellow (Y1)
+			- Y4 Throw the block at someone. If it hits them, go forward. If you miss, go back 5. If they catch it, they go forward.
+			- Y3 Freebie+! Go forward, and draw again.
+			- Y2 Freebie! Go forward.
+			- Y1 ALL PLAY: Anyone has a chance to take a drink to advance.
+			
+# references
+
+- https://adam-on-the-internet.github.io/fiftyfour-blocks/game/deck/5fe828b181c5d30017c051f3/mode/1
